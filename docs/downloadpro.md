@@ -35,7 +35,7 @@ Installation
 
 1. Download **Download Pro** package from https://www.zoolanders.com/extensions/download-pro.
 2. Install the previously unpacked App/s. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/getting-started/install-a-new-app).
-3. Go to the **Joomla Extension Manager** (Joomla Administration / Extensions / Extension Manager / Install).
+3. Go to the **Joomla Extension Manager** *(Joomla Administration / Extensions / Extension Manager / Install)*.
 4. Use the "Upload Package File" option to choose the previously downloaded package from your pc.
 5. Click on the "Upload & Install" button.
 
