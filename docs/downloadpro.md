@@ -25,7 +25,7 @@ Trough ZOOlanders Manager
 
 Once the installation process have finished the **ZL Elements plugin** should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Through Joomla Manager
+Trough Joomla Manager
 ----------------------
 
 1. Download the package from [ZOOlanders site](https://www.zoolanders.com/extensions/download-pro).
@@ -285,8 +285,11 @@ Displays an nice image, diferent for each extension type, with a link to the fil
 
 Renders a raw URL to the file. Useful for further integrations.
 
-Custom layout
--------------
+Customizations
+=====================
+
+Layouts
+-------
 
 Although we try to provide many layouts with different options you've possibly run into a situation where you need to render the element in some specific way. With just a little PHP, HTML, or CSS coding knowledge you can easily make it render just like you want it to, by creating your own layout for an element.
 
@@ -294,19 +297,19 @@ Although you could just directly change and override the code of an existing lay
 
 What we suggest is to create your own layout (you can copy/paste an existing one) and store the resultant file in one of the ZOO overrable Elements folder. That way the file will be easily localizable and risk free on updates.
 
-###Before starting
+### Before starting
 
 As much as we try to make our docs complete, with a system as versitle as ZOO and some of the integrations included in our elements (like WidgetKit and qTip) even our documentation might not make a potential rendering manner obvious. Feel free to ask us in our support center.
 
-###Step 1. Locate the layouts path
+### Step 1. Locate the layouts path
 
 The *Download Pro* layouts are located in **plugins / system / zoo_zlelements / zoo_zlelements / elements / downloadpro / tmpl / render** folder. If the layout supports sublayouts is those that you should work on, instead go to the **... / render / [MAIN LAYOUT] / _sublayouts** folder.
 
-###Step 2. Create your layout
+### Step 2. Create your layout
 
 Copy one of the existing layouts in the path from the Step 1 and change it name to a custom one. Be sure to keep the underscore `_` at the begining of the file if it's a sublayout.
 
-###Step 3. Place your layout
+### Step 3. Place your layout
 
 Your layout is ready but should be stored in a safe place, as we mentioned in the begining. You can place your custom layout in:
 
