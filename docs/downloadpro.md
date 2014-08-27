@@ -51,7 +51,7 @@ Once the installation process have finished the **ZL Elements** plugin should be
 
 #### Quick Note
 
-**Download Pro** element is installed under the same plugin, ZL Elements, as any other ZL Element for performance reasons. If you want to check it's installation, visit the ZOO configuration and edit any Type from any App. If **Download Pro** shows up on the right section under *ZOOlanders* Group, then you're good to go!
+**Download Pro** element is installed under the same plugin, *ZL Elements*, as any other ZL Element for performance reasons. If you want to check it's installation, visit the ZOO configuration and edit any Type from any App. If **Download Pro** shows up on the right section under *ZOOlanders* Group, then you're good to go!
 
 ###Trough ZL Manager
 
