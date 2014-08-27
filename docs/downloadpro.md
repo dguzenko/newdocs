@@ -162,23 +162,23 @@ IMAGE HERE
 
 The following variables can be used to create dynamic paths:
 
-  * **[userid]** - Will be replaced with the User ID.
-  * **[username]** - Will be replaced with the User username.
-  * **[usergroup]** - Will be replaced with the User group name.
-  * **[usergroupid]** - Will be replaced with the User group id.
-  * **[authorid]** - Will be replaced with the current Item Author ID.
-  * **[authorname]** - Will be replaced with the current Item Author username.
-  * **[authorgroup]** - Will be replaced with the current Item Author group name.
-  * **[authorgroupid]** - Will be replaced with the current Item Author group id.
-  * **[zooapp]** - Will be replaced with current Item App group *(e.g. blog)*.
-  * **[zooprimarycat]** - Will be replaced with current Item Primary Category *(e.g. tipography)*.
-  * **[zooprimarycatid]** - Will be replaced with current Item Primary Category ID *(e.g. 4)*.
-  * **[zooitemalias]** - Will be replaced with current Item alias.
-  * **[zooitemid]** - Will be replaced with current Item ID *(e.g. 4)*.
-  * **[zooitemtype]** - Will be replaced with current Item Type *(e.g. article)*.
-  * **[year]** - Will be replaced with current year *(e.g. 2010)*.
-  * **[month]** - Will be replaced with current month number *(e.g. 06)*.
-  * **[day]** - Will be replaced with the day number *(e.g. 10)*.
+   * **[userid]** - Will be replaced with the User ID.
+   * **[username]** - Will be replaced with the User username.
+   * **[usergroup]** - Will be replaced with the User group name.
+   * **[usergroupid]** - Will be replaced with the User group id.
+   * **[authorid]** - Will be replaced with the current Item Author ID.
+   * **[authorname]** - Will be replaced with the current Item Author username.
+   * **[authorgroup]** - Will be replaced with the current Item Author group name.
+   * **[authorgroupid]** - Will be replaced with the current Item Author group id.
+   * **[zooapp]** - Will be replaced with current Item App group *(e.g. blog)*.
+   * **[zooprimarycat]** - Will be replaced with current Item Primary Category *(e.g. tipography)*.
+   * **[zooprimarycatid]** - Will be replaced with current Item Primary Category ID *(e.g. 4)*.
+   * **[zooitemalias]** - Will be replaced with current Item alias.
+   * **[zooitemid]** - Will be replaced with current Item ID *(e.g. 4)*.
+   * **[zooitemtype]** - Will be replaced with current Item Type *(e.g. article)*.
+   * **[year]** - Will be replaced with current year *(e.g. 2010)*.
+   * **[month]** - Will be replaced with current month number *(e.g. 06)*.
+   * **[day]** - Will be replaced with the day number *(e.g. 10)*.
 
 * **Max Upload Size** - Maximum dimensions for uploaded files, in KB. Default value is 1024Kb (1Mb).
 
