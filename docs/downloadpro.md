@@ -83,7 +83,7 @@ Go and edit your content. Be sure to review the other docs for further details a
 Translation
 -----------
 
-The default **en-GB.plg_system_zoo_zlelements_downloadpro.ini** language file is located in the **administrator/language/en-GB** folder and the translation should be placed into the language related folder replacing the **en-GB **part.
+The default **en-GB.plg_system_zoo_zlelements_downloadpro.ini** language file is located in the **administrator/language/en-GB** folder and the translation should be placed into the language related folder replacing the **en-GB** part.
 
 Eg: **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zoo_zlelements_downloadpro.ini**
 
