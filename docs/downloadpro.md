@@ -70,11 +70,11 @@ Configuration
 
 ###Step 1. Set up the Type
 
-Add the *Download Pro* element to the desired Type and configure as needed. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types). For details about the element config options review the [Type Config doc](#typeconfig).
+Add the *Download Pro* element to the desired Type and configure as needed. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types). For details about the element config options review the [Type Config doc](#typeconfiguration).
 
 ###Step 2. Position assignment
 
-Assign the *Download Pro* element to the desired layout positions and configure as needed. If you are not familiar with this process please review the [official ZOO doc](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions). For details about the element assignment options review the [Assignment doc](#position assignment).
+Assign the *Download Pro* element to the desired layout positions and configure as needed. If you are not familiar with this process please review the [official ZOO doc](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions). For details about the element assignment options review the [Assignment doc](#positionassignment).
 
 ###Done!
 
