@@ -17,11 +17,11 @@ Requirements and Compatibility
 
   * **ZOO 3.1** or higher
 
-   You may download it from [YOOtheme site](http://www.yootheme.com/zoo)
+    You may download it from [YOOtheme site](http://www.yootheme.com/zoo)
 
   * **ZL Framework 3.1** or higher
 
-   You may download it from [ZOOlanders site](https://www.zoolanders.com/extensions/zl-framework)
+    You may download it from [ZOOlanders site](https://www.zoolanders.com/extensions/zl-framework)
 
 #### Quick Note
 
