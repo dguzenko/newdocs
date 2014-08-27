@@ -70,7 +70,7 @@ Configuration
 
 ###Step 1. Set up the Type
 
-Add the *Download Pro* element to the desired Type and configure as needed. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types). For details about the element config options review the [Type Config doc](#type-configuratio).
+Add the *Download Pro* element to the desired Type and configure as needed. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types). For details about the element config options review the [Type Config doc](#type-config).
 
 ###Step 2. Position assignment
 
