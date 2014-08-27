@@ -25,7 +25,7 @@ Requirements and Compatibility
 
 #### Quick Note
 
-ZL Framework plugin must be enabled, you may check it in Joomla Administration / Extensions / Plugin Manager.
+ZL Framework plugin must be enabled, you may check it in *Joomla Administration / Extensions / Plugin Manager.*
 
 
 Installation
