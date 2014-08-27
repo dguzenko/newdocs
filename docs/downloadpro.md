@@ -252,7 +252,7 @@ IMAGE HERE
 * **Custom By** - only shown if By is set as Custom allows to specify a custom separator.
 * **Class** - allows to add custom class to the result if the separator wraps the content.
 * **Fix HTML** - if enabled after the separator was applied this feature will...
-
+ 
   * Delete closed Tags without their opening Tag.
   * Fix open Tag without close, closing them automatically.
   * Check bad nesting and fix them.
