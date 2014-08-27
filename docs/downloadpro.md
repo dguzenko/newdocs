@@ -61,7 +61,7 @@ Once the installation process have finished the **ZL Elements** plugin should be
 4. Find the **Download Pro** Extension in the list and click on the Install button.
 5. Be patient while the Installation proceeds, the page will be refreshed once done.
 
-For more information on using the Manager checkout it's [Docs](http://joolanders.github.io/Docs/ZLManager/installation.md).
+For more information on using the Manager checkout it's [Docs](http://joolanders.github.io/Docs/?ZLManager/installation).
 
 Once the installation process have finished the **ZL Elements plugin** should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
