@@ -74,7 +74,7 @@ Add the *Download Pro* element to the desired Type and configure as needed. If y
 
 ###Step 2. Position assignment
 
-Assign the *Download Pro* element to the desired layout positions and configure as needed. If you are not familiar with this process please review the [official ZOO doc](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions). For details about the element assignment options review the [Assignment doc](#assignment).
+Assign the *Download Pro* element to the desired layout positions and configure as needed. If you are not familiar with this process please review the [official ZOO doc](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions). For details about the element assignment options review the [Assignment doc](#position assignment).
 
 ###Done!
 
