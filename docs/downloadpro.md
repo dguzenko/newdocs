@@ -94,7 +94,7 @@ Switching from ZOO Download to ZL Download Pro
 
 If you have a site with a standard ZOO element, it would would be a lot of work to manually transfer the data to the Pro version. The good news is that you can switch in a few steps without loosing any data!
 
-Follow the next steps and be sure you have [installed](#installation) the Download Pro element.
+Follow the next steps and be sure you have [installed](#installation) the *Download Pro* element.
 
 **Note:** please backup before proceeding. ZOOlanders will not take any responsability of lost data.
 
