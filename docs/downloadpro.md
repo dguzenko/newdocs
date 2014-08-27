@@ -5,10 +5,8 @@ This documentation offers help and guidance for ZOOlanders **Download Pro** Exte
 
 Use the left menu to go trough the diferent sections.
 
-Requirements
-------------
-
-##Requirements and Compatibility
+Requirements and Compatibility
+------------------------------
 
 **Download Pro** 3.x versions are compatible with Joomla! 2.5.x/3.x, ZOO 3.x and ZLFW 3.x. All previous versions, if available, are ONLY for Joomla 1.5 and are considered deprecated.
 
