@@ -158,9 +158,9 @@ IMAGE HERE
 
 * **File Directory Path.**
 
-  Relative path to file directory. Defaults to the standard 'images' folder of Joomla or Media Manager Files Folder Path value if left blank, started with variable or Joomla prohibited folder and no External Integration set.
+  Relative path to file directory. Defaults to the standard 'images' folder of Joomla or Media Manager Files Folder   Path value if left blank, started with variable or Joomla prohibited folder and no External Integration set.
 
-The following variables can be used to create dynamic paths:
+  The following variables can be used to create dynamic paths:
 
    * **[userid]** - Will be replaced with the User ID.
    * **[username]** - Will be replaced with the User username.
