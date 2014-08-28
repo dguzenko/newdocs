@@ -25,7 +25,7 @@ Trough ZOOlanders Manager
 
 Once the installation process have finished the **ZL Elements plugin** should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Through Joomla Manager
+Trough Joomla Manager
 ----------------------
 
 1. Download **Date Pro** package from [ZOOlanders site](https://www.zoolanders.com/extensions/date-pro).
@@ -98,7 +98,7 @@ Type Config
 
 ### Basic Parameters
 
-Basic Parameters define common element settings.
+*Basic Parameters* define common element settings.
 
 IMAGE HERE
 
