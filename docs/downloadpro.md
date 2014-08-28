@@ -55,11 +55,11 @@ First steps
 
 ### Set up the Type
 
-Add the *Download Pro* element to the desired Type and configure as needed. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types). For details about the element config options review the [Type Config doc](#type-config).
+Add the *Download Pro* element to the desired Type and configure as needed. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types). For details about the element config options review the [Type Config section](#params-in-detail-type-config).
 
 ### Position assignment
 
-Assign the *Download Pro* element to the desired layout positions and configure as needed. If you are not familiar with this process please review the [official ZOO doc](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions). For details about the element assignment options review the [Assignment doc](#position-assignment).
+Assign the *Download Pro* element to the desired layout positions and configure as needed. If you are not familiar with this process please review the [official ZOO doc](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions). For details about the element assignment options review the [Assignment section](#params-in-detail-position-assignment).
 
 
 Upgrading to Pro version
@@ -202,7 +202,7 @@ IMAGE HERE
 * **Main Layout** - Allows to specify main layout.
 * **Sub Layout** - If available, allows to specify additional sublayout.
 
-For more information about the Layouts please review the [Layouts doc](#layouts).
+For more information about the Layouts please review the [Layouts section](#params-in-detail-layouts).
 
 ### Filter Parameters
 
@@ -251,7 +251,7 @@ IMAGE HERE
 Layouts
 -------
 
-Listed are the inbuild layouts of Download Pro element but if those don't meet your project requirements you can [create your own](http://joolanders.github.io/Docs/GettingStarted/custom_layout.md) ones.
+Listed are the inbuild layouts of Download Pro element but if those don't meet your project requirements you can [create your own](#customizations-layouts) ones.
 
 ###Default
 
