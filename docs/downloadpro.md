@@ -78,7 +78,7 @@ Follow the next steps and be sure you have [installed](#installation) the *Downl
 5. Save the changes and return to your ZOO admin area.
 6. Edit that same Type elements.
 7. Locate and open the element that you are switching from. That element that was a *Download* element before should now be *Download Pro* element.
-8. Open the Element options and configure it as needed.
+8. Open the Element options and [configure](#configuration) it as needed.
 9. Save the Type. Your entries should now be updated to use the *Download Pro* element.
 
 Translation
