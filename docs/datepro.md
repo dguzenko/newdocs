@@ -1,7 +1,7 @@
 Date Pro
 ========
 
-This documentation offers help and guidance for ZOOlanders **Date Pro** Extension. More information about it can be find on the [official page](http://www.zoolanders.com/extensions/download-pro).
+This documentation offers help and guidance for ZOOlanders **Date Pro** Extension. More information about it can be find on the [official page](http://www.zoolanders.com/extensions/date-pro).
 
 **Date Pro** 3.x versions are compatible with Joomla! 2.5.x/3.x, ZOO 3.x and ZLFW 3.x. All previous versions, if available, are ONLY for Joomla 1.5 and are considered deprecated.
 
