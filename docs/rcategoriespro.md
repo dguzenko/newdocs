@@ -72,7 +72,7 @@ Follow the next steps and be sure you have [installed](#installation) the *Relat
 1. Locate the *media / zoo / applications / [YOURAPP] / types / [YOURTYPE].config* file and open it for editing with any plain text editor.
 2. Search for the param that relates to the specific element you are upgrading.
 3. Locate the *type* entry for the element (it should be at the bottom of the specific element's section).
-4. Change the *type* from `download` to `downloadpro`.
+4. Change the *type* from `relatedcategories` to `relatedcategoriespro`.
 5. Save the changes and return to your ZOO admin area.
 6. Edit that same Type elements.
 7. Locate and open the element that you are switching from. That element that was a *Related Categories* element before should now be *Related Categories Pro* element.
@@ -82,9 +82,9 @@ Follow the next steps and be sure you have [installed](#installation) the *Relat
 Translation
 -----------
 
-The default **en-GB.plg_system_zoo_zlelements_downloadpro.ini** language file is located in the **administrator/language/en-GB** folder and the translation should be placed into the language related folder replacing the **en-GB** part.
+The default **en-GB.plg_system_zoo_zlelements_relatedcategoriespro.ini** language file is located in the **administrator/language/en-GB** folder and the translation should be placed into the language related folder replacing the **en-GB** part.
 
-Eg: **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zoo_zlelements_downloadpro.ini**
+Eg: **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zoo_zlelements_relatedcategoriespro.ini**
 
 The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can download the available language files and submit your ones.
 
@@ -137,7 +137,7 @@ IMAGE HERE
 * **Main Layout** - Allows to specify main layout.
 * **Sub Layout** - If available, allows to specify additional sublayout.
 
-For more information about the Layouts please review the [Layouts doc]  (Related Categories Pro/layouts.md).
+For more information about the Layouts please review the [Layouts section](#params-in-detail-layouts).
 
 ### Filter Parameters
 
