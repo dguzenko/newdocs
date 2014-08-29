@@ -54,11 +54,11 @@ First steps
 
 ### Set up the Type
 
-Add the *Google Maps Pro* element to the desired Type and configure as needed. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types). For details about the element config options review the [Type Config section](#type-config).
+Add the *Google Maps Pro* element to the desired Type and configure as needed. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types). For details about the element config options review the [Type Config section](#params-in-detail-type-config).
 
 ### Position assignment
 
-Assign the *Google Maps Pro* element to the desired layout positions and configure as needed. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions). For details about the element assignment options review the [Assignment section](#assignment-position-assignment).
+Assign the *Google Maps Pro* element to the desired layout positions and configure as needed. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions). For details about the element assignment options review the [Assignment section](#params-in-detail-position-assignment).
 
 Upgrading to Pro version
 ------------------------
@@ -137,7 +137,7 @@ IMAGE HERE
 * **Main Layout** - Allows to specify main layout.
 * **Sub Layout** - If available, allows to specify additional sublayout.
 
-For more information about the Layouts please review the [Layouts section](#layouts).
+For more information about the Layouts please review the [Layouts section](#params-in-detail-layouts).
 
 Layouts
 -------
