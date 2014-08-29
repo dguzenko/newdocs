@@ -20,8 +20,8 @@ Trough ZOOlanders Manager
 
 1. Go to *Joomla Administration / Components / ZOOlanders*.
 2. Set your zoolanders.com site login credentials trough the Options button.
-4. Find the **Date Pro** Extension in the list and click on the Install button.
-5. Be patient while the Installation proceeds, status notification will arise.
+3. Find the **Date Pro** Extension in the list and click on the Install button.
+4. Be patient while the Installation proceeds, status notification will arise.
 
 Once the installation process have finished the **ZL Elements plugin** should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
@@ -30,8 +30,8 @@ Trough Joomla Manager
 
 1. Download **Date Pro** package from [ZOOlanders site](https://www.zoolanders.com/extensions/date-pro).
 2. Go to the *Joomla Administration / Extensions / Extension Manager / Install*.
-4. Use the "Upload Package File" option to choose the previously downloaded package from your pc.
-5. Click on the "Upload & Install" button.
+3. Use the "Upload Package File" option to choose the previously downloaded package from your pc.
+4. Click on the "Upload & Install" button.
 
 Once the installation process have finished the **ZL Elements** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
