@@ -50,8 +50,8 @@ Once the installation process have finished the **ZOOcart** plugin should be ins
 Configuration
 =============
 
-First steps
-------------
+Steps
+-----
 
 ### Step 1. Setup the Type
 
