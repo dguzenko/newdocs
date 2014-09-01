@@ -1,32 +1,18 @@
 ZOOfilter
 =========
 
-This documentation offers help and guidance for ZOOlanders **ZOOfilter** Extension. More information about it can be find on the ZOOlanders site, https://www.zoolanders.com/extensions/zoofilter.
-
-Use the left menu to go trough the diferent sections.
-
-Requirements
-============
-
-Requirements and Compatibility
-------------------------------
+This documentation offers help and guidance for ZOOlanders **ZOOfilter** Extension. More information about it can be find on the [official page](https://www.zoolanders.com/extensions/zoofilter).
 
 **ZOOfilter** 3.x versions are compatible with Joomla! 2.5.x/3.x, ZOO 3.x and ZLFW 3.x. All previous versions, if available, are ONLY for Joomla 1.5 and are considered deprecated.
 
-ZOOfilter 3.x requires
-----------------------
+Requirements
+------------
+* **[Joomla](http://www.joomla.org) 2.5.6** or higher
+* **[ZOO](http://www.yootheme.com/zoo) 3.1** or higher
+* **[ZOOlanders component](https://www.zoolanders.com/extensions/zoolanders) 3.1** or higher
 
-* **Joomla 2.5.6** or higher
-* Previously installed:
-
-  * **ZOO 3.1** or higher
-  You may download it from [YOOtheme site](http://www.yootheme.com/zoo)
-  * **ZL Framework 3.1** or higher
-  You may download it from [ZOOlanders site](https://www.zoolanders.com/extensions/zl-framework)
-
-### Quick Note
-
-ZL Framework plugin must be enabled, you may check it in Joomla Administration / Extensions / Plugin Manager.
+Installation
+============
 
 Through Joomla Manager
 ----------------------
