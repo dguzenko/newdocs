@@ -53,7 +53,7 @@ Configuration
 First steps
 -----------
 
-### Set up the Type
+### Step 1. Set up the Type
 
 Create a new *Events App* Instance. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/getting-started/create-a-new-app-instance).
 
