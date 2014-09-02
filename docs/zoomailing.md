@@ -11,7 +11,7 @@ Requirements
 * **[Joomla](http://www.joomla.org) 2.5.6** or higher
 * **[ZOO](http://www.yootheme.com/zoo) 3.1** or higher
 * **[ZOOlanders component](https://www.zoolanders.com/extensions/zoolanders) 3.1** or higher
-* 
+
 Installation
 ============
 
