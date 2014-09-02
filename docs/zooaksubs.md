@@ -48,8 +48,8 @@ Configuration
 
 Before proceeding with the configuration steps checkout the optional [Level Syncing](#level-syncing) configuration.
 
-First steps
-------------
+Steps
+-----
 
 ### Step 1. Set up the base access
 
