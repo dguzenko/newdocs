@@ -158,21 +158,21 @@ Displays diferent kind of links, *Item, Category* or *Custom*.
   * **Rel** - Allows to set the link rel attribute.
 
 * **Type: Item**
+
   Allows to display a link to ZOO items.
 
   * **Item Source**
    * **Current** - Will display a link to the current item being rendered.
    * **Specified** - Will display a link to a specific ZOO item.
-
   * **Item ID** - Displayed if the Item Source is set to Specific allows to set the Item ID which will be linked.
   * **Layout** - Allows to select a layout that will be used to display the item when the user clicks on the link.
 
 * **Type: Category**
 
   Allows to display a link to ZOO categories.
-
+  
   * **Category ID** - Allows to set the Category ID which will be linked.
-
+  
  * **Type: Custom**
 
   Allows to display a custom link.
