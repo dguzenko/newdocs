@@ -205,8 +205,8 @@ Displays a standard Iframe.
 
   * **Item Layout** - Allows to select a layout that will be used to render the item.
   * **Item Source**
-   * **Current** - Will use the current item as the rendering source.
-   * **Specified** - Will allow to specify the item.
+    * **Current** - Will use the current item as the rendering source.
+    * **Specified** - Will allow to specify the item.
   * **Item ID** - Displayed if the Item Source is set to Specific allows to set the Item ID which will be used.
 
 * **Render: Custom URL**
