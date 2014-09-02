@@ -101,9 +101,6 @@ Eg: **administrator/language/YOUR-LANG/YOUR-LANG.plg_zoocart_shipping_PLUGINNAME
 Settings
 ========
 
-ZOOcart Settings
-----------------
-
 Switch to **ZOOcart Config** tab to configure ZOOcart for this application.
 
 ### General settings
