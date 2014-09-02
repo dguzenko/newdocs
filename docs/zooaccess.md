@@ -52,8 +52,8 @@ Configuration
 
 Our recommendation is to set your base or most common restrictions at the Type level, in the Element Config, and override them in the Layout Positions assignments as needed.
 
-First steps
------------
+Steps
+-----
 
 ### Step 1. Set up the base access
 
