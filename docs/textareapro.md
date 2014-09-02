@@ -86,7 +86,7 @@ The default **en-GB.plg_system_zoo_zlelements_textareapro.ini** language file is
 
 Eg: **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zoo_zlelements_textareapro.ini**
 
-The translations are managed by [Transifex](Transifex) where you can download the available language files and submit your ones.
+The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can download the available language files and submit your ones.
 
 Params in detail
 ================
@@ -233,11 +233,8 @@ Copy one of the existing layouts in the path from the Step 1 and change it name 
 Your layout is ready but should be stored in a safe place, as we mentioned in the begining. You can place your custom layout in:
 
 * **media / zoo / custom_elements / textareapro / tmpl / render**
-
   This path will make the layout available for all the Apps.
-
 * **media / zoo / applications / [APP NAME] / elements / textareapro / tmpl / render**
-
   This path will make the layout available only for the App being placed in.
 
 When dealing with sublayout, remember it should be placed into **... / render / [MAIN LAYOUT] / _sublayouts** instead.
