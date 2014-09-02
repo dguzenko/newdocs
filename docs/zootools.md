@@ -173,7 +173,7 @@ Displays diferent kind of links, *Item, Category* or *Custom*.
   
   * **Category ID** - Allows to set the Category ID which will be linked.
   
- * **Type: Custom**
+* **Type: Custom**
 
   Allows to display a custom link.
 
