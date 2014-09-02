@@ -23,8 +23,6 @@ Trough ZL Manager
 3. Find the **ZOOcart** Extension in the list and click on the Install button.
 4. Be patient while the Installation proceeds, status notification will arise.
 
-For more information on using the Manager checkout it's [Docs](http://www.yootheme.com/zoo/documentation/getting-started/install-a-new-app) .
-
 Once the installation process have finished the **ZOOcart** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
 Trough Joomla Manager
@@ -73,7 +71,7 @@ IMAGE HERE
 
 ### Step 3. Setup the elements
 
-Now that your items are Products you can display the price/quantity information and the Checkout button. To do so, assign the Price Pro, Quantity & AddToCart elements to a position using it's default layouts. For more information about layouts setup, please review the [ZOO official docs](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
+Now that your items are Products you can display the price/quantity information and the Checkout button. To do so, assign the Price Pro, Quantity & AddToCart elements to a position using it's default layouts. 
 
 ### Done!
 
