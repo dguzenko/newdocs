@@ -42,11 +42,6 @@ Once the installation process have finished the **ZL Elements** plugin should be
 4. Use the "Install from Directory" option to set the directory of your uploaded package files.
 5. Click on the "Install" button and Joomla will install it from the given directory.
 
-#### Quick Note
-
-**ZOOaccess** element is installed under the same plugin, *ZL Elements*, as any other ZL Element for performance reasons. If you want to check it's installation, visit the ZOO configuration and edit any Type from any App. If **ZOOaccess** shows up on the right section under *ZOOlanders* Group, then you're good to go!
-
-
 Configuration
 =============
 
