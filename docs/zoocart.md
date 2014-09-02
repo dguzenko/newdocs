@@ -71,7 +71,7 @@ IMAGE HERE
 
 ### Step 3. Setup the elements
 
-Now that your items are Products you can display the price/quantity information and the Checkout button. To do so, assign the Price Pro, Quantity & AddToCart elements to a position using it's default layouts. 
+Now that your items are Products you can display the price/quantity information and the Checkout button. To do so, assign the Price Pro, Quantity & AddToCart elements to a position using it's default layouts. For more information about layouts setup, please review the [ZOO official docs](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
 ### Done!
 
