@@ -1,91 +1,68 @@
 ZOOaccess
 =========
 
-This documentation offers help and guidance for ZOOlanders **ZOOaccess** Extension. More information about it can be find on the ZOOlanders site, https://www.zoolanders.com/extensions/zooaccess.
-
-Use the left menu to go trough the diferent sections.
-
-Requirements
-============
-
-Requirements and Compatibility
-------------------------------
+This documentation offers help and guidance for ZOOlanders **ZOOaccess** Extension. More information about it can be find on the [official page](https://www.zoolanders.com/extensions/zooaccess).
 
 **ZOOaccess** 3.x versions are compatible with Joomla! 2.5.x/3.x, ZOO 3.x and ZLFW 3.x. All previous versions, if available, are ONLY for Joomla 1.5 and are considered deprecated.
 
-### ZOOaccess 3.x requires
-
-* **Joomla 2.5.6** or higher
-* Previously installed:
-
-  * **ZOO 3.1** or higher
-    You may download it from [YOOtheme site](http://www.yootheme.com/zoo)
-  * **ZL Framework 3.1** or higher
-    You may download it from [ZOOlanders site](https://www.zoolanders.com/extensions/zl-framework)
-
-### Quick Note
-
-ZL Framework plugin must be enabled, you may check it in Joomla Administration / Extensions / Plugin Manager.
+Requirements
+------------
+* **[Joomla](http://www.joomla.org) 2.5.6** or higher
+* **[ZOO](http://www.yootheme.com/zoo) 3.1** or higher
+* **[ZOOlanders component](https://www.zoolanders.com/extensions/zoolanders) 3.1** or higher
 
 Installation
 ============
 
-Through Joomla Manager
-----------------------
-
-1. Download **ZOOaccess** package from https://www.zoolanders.com/extensions/zooaccess.
-2. Install the previously unpacked App/s. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/getting-started/install-a-new-app).
-3. Go to the **Joomla Extension Manager** (Joomla Administration / Extensions / Extension Manager / Install).
-4. Use the "Upload Package File" option to choose the previously downloaded package from your pc.
-5. Click on the "Upload & Install" button.
-
-Once the installation process have finished the **ZOOaccess** plugin should be installed and published. To be sure go to Joomla Administration / Extensions / Plugin Manager and check if it is present and enabled.
-
-**Note**: When you are facing an error during installation, it is highly recommended to try to Install from directory:
-
-1. Unpack all files from the **ZOOaccess** downloaded package to a directory on your pc.
-2. Using FTP, upload this directory to the /tmp directory of your Joomla installation on your webserver.
-3. Go to the **Joomla Extension Manager** (Joomla Administration / Extensions / Extension Manager / Install).
-4. Use the "Install from Directory" option to set the directory of your uploaded package files.
-5. Click on the "Install" button and Joomla will install it from the given directory.
-
-Trough ZL Manager
+Trough ZOOlanders Manager
 -----------------
 
-1. Be sure you have installed the **ZL Manager Extension**.
-2. Open the Component (Components / ZOOlanders Manager).
-3. Login clicking on the Options.
-4. Find the **ZOOaccess** Extension in the list and click on the Install button.
-5. Be patient while the Installation proceeds, the page will be refreshed once done.
+1. Go to *Joomla Administration / Components / ZOOlanders*.
+2. Set your zoolanders.com site login credentials trough the Options button.
+3. Find the **ZOOaccess** Extension in the list and click on the Install button.
+4. Be patient while the Installation proceeds, status notification will arise.
 
-For more information on using the Manager checkout it's Docs.
+Once the installation process have finished the **ZL Elements plugin** should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Once the installation process have finished the ZOOaccess plugin should be installed and published. To be sure go to Joomla Administration / Extensions / Plugin Manager and check if it is present and enabled.
+Trough Joomla Manager
+----------------------
+
+1. Download **ZOOaccess** package from [ZOOlanders site](https://www.zoolanders.com/extensions/zooaccess).
+2. Go to the *Joomla Administration / Extensions / Extension Manager / Install*.
+3. Use the "Upload Package File" option to choose the previously downloaded package from your pc.
+4. Click on the "Upload & Install" button.
+
+Once the installation process have finished the **ZL Elements** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
+
+**Note:** When you are facing an error during installation, it is highly recommended to try to Install from directory:
+
+1. Unpack all files from the downloaded package to a directory on your pc.
+2. Using FTP, upload this directory to the /tmp directory of your Joomla installation on your webserver.
+3. Go to the *Joomla Administration / Extensions / Extension Manager / Install*.
+4. Use the "Install from Directory" option to set the directory of your uploaded package files.
+5. Click on the "Install" button and Joomla will install it from the given directory.
 
 Configuration
 =============
 
 Our recommendation is to set your base or most common restrictions at the Type level, in the Element Config, and override them in the Layout Positions assignments as needed.
 
-Step 1. Set up the base access
-------------------------------
+Steps
+-----
 
-Locate and edit the desired Type elements. Choose the Elements you would like to restrict the access and edit it's ZOOaccess section by clicking on the Evaluate checkbox. From the available rules choose and set the ones you would like to apply. For more details please review the Elements [Access](#elements-access) and [Rules](#rules) docs.
+### Step 1. Set up the base access
 
-Step 2. Tune up the access
---------------------------
+Locate and edit the desired Type elements. Choose the Elements you would like to restrict the access and edit it's ZOOaccess section by clicking on the Evaluate checkbox. From the available rules choose and set the ones you would like to apply. For more details please review the [Elements Access](#elements-access) and [Rules](#rules) sections.
 
-Now that the base access is set we can override it completly or partially on each position. To do so go to the Positions Assignment view for the Layout you would like to work with and seek for the Element ZOOaccess section. Click on the Override box and set the specific param for this particular position.
+### Step 2. Tune up the access
+
+Now that the base access is set we can override it completly or partially on each position. To do so go to the Positions Assignment view for the Layout you would like to work with and seek for the Element ZOOaccess section. Click on the *Override* box and set the specific param for this particular position.
 
 You can also set the access to the Elements without base acces the same way you did in Step 1.
 
-Done!
------
-
-Now your elements will be accessible only to the appropiate users.
 
 Translation
-===========
+-----------
 
 The default **en-GB.plg_system_zooaccess.ini** language file is located in the **administrator/language/en-GB** folder and the translation should be placed into the language related folder replacing the **en-GB** part.
 
@@ -96,20 +73,20 @@ The translations are managed by [Transifex](https://www.transifex.com/projects/p
 Elements Access
 ===============
 
-In your ZOO elements configuration and assignement there is a section called ZOOaccess, it allows you to set who can access that specific element. The Evalute checkbox must be marked in order to start evaluating them.
+In your ZOO elements configuration and assignement there is a section called ZOOaccess, it allows you to set who can access that specific element. The *Evalute* checkbox must be marked in order to start evaluating them.
 
 IMAGE HERE
 
 * **Evaluate** - allows to choose if the access will be evaluated for this element. Must be selected in order to view the rest of the options.
 * **Apply on Edit View** - allows to choose if the selected rules should be applied also in the Edit view.
-* **Matching method - allows to choose if a match should be accepted when ALL or ANY (one or more) of the assignments are matched.
-* **Action** - allows to choose the action that should be applied to the element if there is a match. The Render action will render the element if the evalution was positive, the Not render action will render the element if the evalution was negative.
+* **Matching method** - allows to choose if a match should be accepted when ALL or ANY (one or more) of the assignments are matched.
+* **Action** - allows to choose the action that should be applied to the element if there is a match. The *Render* action will render the element if the evalution was positive, the *Not render* action will render the element if the evalution was negative.
 
-If you are in the Positions Assignments and have set an evaluation in the Element config, the ZOOaccess section will display Override instead of Evaluate.
+If you are in the Positions Assignments and have set an evaluation in the Element config, the ZOOaccess section will display *Override* instead of *Evaluate*.
 
 IMAGE HERE
 
-By checking the Yes box you can override any or all existing restrictions that have been stated.
+By checking the *Yes* box you can override any or all existing restrictions that have been stated.
 
 Rules
 =====

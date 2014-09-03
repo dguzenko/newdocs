@@ -1,97 +1,74 @@
 ZOOaksubs
 =========
 
-This documentation offers help and guidance for ZOOlanders **ZOOaksubs** Extension. More information about it can be find on the ZOOlanders site, https://www.zoolanders.com/extensions/zooaksubs.
-
-Use the left menu to go trough the diferent sections.
-
-Requirements
-============
-
-Requirements and Compatibility
+This documentation offers help and guidance for ZOOlanders **ZOOaksubs** Extension. More information about it can be find on the [official page](https://www.zoolanders.com/extensions/zooaksubs).
 
 **ZOOaksubs** 3.x versions are compatible with Joomla! 2.5.x/3.x, ZOO 3.x and ZLFW 3.x. All previous versions, if available, are ONLY for Joomla 1.5 and are considered deprecated.
 
-ZOOaksubs 3.x requires
-----------------------
+Requirements
+------------
 
-* **Joomla 2.5.6** or higher
-* Previously installed:
-
-  * **ZOO 3.0** or higher
-
-    You may download it from [YOOtheme site](http://www.yootheme.com/zoo)
-
-  * **ZL Framework 3.0** or higher
-
-    You may download it from [ZOOlanders site](https://www.zoolanders.com/extensions/zl-framework)
-
-### Quick Note
-
-ZL Framework plugin must be enabled, you may check it in Joomla Administration / Extensions / Plugin Manager.
+* **[Joomla](http://www.joomla.org) 2.5.6** or higher
+* **[ZOO](http://www.yootheme.com/zoo) 3.1** or higher
+* **[ZOOlanders component](https://www.zoolanders.com/extensions/zoolanders) 3.1** or higher
 
 Installation
 ============
 
-Through Joomla Manager
+Trough ZOOlanders Manager
+-------------------------
+
+1. Go to *Joomla Administration / Components / ZOOlanders*.
+2. Set your zoolanders.com site login credentials trough the Options button.
+3. Find the **ZOOaksubs** Extension in the list and click on the Install button.
+4. Be patient while the Installation proceeds, status notification will arise.
+
+Once the installation process have finished the **ZOOaksubs** plagin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
+
+Trough Joomla Manager
 ----------------------
 
-1. Download **ZOOaksubs** package from https://www.zoolanders.com/extensions/zooaksubs.
-2. Install the previously unpacked App/s. If you are not familiar with this process please review the official ZOO docs.
-3. Go to the **Joomla Extension Manager** (Joomla Administration / Extensions / Extension Manager / Install).
-4. Use the "Upload Package File" option to choose the previously downloaded package from your pc.
-5. Click on the "Upload & Install" button.
+1. Download **ZOOaksubs** package from [ZOOlanders site](https://www.zoolanders.com/extensions/zooaksubs).
+2. Go to the *Joomla Administration / Extensions / Extension Manager / Install*.
+3. Use the "Upload Package File" option to choose the previously downloaded package from your pc.
+4. Click on the "Upload & Install" button.
 
-Once the installation process have finished the ZOOaksubs plugin should be installed and published. To be sure go to Joomla Administration / Extensions / Plugin Manager and check if it is present and enabled.
+Once the installation process have finished the **ZOOaksubs** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Note: When you are facing an error during installation, it is highly recommended to try to Install from directory:
+**Note:** When you are facing an error during installation, it is highly recommended to try to Install from directory:
 
-1. Unpack all files from the **ZOOaksubs** downloaded package to a directory on your pc.
+1. Unpack all files from the downloaded package to a directory on your pc.
 2. Using FTP, upload this directory to the /tmp directory of your Joomla installation on your webserver.
-3. Go to the **Joomla Extension Manager** (Joomla Administration / Extensions / Extension Manager / Install).
+3. Go to the *Joomla Administration / Extensions / Extension Manager / Install*.
 4. Use the "Install from Directory" option to set the directory of your uploaded package files.
 5. Click on the "Install" button and Joomla will install it from the given directory.
-
-Trough ZL Manager
------------------
-
-1. Be sure you have installed the ZL Manager Extension.
-2. Open the Component (Components / ZOOlanders Manager).
-3. Login clicking on the Options.
-4. Find the ZOOaksubs Extension in the list and click on the Install button.
-5. Be patient while the Installation proceeds, the page will be refreshed once done.
-
-For more information on using the Manager checkout it's Docs.
-
-Once the installation process have finished the ZOOaksubs plugin should be installed and published. To be sure go to Joomla Administration / Extensions / Plugin Manager and check if it is present and enabled.
 
 Configuration
 =============
 
-Before proceeding with the configuration steps checkout the optional Level 
-[Syncing](level-syncing) configuration.
+Before proceeding with the configuration steps checkout the optional [Level Syncing](#level-syncing) configuration.
 
-Step 1. Set up the base access
-------------------------------
+Steps
+-----
+
+### Step 1. Set up the base access
 
 Our recommendation is to set your base or most common restrictions at the Type level, in the Element Config, and override them in the Layout Positions assignments as needed.
 
-Locate and edit the desired Type elements. Choose the Elements you would like to restrict the access and edit it's ZOOaksubs section by clicking on the Evaluate checkbox. From the available rules choose and set the ones you would like to apply. For more details please review the Elements [Access](elements-access) docs.
+Locate and edit the desired Type elements. Choose the Elements you would like to restrict the access and edit it's ZOOaksubs section by clicking on the Evaluate checkbox. From the available rules choose and set the ones you would like to apply. For more details please review the [Elements Access](#elements-access) section.
 
-Step 2. Tune up the access
---------------------------
+### Step 2. Tune up the access
 
-Now that the base access is set we can override it completly or partially on each position. To do so go to the Positions Assignment view for the Layout you would like to work with and seek for the Element ZOOaksubs section. Click on the Override box and set the specific param for this particular position.
+Now that the base access is set we can override it completly or partially on each position. To do so go to the Positions Assignment view for the Layout you would like to work with and seek for the Element ZOOaksubs section. Click on the *Override* box and set the specific param for this particular position.
 
 You can also set the access to the Elements without base acces the same way you did in Step 1.
 
-Done!
------
+### Done!
 
 Now your elements will be accessible only to the Users with the appropiate Akeeba Subscription.
 
 Translation
-===========
+-----------
 
 The **default en-GB.plg_system_zooaksubs.ini** language file is located in the **administrator/language/en-GB** folder and the translation should be placed into the language related folder replacing the **en-GB** part.
 
@@ -102,7 +79,7 @@ The translations are managed by [Transifex](https://www.transifex.com/projects/p
 Elements Access
 ===============
 
-In your ZOO elements configuration and assignement there is a section called ZOOaccess, it allows you to set who can access that specific element. The Evalute checkbox must be marked in order to start evaluating them.
+In your ZOO elements configuration and assignement there is a section called ZOOaccess, it allows you to set who can access that specific element. The *Evalute* checkbox must be marked in order to start evaluating them.
 
 IMAGE HERE
 
@@ -111,16 +88,16 @@ IMAGE HERE
 * **Matching method** - allows to choose if a match should be accepted when ALL or ANY (one or more) of the assignments are matched.
 * **Action** - allows to choose the action that should be applied to the element if there is a match. The Render action will render the element if the evalution was positive, the Not render action will render the element if the evalution was negative. 
 
-If you are in the Positions Assignments and have set an evaluation in the Element config, the ZOOaccess section will display Override instead of Evaluate. By checking the Yes box you can override any or all existing restrictions that have been stated.
+If you are in the Positions Assignments and have set an evaluation in the Element config, the ZOOaccess section will display *Override* instead of *Evaluate*. By checking the *Yes* box you can override any or all existing restrictions that have been stated.
 
 Access Rules
 ------------
 
 ZOOaksubs has a preset rules for the access evaluation. By default the rules are ignored and the access will be no evaluated. In order to start the rule evaluation, it's state must be changed. Each rule has 3 states:
 
-Selection - the rule will be considered a match only when the following selections ARE met.
-Exclude Selection - the rule will be considered a match only when the following selections ARE NOT met.
-Ignore - the rule will not be evaluated.
+* **Selection** - the rule will be considered a match only when the following selections ARE met.
+* **Exclude Selection** - the rule will be considered a match only when the following selections ARE NOT met.
+* **Ignore** - the rule will not be evaluated.
 
 Levels rule
 -----------
@@ -129,9 +106,9 @@ This rule evaluates if the User has an active and valid Akeeba Subscription for 
 
 IMAGE HERE
 
-* **Levels** - allows to choose the Akeeba Subscription Level for which the User should have a valid subscription. Multiple selection is possible.
+* **Levels** - allows to choose the *Akeeba Subscription Level* for which the User should have a valid subscription. Multiple selection is possible.
 
-  * There is a special Level called Use this Item as Level, only present if syncing this Type, which when selected will add to the evaluation Level list the current Item from which will be retrieved the related Level.
+  * There is a special Level called **Use this Item as Level**, only present if syncing this Type, which when selected will add to the evaluation Level list the current Item from which will be retrieved the related Level.
 
 * **Mode** - allows to choose if the User should have access to all (AND) levels or any (OR) of them.
 * **User** - allows to choose who will be the evaluated user, the current viewer (User) or the Item's Author (Author).
@@ -150,16 +127,15 @@ IMAGE HERE
 Level Syncing
 =============
 
-This Doc will show you how to sync your ZOO Items with Akeeba Subscription Levels. It would be still posible to create and control the Levels trough Akeeba and is optional but we recommend it as you will be able to:
+This Doc will show you how to sync your ZOO *Items* with *Akeeba Subscription Levels*. It would be still posible to create and control the Levels trough Akeeba and is optional but we recommend it as you will be able to:
 
 * Control within ZOO the Levels content and configuration.
 * Display your Levels with ZOO render flexibility.
 * Relate Items for package creation.
 
-Step 1. Type configuration
---------------------------
+### Step 1. Type configuration
 
-Please add the Aksubs Level Sync element to the Type you would like to sync with Levels. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types). Additionally you will need to create some fields that will provide the necesary Level information.
+Please add the *Aksubs Level Sync* element to the Type you would like to sync with Levels. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types). Additionally you will need to create some fields that will provide the necesary Level information.
 
 You should add the following necesary fields:
 
@@ -182,8 +158,7 @@ Optionally add the following ones:
 
 For more information on Level fields please review the [official Akeeba Subscription docs](https://www.akeebabackup.com/documentation/akeeba-subscriptions/subscription-levels.html).
 
-Step 2. ZOOaksubs Layout assignment
------------------------------------
+### Step 2. ZOOaksubs Layout assignment
 
 Please locate and open the ZOOaksubs Layout, we are going to assign the previously created Elements to it's Positions. The Plugins Layouts, as ZOOaksubs one, are independently shown in the last column. For more information please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
@@ -191,12 +166,11 @@ IMAGE HERE
 
 Each position represents a Level data and it's rendered value will be passed to Akeeba Subscription. It's important to carefully populate the positions taking in consideration what kind of value or format expects each one of them.
 
-**Note**: you can use the Static Content element to set static values that will be common to all Levels.
+**Note**: you can use the *Static Content* element to set static values that will be common to all Levels.
 
-Step 3. Creating the Level trough ZOO
--------------------------------------
+### Step 3. Creating the Level trough ZOO
 
-It's all set, go and create a new Item. Populate the fields and be sure the Aksubs Level Sync value is set to Yes. If all went well you will see an succesfull notification and a link to the synced Level. If otherwise the notification was negative, review the configuration and try again.
+It's all set, go and create a new Item. Populate the fields and be sure the *Aksubs Level Sync* value is set to *Yes*. If all went well you will see an succesfull notification and a link to the synced Level. If otherwise the notification was negative, review the configuration and try again.
 
 These are the common errors you could come along:
 
@@ -206,33 +180,29 @@ These are the common errors you could come along:
 
 All of them are complaining about missing or bad formated sync data. Be sure the appropiate field exist (step 1), is assigned in the ZOOaksubs Layout (step 2) and is populated in the Item.
 
-Step 4. Display Level and checkout button
------------------------------------------
+### Step 4. Display Level and checkout button
 
-Usually you would display the Level (the synced Item) assigning the Elements to the Teaser and Full layouts positions but you will miss a Checkout button. There's where the Aksubs Level Sync is used again. Assign it to any position and choose it's Default layout. It will render a checkout button that will redirect to Akeeba Subscription checkout process for the specific synced Level.
+Usually you would display the Level (the synced Item) assigning the Elements to the Teaser and *Full* layouts positions but you will miss a Checkout button. There's where the *Aksubs Level Sync* is used again. Assign it to any position and choose it's *Default* layout. It will render a checkout button that will redirect to Akeeba Subscription checkout process for the specific synced Level.
 
-For more information on the Element, check it's doc.
+For more information, check [Element Aksubs Level Sync section](#element-aksubs-level-sync).
 
 Element Aksubs Level Sync
 =========================
 
-Aksubs Level Sync element
--------------------------
-
-The Aksubs Level Sync is used for the ZOOaksubs Level sync feature. For more information checkout the related doc.
+The *Aksubs Level Sync* is used for the ZOOaksubs Level sync feature. For more information checkout the related [section](#level-syncing).
 
 Type configuration
 ------------------
 
 ### Basic Parameters
 
-Basic Parameters define common element settings.
+*Basic Parameters* define common element settings.
 
 IMAGE HERE
 
 * **Name** - Allows to set element's name, that will be used in layouts and item properties.
 * **Description** - Allows to describe element shortly.
-* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to "Public".
+* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to *"Public"*.
 
 ### Specific Parameters
 
@@ -243,7 +213,7 @@ Position Assignment
 
 ### Basic Parameters
 
-Basic Parameters define common element settings.
+*Basic Parameters* define common element settings.
 
 IMAGE HERE
 
@@ -252,11 +222,12 @@ IMAGE HERE
 
 ### Layout Parameters
 
-Layout Parameters shows the available layouts for the element.
+*Layout Parameters* shows the available layouts for the element.
 
 * **Main Layout** - Allows to specify main layout.
 
 Layouts
+-------
 
 There are two rendering layouts:
 

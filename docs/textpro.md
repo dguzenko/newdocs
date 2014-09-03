@@ -1,9 +1,7 @@
 Text Pro
 ========
 
-This documentation offers help and guidance for ZOOlanders **Text Pro** Element part of the **Texts** product. More information about it can be find on the ZOOlanders site, https://www.zoolanders.com/extensions/texts.
-
-Use the left menu to go trough the diferent sections.
+This documentation offers help and guidance for ZOOlanders **Text Pro** Element part of the **Texts** product. More information about it can be find on the [official page](https://www.zoolanders.com/extensions/texts).
 
 Requirements
 ------------
@@ -15,94 +13,91 @@ Requirements
 Installation
 ============
 
-Through Joomla Manager
-----------------------
+Trough ZOOlanders Manager
+-------------------------
 
-1. Download **Texts** package from https://www.zoolanders.com/extensions/texts.
-2. Install the previously unpacked App/s. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/getting-started/install-a-new-app).
-3. Go to the **Joomla Extension Manager** (Joomla Administration / Extensions / Extension Manager / Install).
-4. Use the "Upload Package File" option to choose the previously downloaded package from your pc.
-5. Click on the "Upload & Install" button.
+1. Go to *Joomla Administration / Components / ZOOlanders*.
+2. Set your zoolanders.com site login credentials trough the Options button.
+3. Find **Texts** in the Extension list and click on the Install button.
+4. Be patient while the Installation proceeds, status notification will arise.
 
-Once the installation process have finished the **ZL Elements** plugin should be installed and published. To be sure go to Joomla Administration / Extensions / Plugin Manager and check if it is present and enabled.
+Once the installation process have finished the **ZL Elements plugin** should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
+
+Trough Joomla Manager
+---------------------
+
+1. Download **Texts** package from [ZOOlanders site](https://www.zoolanders.com/extensions/texts).
+2. Go to the *Joomla Administration / Extensions / Extension Manager / Install*.
+3. Use the "Upload Package File" option to choose the previously downloaded package from your pc.
+4. Click on the "Upload & Install" button.
+
+Once the installation process have finished the **ZL Elements** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
 **Note**: When you are facing an error during installation, it is highly recommended to try to Install from directory:
 
 1. Unpack all files from the **Texts** downloaded package to a directory on your pc.
 2. Using FTP, upload this directory to the /tmp directory of your Joomla installation on your webserver.
-3. Go to the **Joomla Extension Manager** (Joomla Administration / Extensions / Extension Manager / Install).
+3. Go to the *Joomla Administration / Extensions / Extension Manager / Install*.
 4. Use the "Install from Directory" option to set the directory of your uploaded package files.
 5. Click on the "Install" button and Joomla will install it from the given directory.
 
-### Quick Note
+#### Quick Note
 
-Texts elements are installed under the same plugin, ZL Elements, as any other ZL Element for performance reasons. If you want to check it's installation, visit the ZOO configuration and edit any Type from any App. If Textarea Pro & Text Pro shows up on the right section under ZOOlanders Group, then you're good to go!
+**Texts** elements are installed under the same plugin, *ZL Elements*, as any other ZL Element for performance reasons. If you want to check it's installation, visit the ZOO configuration and edit any Type from any App. If **Textarea Pro & Text Pro** shows up on the right section under *ZOOlanders* Group, then you're good to go!
 
-Trough ZL Manager
------------------
-
-Be sure you have installed the *ZL Manager Extension*.
-Open the Component (Components / ZOOlanders Manager).
-Login clicking on the Options.
-Find the Texts Extension in the list and click on the Install button.
-Be patient while the Installation proceeds, the page will be refreshed once done.
-
-For more information on using the Manager checkout it's Docs.
-
-Once the installation process have finished the ZL Elements plugin should be installed and published. To be sure go to Joomla Administration / Extensions / Plugin Manager and check if it is present and enabled.
 
 Configuration
 =============
 
-Step 1. Set up the Type
------------------------
+First steps
+-----------
 
-Add the Text Pro element to the desired Type and configure as needed. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types). For details about the element config options review the [Type Config doc]().
+### Set up the Type
 
-Step 2. Position assignment
----------------------------
 
-Assign the Text Pro element to the desired layout positions and configure as needed. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions). For details about the element assignment options review the [Assignment doc]().
+Add the *Text Pro* element to the desired Type and configure as needed. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types). For details about the element config options review the [Type Config section](#params-in-detail-type-config).
 
-Done!
+### Position assignment
 
-Go and edit your content. Be sure to review the other docs for further details and configurations.
+Assign the *Text Pro* element to the desired layout positions and configure as needed. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions). For details about the element assignment options review the [Assignment section](#params-in-detail-position-assignment).
+
+Upgrading to Pro version
+------------------------
+
+If you have a site with a standard ZOO element, it would would be a lot of work to manually transfer the data to the Pro version. The good news is that you can switch in a few steps without loosing any data!
+
+Follow the next steps and be sure you have [installed](#installation) the *Text Pro* element.
+
+*Note*: please backup before proceeding. ZOOlanders will not take any responsability of lost data.
+
+1. Locate the *media / zoo / applications / [YOURAPP] / types / [YOURTYPE].config* file and open it for editing with any plain text editor.
+2. Search for the param that relates to the specific element you are upgrading.
+3. Locate the *type* entry for the element (it should be at the bottom of the specific element's section).
+4. Change the *type* from `text` to `textpro`.
+5. Save the changes and return to your ZOO admin area.
+6. Edit that same Type elements.
+7. Locate and open the element that you are switching from. That element that was a *Text* lement before should now be *Text Pro* element.
+8. Open the Element options and [configure](#configuration) it as needed.
+9. Save the Type. Your entries should now be updated to use the *Text Pro* element.
 
 Translation
-===========
+-----------
 
 The default **en-GB.plg_system_zoo_zlelements_textpro.ini** language file is located in the **administrator/language/en-GB** folder and the translation should be placed into the language related folder replacing the **en-GB** part.
 
 Eg: **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zoo_zlelements_textpro.ini**
 
-The translations are managed by [Transifex]() where you can download the available language files and submit your ones.
+The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can download the available language files and submit your ones.
 
-Switching to Text Pro
-=====================
-
-If you have a site with a standard ZOO element, it would would be a lot of work to manually transfer the data to the Pro version. The good news is that you can switch in a few steps without loosing any data!
-
-Follow the next steps and be sure you have [installed]() the Text Pro element.
-
-*Note*: please backup before proceeding. ZOOlanders will not take any responsability of lost data.
-
-1. Locate the media / zoo / applications / [YOURAPP] / types / [YOURTYPE].config file and open it for editing with any plain text editor.
-2. Search for the param that relates to the specific element you are upgrading.
-3. Locate the type entry for the element (it should be at the bottom of the specific element's section).
-4. Change the type from `text` to `textpro`.
-5. Save the changes and return to your ZOO admin area.
-6. Edit that same Type elements.
-7. Locate and open the element that you are switching from. That element that was a Text lement before should now be Text Pro element.
-8. Open the Element options and [configure]() it as needed.
-9. Save the Type. Your entries should now be updated to use the Text Pro element.
+Params in detail
+================
 
 Type Config
-===========
+-----------
 
-Basic Parameters
-----------------
+### Basic Parameters
 
-Basic Parameters define common element settings.
+*Basic Parameters* define common element settings.
 
 IMAGE HERE
 
@@ -112,8 +107,7 @@ IMAGE HERE
 * **Repeatable** - Allows to set "Yes" if he wants to use a few of such elements per one application item.
 * **Instance Limit** - Allows to limit the number of element instances (usually used in combination with the Repeatable param).
 
-Specific Parameters
--------------------
+### Specific Parameters
 
 IMAGE HERE
 
@@ -122,23 +116,21 @@ IMAGE HERE
 * **Default** - Allows to set the default field value when creating new Item.
 * **Maximum Characters** - Allows to limit the maximum number of characters the input will allow.
 
-Assignment
-==========
+Position Assignment
+-------------------
 
-Basic Parameters
-----------------
+### Basic Parameters
 
-Basic Parameters define common element settings.
+*Basic Parameters* define common element settings.
 
 IMAGE HERE
 
 * **Show Label** - Allows to choose if the element label should be rendered or not.
 * **Alternative Label** - Allows to customoze the default label (the element's name set in the Type) for this specific position.
 
-Layout Parameters
------------------
+### Layout Parameters
 
-Layout Parameters shows the available layouts for the element.
+*Layout Parameters* shows the available layouts for the element.
 
 IMAGE HERE
 
@@ -147,20 +139,18 @@ IMAGE HERE
 
 For more information about the Layouts please review the Layouts doc.
 
-Filter Parameters
------------------
+### Filter Parameters
 
-Filter Parameters allow to limit element instances and to set offset for output.
+*Filter Parameters* allow to limit element instances and to set offset for output.
 
 IMAGE HERE
 
 * **Offset** - Allows move the start point of rendering (e.g. 2, will make rendering start from instance 3).
 * **Limit** - Allows to limit the number of instance to output.
 
-Separator Parameters
---------------------
+### Separator Parameters
 
-Separator Parameters allows to configure separation constructions, that will be used to separate the element instances on rendering.
+*Separator Parameters* allows to configure separation constructions, that will be used to separate the element instances on rendering.
 
 IMAGE HERE
 
@@ -195,20 +185,19 @@ IMAGE HERE
 ...to the final value. Use carefully and disable if any issue shows up with the rendered result.
 
 Layouts
-=======
-
-Listed are the inbuild layouts of Text Pro element but if those don't meet your project requirements you can create your own ones.
-
-Default
 -------
 
-The Default layout has several Sublayouts
+Listed are the inbuild layouts of Text Pro element but if those don't meet your project requirements you can [create your own](#customizations-layouts) ones.
 
 ### Default
 
+The Default layout has several Sublayouts
+
+#### Default
+
 Displays the text.
 
-### Item Link
+#### Item Link
 
 Displays a link to the it's Item with the text as the link content.
 
@@ -216,8 +205,11 @@ Displays a link to the it's Item with the text as the link content.
 
 Displays a Slideset, Slideshow or Accordion widget with the text as content.
 
-Custom layouts
+Customizations
 ==============
+
+Layouts
+-------
 
 Although we try to provide many layouts with different options you've possibly run into a situation where you need to render the element in some specific way. With just a little PHP, HTML, or CSS coding knowledge you can easily make it render just like you want it to, by creating your own layout for an element.
 
@@ -225,23 +217,19 @@ Although you could just directly change and override the code of an existing lay
 
 What we suggest is to create your own layout (you can copy/paste an existing one) and store the resultant file in one of the ZOO overrable Elements folder. That way the file will be easily localizable and risk free on updates.
 
-Before starting
----------------
+### Before starting
 
 As much as we try to make our docs complete, with a system as versitle as ZOO and some of the integrations included in our elements (like WidgetKit and qTip) even our documentation might not make a potential rendering manner obvious. Feel free to ask us in our support center.
 
-Step 1. Locate the layouts path
--------------------------------
+### Step 1. Locate the layouts path
 
 The Text Pro layouts are located in **plugins / system / zoo_zlelements / zoo_zlelements / elements / textpro / tmpl / render** folder. If the layout supports sublayouts is those that you should work on, instead go to the **... / render / [MAIN LAYOUT] / _sublayouts** folder.
 
-Step 2. Create your layout
---------------------------
+### Step 2. Create your layout
 
 Copy one of the existing layouts in the path from the Step 1 and change it name to a custom one. Be sure to keep the underscore `_` at the begining of the file if it's a sublayout.
 
-Step 3. Place your layout
--------------------------
+### Step 3. Place your layout
 
 Your layout is ready but should be stored in a safe place, as we mentioned in the begining. You can place your custom layout in:
 
@@ -252,9 +240,8 @@ Your layout is ready but should be stored in a safe place, as we mentioned in th
 
 When dealing with sublayout, remember it should be placed into **... / render / [MAIN LAYOUT] / _sublayouts** instead.
 
-**Note**: if the custom_elements folder does not exist, just create it.
+**Note**: if the **custom_elements** folder does not exist, just create it.
 
-Done!
------
+### Done!
 
 Now that your layout is placed it can be selected when setting the Element view on the Positions assignment. Do so and start editing it until it suits your project needs.
