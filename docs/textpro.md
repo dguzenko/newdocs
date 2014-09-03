@@ -3,6 +3,8 @@ Text Pro
 
 This documentation offers help and guidance for ZOOlanders **Text Pro** Element part of the **Texts** product. More information about it can be find on the [official page](https://www.zoolanders.com/extensions/texts).
 
+**Texts** 3.x versions are compatible with Joomla! 2.5.x/3.x, ZOO 3.x and ZLFW 3.x. All previous versions, if available, are ONLY for Joomla 1.5 and are considered deprecated.
+
 Requirements
 ------------
 
@@ -103,9 +105,9 @@ IMAGE HERE
 
 * **Name** - Allows to set element's name, that will be used in layouts and item properties.
 * **Description** - Allows to describe element shortly.
-* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to "Public".
-* **Repeatable** - Allows to set "Yes" if he wants to use a few of such elements per one application item.
-* **Instance Limit** - Allows to limit the number of element instances (usually used in combination with the Repeatable param).
+* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to *"Public"*.
+* **Repeatable** - Allows to set *"Yes"* if he wants to use a few of such elements per one application item.
+* **Instance Limit** - Allows to limit the number of element instances *(usually used in combination with the Repeatable param)*.
 
 ### Specific Parameters
 
@@ -137,7 +139,7 @@ IMAGE HERE
 * **Main Layout** - Allows to specify main layout.
 * **Sub Layout** - If available, allows to specify additional sublayout.
 
-For more information about the Layouts please review the Layouts doc.
+For more information about the Layouts please review the [Layouts section](#params-in-detail-layouts).
 
 ### Filter Parameters
 
@@ -145,7 +147,7 @@ For more information about the Layouts please review the Layouts doc.
 
 IMAGE HERE
 
-* **Offset** - Allows move the start point of rendering (e.g. 2, will make rendering start from instance 3).
+* **Offset** - Allows move the start point of rendering *(e.g. 2, will make rendering start from instance 3)*.
 * **Limit** - Allows to limit the number of instance to output.
 
 ### Separator Parameters
@@ -234,8 +236,11 @@ Copy one of the existing layouts in the path from the Step 1 and change it name 
 Your layout is ready but should be stored in a safe place, as we mentioned in the begining. You can place your custom layout in:
 
 * **media / zoo / custom_elements / textpro / tmpl / render**
+
   This path will make the layout available for all the Apps.
+
 * **media / zoo / applications / [APP NAME] / elements / textpro / tmpl / render**
+
   This path will make the layout available only for the App being placed in.
 
 When dealing with sublayout, remember it should be placed into **... / render / [MAIN LAYOUT] / _sublayouts** instead.
