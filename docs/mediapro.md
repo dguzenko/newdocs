@@ -103,9 +103,9 @@ IMAGE HERE
 
 * **Name** - Allows to set element's name, that will be used in layouts and item properties.
 * **Description** - Allows to describe element shortly.
-* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to "Public".
-* **Repeatable** - Allows to set "Yes" if he wants to use a few of such elements per one application item.
-* **Instance Limit** - Allows to limit the number of element instances (usually used in combination with the Repeatable param).* **
+* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to *"Public"*.
+* **Repeatable** - Allows to set *"Yes"* if he wants to use a few of such elements per one application item.
+* **Instance Limit** - Allows to limit the number of element instances *(usually used in combination with the Repeatable param).* 
 
 ### Edit Layout Parameters
 
@@ -130,10 +130,11 @@ IMAGE HERE
   * **Folders**: You can select **just** folders (but you can still upload files into the folders), one by one. The system will fetch the files contained in that folder automatically.
   * **Both**: You can select **both** files and folders (and still upload files). The system will merge the files from the folders and the files you selected in a single list.
 
+
 * **Default Source**.
 
-  Default file for download. If no source is specified in the Item, the specified default will be used on rendering.
-  Can be a full path to a Folder or File.
+  Default file for download. If no source is specified in the Item, the *specified default will be used on rendering.*
+  Can be a full path to a *Folder or File*.
   If you input **[authorname]** in the path, it will be replaced with the item's author name.
 
 * **Legal Extensions**.
@@ -163,6 +164,7 @@ IMAGE HERE
   * **[year]** - Will be replaced with current year (e.g. 2010).
   * **[month]** - Will be replaced with current month number (e.g. 06).
   * **[day]** - Will be replaced with the day number (e.g. 10).
+
 
 * **Max Upload Size** - Maximum dimensions for uploaded files, in KB. Default value is 1024Kb (1Mb).
 
@@ -203,7 +205,7 @@ For more information about the Layouts please review the [Layouts section](#para
 
 IMAGE HERE
 
-* **Offset** - Allows move the start point of rendering (e.g. 2, will make rendering start from instance 3).
+* **Offset** - Allows move the start point of rendering *(e.g. 2, will make rendering start from instance 3)*.
 * **Limit** - Allows to limit the number of instance to output.
 
 ### Separator Parameters
