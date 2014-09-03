@@ -102,7 +102,7 @@ IMAGE HERE
 
 * **Name** - Allows to set element's name, that will be used in layouts and item properties.
 * **Description** - Allows to describe element shortly.
-* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to "Public".
+* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to *"Public"*.
 
 ### Specific Parameters
 
@@ -147,6 +147,7 @@ IMAGE HERE
 
 * **Offset** - Allows move the start point of rendering (e.g. 2, will make rendering start from instance 3).
 * **Limit** - Allows to limit the number of instance to output.
+
 [type filter, TODO]
 
 ### Separator Parameters
@@ -174,13 +175,13 @@ IMAGE HERE
 * **Class** - allows to add custom class to the result if the separator wraps the content.
 * **Fix HTML** - if enabled after the separator was applied this feature will...
 
-* Delete closed Tags without their opening Tag.
-* Fix open Tag without close, closing them automatically.
-* Check bad nesting and fix them.
-* Fix bad quotes in attributes.
-* Merge different styles attributes in the same Tag
-* Remove HTML comments.
-* Remove empty Tags and more bad Tags.
+  * Delete closed Tags without their opening Tag.
+  * Fix open Tag without close, closing them automatically.
+  * Check bad nesting and fix them.
+  * Fix bad quotes in attributes.
+  * Merge different styles attributes in the same Tag
+  * Remove HTML comments.
+  * Remove empty Tags and more bad Tags.
 
 ...to the final value. Use carefully and disable if any issue shows up with the rendered result.
 
@@ -224,8 +225,11 @@ Copy one of the existing layouts in the path from the Step 1 and change it name 
 Your layout is ready but should be stored in a safe place, as we mentioned in the begining. You can place your custom layout in:
 
 * **media / zoo / custom_elements / relatedcategoriespro / tmpl / render**
+
   This path will make the layout available for all the Apps.
+
 * **media / zoo / applications / [APP NAME] / elements / relatedcategoriespro / tmpl / render**
+
   This path will make the layout available only for the App being placed in.
 
 When dealing with sublayout, remember it should be placed into **... / render / [MAIN LAYOUT] / _sublayouts** instead.
