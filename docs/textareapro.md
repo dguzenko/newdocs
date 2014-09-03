@@ -3,6 +3,8 @@ Textarea Pro
 
 This documentation offers help and guidance for ZOOlanders **Textarea Pro** Element part of the **Texts** product. More information about it can be find on the [official page](https://www.zoolanders.com/extensions/texts).
 
+**Texts** 3.x versions are compatible with Joomla! 2.5.x/3.x, ZOO 3.x and ZLFW 3.x. All previous versions, if available, are ONLY for Joomla 1.5 and are considered deprecated.
+
 Requirements
 ------------
 
