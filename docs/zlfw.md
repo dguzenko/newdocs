@@ -37,11 +37,11 @@ Once the installation process have finished the **ZL Framework** plugin should b
 
 **Note:** When you are facing an error during installation, it is highly recommended to try to Install from directory:
 
-1.Unpack all files from the **ZL Framework** downloaded package to a directory on your pc.
-2.Using FTP, upload this directory to the /tmp directory of your Joomla installation on your webserver.
-3.Go to the **Joomla Extension Manager** (Joomla Administration / Extensions / Extension Manager / Install).
-4.Use the "Install from Directory" option to set the directory of your uploaded package files.
-5.Click on the "Install" button and Joomla will install it from the given directory.
+1. Unpack all files from the **ZL Framework** downloaded package to a directory on your pc.
+2. Using FTP, upload this directory to the /tmp directory of your Joomla installation on your webserver.
+3. Go to the **Joomla Extension Manager** (Joomla Administration / Extensions / Extension Manager / Install).
+4. Use the "Install from Directory" option to set the directory of your uploaded package files.
+5. Click on the "Install" button and Joomla will install it from the given directory.
 
 Translation
 ===========
