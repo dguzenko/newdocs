@@ -103,7 +103,7 @@ IMAGE HERE
 
 * **Name** - Allows to set element's name, that will be used in layouts and item properties.
 * **Description** - Allows to describe element shortly.
-* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to "Public".
+* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to *"Public".*
 
 ### Specific Parameters
 
@@ -199,4 +199,4 @@ Now that your layout is placed it can be selected when setting the Element view 
 Widgetkit
 =========
 
-*Widgetkit Map Widget* will not autorecognize the *Google Maps Pro* values, as a solution download and install the ZL Widget Plugin available in the Google Maps Pro product downloads. Once installed and enabled create new ZL Map widget and use it instead.
+*Widgetkit Map Widget*  will not autorecognize the *Google Maps Pro* values, as a solution download and install the ZL Widget Plugin available in the Google Maps Pro product downloads. Once installed and enabled create new ZL Map widget and use it instead.
