@@ -102,9 +102,9 @@ IMAGE HERE
 
 * **Name** - Allows to set element's name, that will be used in layouts and item properties.
 * **Description** - Allows to describe element shortly.
-* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to "Public".
-* **Repeatable** - Allows to set "Yes" if he wants to use a few of such elements per one application item.
-* **Instance Limit** - Allows to limit the number of element instances (usually used in combination with the Repeatable param).
+* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to *"Public"*.
+* **Repeatable** - Allows to set *"Yes"* if he wants to use a few of such elements per one application item.
+* **Instance Limit** - Allows to limit the number of element instances *(usually used in combination with the Repeatable param)*.
 
 ### Specific Parameters
 
@@ -152,7 +152,7 @@ For more information about the Layouts please review the [Layouts section](#para
 
 IMAGE HERE
 
-* **Offset** - Allows move the start point of rendering (e.g. 2, will make rendering start from instance 3).
+* **Offset** - Allows move the start point of rendering *(e.g. 2, will make rendering start from instance 3)*.
 * **Limit** - Allows to limit the number of instance to output.
 
 ### Separator Parameters
@@ -176,6 +176,7 @@ IMAGE HERE
   * **Unordered List** - wraps each instance with `<li>` tag and wrapp the result with `<ul>` tag.
   * **Ordered List** - wraps each instance with `<li>` tag and wrapp the result with `<ol>` tag.
   * **Custom** - allows to set your own separator
+
 
 * **Custom By** - only shown if By is set as Custom allows to specify a custom separator.
 * **Class** - allows to add custom class to the result if the separator wraps the content.
@@ -233,8 +234,11 @@ Copy one of the existing layouts in the path from the Step 1 and change it name 
 Your layout is ready but should be stored in a safe place, as we mentioned in the begining. You can place your custom layout in:
 
 * **media / zoo / custom_elements / textareapro / tmpl / render**
+
   This path will make the layout available for all the Apps.
+
 * **media / zoo / applications / [APP NAME] / elements / textareapro / tmpl / render**
+
   This path will make the layout available only for the App being placed in.
 
 When dealing with sublayout, remember it should be placed into **... / render / [MAIN LAYOUT] / _sublayouts** instead.
