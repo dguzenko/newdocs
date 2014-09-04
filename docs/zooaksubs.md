@@ -99,8 +99,7 @@ ZOOaksubs has a preset rules for the access evaluation. By default the rules are
 * **Exclude Selection** - the rule will be considered a match only when the following selections ARE NOT met.
 * **Ignore** - the rule will not be evaluated.
 
-Levels rule
------------
+### Levels rule
 
 This rule evaluates if the User has an active and valid Akeeba Subscription for the specified Levels.
 
@@ -113,8 +112,7 @@ IMAGE HERE
 * **Mode** - allows to choose if the User should have access to all (AND) levels or any (OR) of them.
 * **User** - allows to choose who will be the evaluated user, the current viewer (User) or the Item's Author (Author).
 
-Packages rule
--------------
+### Packages rule
 
 This rule evaluates if the User has an active and valid Akeeba Subscription for the specified Level package. The Package is just a list of Level synced Items IDs which are chosen by Related Items element.
 
@@ -145,16 +143,16 @@ You should add the following necesary fields:
 
 Optionally add the following ones:
 
-* **Description** - A textarea field that will store the Level description. Recommended Element: Textarea.
-* **Fixed expiration** - A date field that will store the Level fixed expiration date. The stored value should be formated as 0000-00-00 00:00:00. Recommended Element: Date.
-* **Forever** - A boolean field that will store the Level forever statement value. The stored value should be boolean (0 or 1). Recommended Element: Select or Radio.
-* **Sign-up fee** - A text field that will store the Level Sign-up fee. The stored value should be formated as 000.00. Recommended Element: Text Pro, will allow you to control the charachters limit.
-* **Order Text** - A textarea field that will store the text displayed when the User's subscription has been completed successfully. Recommended Element: Textarea.
-* **Cancel Text** - A textarea field that will store the text displayed when the User's subscription has NOT been completed successfully. Recommended Element: Textarea.
-* **Forbid renewals** - A boolean field that will store the Level Forbid renewals statement value. The stored value should be boolean (0 or 1). Recommended Element: Select or Radio.
-* **Recurring** - A boolean field that will store the Level recurring statement value. The stored value should be boolean (0 or 1). Recommended Element: Select or Radio.
-* **First expiration notification** - A text field that will store the Level First expiration notification (days). Only integrer value is allowed. Recommended Element: Text Pro, will allow you to control the charachters input.
-* **Second expiration notification** - A text field that will store the Level Second expiration notification (days). Only integrer value is allowed. Recommended Element: Text Pro, will allow you to control the charachters input.
+* **Description** - A textarea field that will store the Level description. Recommended Element: *Textarea*.
+* **Fixed expiration** - A date field that will store the Level fixed expiration date. The stored value should be formated as *0000-00-00 00:00:00*. Recommended Element: *Date*.
+* **Forever** - A boolean field that will store the Level forever statement value. The stored value should be boolean (0 or 1). Recommended Element: *Select* or *Radio*.
+* **Sign-up fee** - A text field that will store the Level Sign-up fee. The stored value should be formated as *000.00*. Recommended Element: *Text Pro*, will allow you to control the charachters limit.
+* **Order Text** - A textarea field that will store the text displayed when the User's subscription has been completed successfully. Recommended Element: *Textarea*.
+* **Cancel Text** - A textarea field that will store the text displayed when the User's subscription has NOT been completed successfully. Recommended Element: *Textarea*.
+* **Forbid renewals** - A boolean field that will store the Level Forbid renewals statement value. The stored value should be boolean (0 or 1). Recommended Element: *Select* or *Radio*.
+* **Recurring** - A boolean field that will store the Level recurring statement value. The stored value should be boolean (0 or 1). Recommended Element: *Select* or *Radio*.
+* **First expiration notification** - A text field that will store the Level First expiration notification (days). Only integrer value is allowed. Recommended Element: *Text Pro*, will allow you to control the charachters input.
+* **Second expiration notification** - A text field that will store the Level Second expiration notification (days). Only integrer value is allowed. Recommended Element: *Text Pro*, will allow you to control the charachters input.
 
 For more information on Level fields please review the [official Akeeba Subscription docs](https://www.akeebabackup.com/documentation/akeeba-subscriptions/subscription-levels.html).
 
