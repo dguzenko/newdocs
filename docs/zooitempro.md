@@ -68,7 +68,7 @@ The translations are managed by [Transifex](https://www.transifex.com/projects/p
 Layouts
 =======
 
-The ZOOitem Pro Layouts display the prefiltered Items with diferent styles and options but each of them use the same Filter and Order params that can be reviewed in the [Filter/Order Params section](#filter/order-params).
+The ZOOitem Pro Layouts display the prefiltered Items with diferent styles and options but each of them use the same Filter and Order params that can be reviewed in the [Filtering Params section](#filtering-params).
 
 Creating custom layouts is posible and recommended, more information can be found on the [Custom Layouts section](#custom-layouts).
 
@@ -103,8 +103,8 @@ Is the ZOOtrack Integration layout which will allow rendering special preselecti
 
 For more information please review the [ZOOtrack Product Page](https://www.zoolanders.com/extensions/zootrack).
 
-Filter/Order Params
-===================
+Filtering Params
+================
 
 ZOOitem Pro filter/order params are very extense and flexible, following is a resume of the common options.
 
@@ -141,7 +141,7 @@ Dates inputs supports special variables such as **[yesterday]**, **[today]** and
 Custom Layouts
 ==============
 
-Creating custom layouts with ZOOitem Pro is very easy, just copy/paste the Default layout file and folder changing it's name to some custom name. After that you can start adapting the layout as you needed and even adapt it's params editing the params.php file. You can add your own CSS styles using the style.css example file (just be sure to uncomment the loading style line in the layout file) or just use your template CSS files.
+Creating custom layouts with ZOOitem Pro is very easy, just copy/paste the Default layout file and folder changing it's name to some custom name. After that you can start adapting the layout as you needed and even adapt it's params editing the *params.php* file. You can add your own CSS styles using the style.css example file (just be sure to uncomment the loading style line in the layout file) or just use your template CSS files.
 
 [Add info about positions.xml which is not overrided on updates.]
 
