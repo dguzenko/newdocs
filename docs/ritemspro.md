@@ -103,7 +103,7 @@ IMAGE HERE
 
 * **Name** - Allows to set element's name, that will be used in layouts and item properties.
 * **Description** - Allows to describe element shortly.
-* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to "Public".
+* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to *"Public"*.
 
 ### Specific Parameters
 
@@ -113,7 +113,7 @@ IMAGE HERE
 ### Items Parameters
 
 * **Apps** - Allows to choose the Apps the items will be prefiltered by. No selection is equal to selecting all.
-* **Types - Allows to choose the Types the items will be prefiltered by. No selection is equal to selecting all.
+* **Types** - Allows to choose the Types the items will be prefiltered by. No selection is equal to selecting all.
 * **Bi-Related Elements** - Allows to chosee the elements from other Types that will be used for bi-directional relation. When a relation is made, the current Item will be also related from within the related Item. The relations are element based, multiple relations are allowed.
 
 Position Assignment
@@ -184,7 +184,7 @@ IMAGE HERE
 Layouts
 -------
 
-Listed are the inbuild layouts of Related Items Pro element but if those don't meet your project requirements you can [create your own](#customizations-layouts)ones.
+Listed are the inbuild layouts of Related Items Pro element but if those don't meet your project requirements you can [create your own](#customizations-layouts) ones.
 
 ### Default
 
@@ -194,7 +194,7 @@ The Default layout has several Sublayouts
 
 Displays the related Items rendered with the selected layouts.
 
-#### Widgetkit
+### Widgetkit
 
 Displays a Slideset, Slideshow or Accordion widget with the selected items as content.
 
@@ -237,7 +237,7 @@ Your layout is ready but should be stored in a safe place, as we mentioned in th
 
 When dealing with sublayout, remember it should be placed into **... / render / [MAIN LAYOUT] / _sublayouts** instead.
 
-**Note:** if the custom_elements folder does not exist, just create it.
+**Note:** if the **custom_elements** folder does not exist, just create it.
 
 ### Done!
 

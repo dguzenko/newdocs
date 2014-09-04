@@ -45,13 +45,13 @@ Once the installation process have finished the **ZL Elements** plugin should be
 
 #### Quick Note
 
-**Events** elements are installed under the same plugin, ZL Elements, as any other ZL Element for performance reasons. If you want to check it's installation, visit the ZOO configuration and edit any Type from any App. If **Related Items Pro & Image Pro & Texts & Date Pro & Google Maps Pro** shows up on the right section under ZOOlanders Group, then you're good to go!
+**Events** elements are installed under the same plugin, *ZL Elements*, as any other ZL Element for performance reasons. If you want to check it's installation, visit the ZOO configuration and edit any Type from any App. If **Related Items Pro & Image Pro & Texts & Date Pro & Google Maps Pro** shows up on the right section under *ZOOlanders* Group, then you're good to go!
 
 Configuration
 =============
 
-First steps
------------
+Steps
+-----
 
 ### Step 1. Set up the Type
 
@@ -65,9 +65,9 @@ The App is ready and you can proceede displaying it in the Frontend. Follow the 
 
 ### Step 3. Set up the Module
 
-Create and assign to a position a ZOO Events module setting up the App we have created in the Step 1 and the Menu Item created in the Step 2.
+Create and assign to a position a *ZOO Events* module setting up the App we have created in the Step 1 and the Menu Item created in the Step 2.
 
-For more information on the module please review it [Doc](#module).
+For more information on the module please review it [section](#module).
 
 Translation
 -----------

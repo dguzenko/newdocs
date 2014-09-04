@@ -51,7 +51,7 @@ Configuration
 =============
 
 First steps
------------------------
+-----------
 
 ### Set up the Type
 
@@ -104,9 +104,9 @@ IMAGE HERE
 
 * **Name** - Allows to set element's name, that will be used in layouts and item properties.
 * **Description** - Allows to describe element shortly.
-* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to "Public".
-* **Repeatable** - Allows to set "Yes" if he wants to use a few of such elements per one application item.
-* **Instance Limit** - Allows to limit the number of element instances (usually used in combination with the Repeatable param).
+* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to *"Public"*.
+* **Repeatable** - Allows to set *"Yes"* if he wants to use a few of such elements per one application item.
+* **Instance Limit** - Allows to limit the number of element instances (*usually used in combination with the Repeatable param*).
 
 ### Specific Parameters
 
@@ -195,12 +195,12 @@ Will render the formated date value.
 
 IMAGE HERE
 
-* **Date Format** - Allow to set the format by which to display the date. You can choose from several standard (PHP syntax) date formats or set your own one by choosing the Custom format option.
-* **Custom format** - Only shown when Date Format is set to Custom format allows to specify a custom date format following the PHP standard date string syntax. You can find a complete listing of availiable date/time formatting options here.
+* **Date Format** - Allow to set the format by which to display the date. You can choose from several standard (PHP syntax) date formats or set your own one by choosing the *Custom* format option.
+* **Custom format** - Only shown when *Date Format* is set to *Custom format* allows to specify a custom date format following the PHP standard date string syntax. You can find a complete listing of availiable date/time formatting options here.
 
 #### Event
 
-Will render the formated dates value with from and until indications.
+Will render the formated dates value with *from* and *until* indications.
 
 #### Resume
 
@@ -224,15 +224,16 @@ As much as we try to make our docs complete, with a system as versitle as ZOO an
 
 ### Step 1. Locate the layouts path
 
-The *Date Pro* layouts are located in **plugins / system / zoo_zlelements / zoo_zlelements / elements / datepro / tmpl / render** folder. If the layout supports sublayouts is those that you should work on, instead go to the **... / render / [MAIN LAYOUT] / _sublayouts folder**.
+The *Date Pro* layouts are located in **plugins / system / zoo_zlelements / zoo_zlelements / elements / datepro / tmpl / render** folder. If the layout supports sublayouts is those that you should work on, instead go to the **... / render / [MAIN LAYOUT] / _sublayouts** folder.
 
 ### Step 2. Create your layout
 
-Copy one of the existing layouts in the path from the Step 1 and change it name to a custom one. Be sure to keep the underscore _ at the begining of the file if it's a sublayout.
+Copy one of the existing layouts in the path from the Step 1 and change it name to a custom one. Be sure to keep the underscore `_`at the begining of the file if it's a sublayout.
 
 ### Step 3. Place your layout
 
 Your layout is ready but should be stored in a safe place, as we mentioned in the begining. You can place your custom layout in:
+
 
 * **media / zoo / custom_elements / datepro / tmpl / render**
 
@@ -254,4 +255,4 @@ Now that your layout is placed it can be selected when setting the Element view 
 Custom Formats
 ==============
 
-For more information about custom formats, parameters and examples, click [Here](https://php.net/manual/en/function.strftime.php)
+For more information about custom formats, parameters and examples, click [here](https://php.net/manual/en/function.strftime.php).

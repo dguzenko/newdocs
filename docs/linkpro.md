@@ -3,7 +3,7 @@ Link Pro
 
 This documentation offers help and guidance for ZOOlanders **Link Pro** Extension. More information about it can be find on the [official page](http://www.zoolanders.com/extensions/link-pro).
 
-*Link Pro* 3.x versions are compatible with Joomla! 2.5.x/3.x, ZOO 3.x and ZLFW 3.x. All previous versions, if available, are ONLY for Joomla 1.5 and are considered deprecated.
+**Link Pro** 3.x versions are compatible with Joomla! 2.5.x/3.x, ZOO 3.x and ZLFW 3.x. All previous versions, if available, are ONLY for Joomla 1.5 and are considered deprecated.
 
 Requirements
 ------------
@@ -102,9 +102,9 @@ IMAGE HERE
 
 * **Name** - Allows to set element's name, that will be used in layouts and item properties.
 * **Description** - Allows to describe element shortly.
-* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to "Public".
-* **Repeatable** - Allows to set "Yes" if he wants to use a few of such elements per one application item.
-* **Instance Limit** - Allows to limit the number of element instances (usually used in combination with the Repeatable param).
+* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to *"Public"*.
+* **Repeatable** - Allows to set *"Yes"* if he wants to use a few of such elements per one application item.
+* **Instance Limit** - Allows to limit the number of element instances *(usually used in combination with the Repeatable param)*.
 
 ### Specific Parameters
 
@@ -196,7 +196,7 @@ Displays the link tag.
 
 Renders the link raw url. Useful for further integrations.
 
-#### Widgetkit
+### Widgetkit
 
 Displays a Lightbox widget with the provided link as the source.
 
@@ -236,7 +236,7 @@ Your layout is ready but should be stored in a safe place, as we mentioned in th
 
   This path will make the layout available only for the App being placed in.
 
-When dealing with sublayout, remember it should be placed into ... / render / [MAIN LAYOUT] / _sublayouts instead.
+When dealing with sublayout, remember it should be placed into **... / render / [MAIN LAYOUT] / _sublayouts** instead.
 
 **Note**: if the **custom_elements** folder does not exist, just create it.
 

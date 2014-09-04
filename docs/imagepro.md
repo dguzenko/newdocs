@@ -45,7 +45,7 @@ Once the installation process have finished the **ZL Elements plugin** should be
 
 #### Quick Note
 
-**Image Pro** element is installed under the same plugin, ZL Elements, as any other ZL Element for performance reasons. If you want to check it's installation, visit the ZOO configuration and edit any Type from any App. If **Image Pro** shows up on the right section under ZOOlanders Group, then you're good to go!
+**Image Pro** element is installed under the same plugin, *ZL Elements*, as any other ZL Element for performance reasons. If you want to check it's installation, visit the ZOO configuration and edit any Type from any App. If **Image Pro** shows up on the right section under *ZOOlanders Group*, then you're good to go!
 
 Configuration
 =============
@@ -87,7 +87,7 @@ The default **en-GB.plg_system_zoo_zlelements_imagepro.ini** language file is lo
 
 Eg: **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zoo_zlelements_imagepro.ini**
 
-The translations are managed by [Transifex](http://joolanders.github.io/Docs/?ImagePro/translation) where you can download the available language files and submit your ones.
+The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can download the available language files and submit your ones.
 
 
 Params in detail
@@ -104,9 +104,9 @@ IMAGE HERE
 
 * **Name** - Allows to set element's name, that will be used in layouts and item properties.
 * **Description** - Allows to describe element shortly.
-* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to "Public".
+* **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to *"Public"*.
 * **Repeatable** - Allows to set "Yes" if he wants to use a few of such elements per one application item.
-* **Instance Limit** - Allows to limit the number of element instances (usually used in combination with the Repeatable param).
+* **Instance Limit** - Allows to limit the number of element instances *(usually used in combination with the Repeatable param)*.
 
 ### Edit Layout Parameters
 
@@ -127,19 +127,19 @@ IMAGE HERE
 
   You have three selections here: *Files, Folders, Both.*
   
-  * **Files:** You can select just files from your disk (and upload them), one by one.
-  * **Folders:** You can select just folders (but you can still upload files into the folders), one by one. The system will fetch the files contained in that folder automatically.
-  * **Both:** You can select both files and folders (and still upload files). The system will merge the files from the folders and the files you selected in a single list.
+  * **Files:** You can select ***just*** files from your disk (and upload them), one by one.
+  * **Folders:** You can select ***just*** folders (but you can still upload files into the folders), one by one. The system will fetch the files contained in that folder automatically.
+  * **Both:** You can select ***both*** files and folders (and still upload files). The system will merge the files from the folders and the files you selected in a single list.
 
 * **Default Source**.
 
-  Default file for download. If no source is specified in the Item, the specified default will be used on rendering.  
-  Can be a full path to a Folder or File.
+  Default file for download. If no source is specified in the Item, the *specified default will be used on rendering*.  
+  Can be a full path to a *Folder or File*.
   If you input **[authorname]** in the path, it will be replaced with the item's author name.
 
 * **Legal Extensions**.
 
-This allows you to limit the extensions of files to those, indicated here. The default (bmp|gif|jgp|jpeg|png) will only allow files with these extensions to be uploaded. You can add, remove or replace this list if needed. Separate multiple file extensions with a 'pipe' `|` character (no spaces).
+  This allows you to limit the extensions of files to those, indicated here. The default (bmp|gif|jgp|jpeg|png) will only allow files with these extensions to be uploaded. You can add, remove or replace this list if needed. Separate multiple file extensions with a 'pipe' `|` character (no spaces).
 
 * **File Directory Path**.
 
@@ -169,10 +169,10 @@ This allows you to limit the extensions of files to those, indicated here. The d
 
 ### Specific Parameters
 
-* **Custom Options** If set to yes, the user can set specific options for each image, like title, link, spotlight and lightbox effects.
+* **Custom Options** If set to *yes*, the user can set specific options for each image, like title, link, spotlight and lightbox effects.
 
-  * **Title** Allows to set a custom title for the image
-  * **Link** Allows to input a link which could be used by the rendering layout.
+  * **Title** Allows to set a *custom title* for the image
+  * **Link** Allows to input a *link* which could be used by the rendering layout.
   * **Lightbox** Allows to choose a specific image for the lightbox effect. This image will be shown when the image itself is clicked using a lightbox effect
   * **Spotlight** Allows to choose if the image should have a spotlight effect, and which type of it.
 
@@ -189,7 +189,7 @@ To follow these steps you should be in the app that you have.
 
 **Step 3**. Choose an image / click in **Spotlight** / click in selec and Choose fade , fade, bottom, top, right and left. you can choose between different animations / click on the text line and enter your text / save
 
-[here](http://www.yootheme.com/widgetkit/examples/spotlight) you can see some examples
+[Here](http://www.yootheme.com/widgetkit/examples/spotlight) you can see some examples
 
 Position Assignment
 -------------------
@@ -303,7 +303,7 @@ The *Image Pro* layouts are located in **plugins / system / zoo_zlelements / zoo
 
 ### Step 2. Create your layout
 
-Copy one of the existing layouts in the path from the Step 1 and change it name to a custom one. Be sure to keep the underscore _ at the begining of the file if it's a sublayout.
+Copy one of the existing layouts in the path from the Step 1 and change it name to a custom one. Be sure to keep the underscore `_` at the begining of the file if it's a sublayout.
 
 ### Step 3. Place your layout
 
@@ -319,7 +319,7 @@ Your layout is ready but should be stored in a safe place, as we mentioned in th
 
 When dealing with sublayout, remember it should be placed into ... / render / [MAIN LAYOUT] / _sublayouts instead.
 
-**Note**: if the custom_elements folder does not exist, just create it.
+**Note**: if the **custom_elements** folder does not exist, just create it.
 
 ### Done!
 

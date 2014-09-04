@@ -256,13 +256,13 @@ IMAGE HERE
 Quantity element
 ----------------
 
-Quantity element is quite easy to configure. You just need to specify the **Default** quantity value.
+*Quantity* element is quite easy to configure. You just need to specify the **Default** quantity value.
 
 IMAGE HERE
 
 ### Layout
 
-There is also only one specific parameter for Quantity element - Main Layout. It allows to choose layout for quantity value output among available ones.
+There is also only one specific parameter for *Quantity* element - *Main Layout*. It allows to choose layout for quantity value output among available ones.
 
 IMAGE HERE
 
