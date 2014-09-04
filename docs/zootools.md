@@ -102,8 +102,8 @@ There are two Layouts, *Section* and *Subsection*, each of them with it's own fe
 
 Provides you with a foldable (colapsable) section where the following elements will be wrapped. It has several options:
 
-* *Title* - Allows to set the title of the section.
-* *Fold feature* - Allows to set the fold feature.
+* **Title** - Allows to set the title of the section.
+* **Fold feature** - Allows to set the fold feature.
 
   * **Disabled** - This state turns off the folding functionality of the section so the entire contents of the section are always visible.
   * **Start unfolded** - This state turns on the folding, however, the contents of this section are initially displayed.Clicking on the section head in a form will fold the section.
