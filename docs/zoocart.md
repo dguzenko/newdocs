@@ -256,7 +256,7 @@ IMAGE HERE
 Quantity element
 ----------------
 
-Quantity element is quite easy to configure. You just need to specify the **Default** quantity value.
+*Quantity* element is quite easy to configure. You just need to specify the **Default** quantity value.
 
 IMAGE HERE
 
