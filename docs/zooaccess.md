@@ -60,6 +60,10 @@ Now that the base access is set we can override it completly or partially on eac
 
 You can also set the access to the Elements without base acces the same way you did in Step 1.
 
+### Done!
+
+Now your elements will be accessible only to the appropiate users.
+
 
 Translation
 -----------
