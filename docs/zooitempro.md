@@ -134,7 +134,7 @@ IMAGE HERE
 
 More options could be available for the Element specific filtering and ordering depending of the App/Type selected.
 
-### Tip
+#### Tip
 
 Dates inputs supports special variables such as **[yesterday]**, **[today]** and **[tomorrow]** which are very useful for creating dynamic filtering.
 
