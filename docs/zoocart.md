@@ -15,8 +15,8 @@ Requirements
 Installation
 ============
 
-Trough ZL Manager
------------------
+Trough ZOOlanders Manager
+-------------------------
 
 1. Go to *Joomla Administration / Components / ZOOlanders*.
 2. Set your zoolanders.com site login credentials trough the Options button.
