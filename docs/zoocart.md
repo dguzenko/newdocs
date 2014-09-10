@@ -53,11 +53,11 @@ Steps
 
 ### Step 1. Setup the Type
 
-You need to add ZOOcart elements: **“PricePro”** , **“Quantity”** and **“AddToCart”** to the item type, that will be used as a product type (e.g. Product, Article, e.t.c) of the chosen application. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types)
+You need to add ZOOcart elements: [**“PricePro”**](#elements-price-pro-element), [**“Quantity”**](#elements-quantity-element) and [**“ZOOcart”**](#elements-zoocart-element) to the item type, that will be used as a product type (e.g. Product, Article, e.t.c) of the chosen application. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types)
 
 #### Quick note
 
-Note, that for proper work ZOOcart requires ALL of these elements ( **"PricePro"** , **“Quantity”** and **“AddToCart”**) to be added to chosen type.
+Note, that for proper work ZOOcart requires ALL of these elements [**“PricePro”**](#elements-price-pro-element), [**“Quantity”**](#elements-quantity-element) and [**“ZOOcart”**](#elements-zoocart-element) to be added to chosen type.
 
 ### Step 2. Setup ZOOcart
 
@@ -266,10 +266,10 @@ There is also only one specific parameter for *Quantity* element - *Main Layout*
 
 IMAGE HERE
 
-Add to Cart element
+ZOOcart element
 -------------------
 
-For **Add to Cart** element you can set only one specific param:
+For **ZOOcart** element you can set only one specific param:
 
 IMAGE HERE
 
@@ -277,7 +277,7 @@ IMAGE HERE
 
 ### Layout
 
-To setup **Add To Cart** element's layout except the basic options you can specify the following ones:
+To setup **ZOOcart** element's layout except the basic options you can specify the following ones:
 
 IMAGE HERE
 
