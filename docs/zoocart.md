@@ -66,10 +66,10 @@ For more information review the [official ZOO docs](http://yootheme.com/zoo/docu
 Follow the Configuration Wizard messages - it will help you to complete the configuration step-by-step. 
 
 1. Go to the *Joomla Administration / Components / ZOOlanders /  ZOOcart tab / Settings* to configure **ZOOcart**.
-2. Create a new [tax class](#settings-taxes-tax-classes) and set its name. 
+2. Create a new [tax class](#settings-taxes-tax-classes-page) and set its name. 
 3. Create and configure [currencies](#settings-currencies).
-4. Configure the [address constituents and layouts](#settings-addresses-address-type). Select and configure the elements from the Element Library.
-5. Create and configure [shipping rates](#settings-shipping-shipping-rates).
+4. Configure the [address constituents and layouts](#settings-addresses-address-type-page). Select and configure the elements from the Element Library.
+5. Create and configure [shipping rates](#settings-shipping-shipping-rates-page).
 
 **Note:** 
 For some types of products (intangible assets) shipping is not required. You can set *“Enable Shipping Rates”* and *“Require Address”* options to *"No"* and ZOOcart will not require to specify a shipping rate and an address during checkout process.
