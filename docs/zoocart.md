@@ -53,9 +53,9 @@ User Guide: ZOOcart basic setup
 
 ### Step 1.  Setup the Type
 
-1.1 Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* (on the right side of the tab bar). Click on the app for which you want to setup a specific type *(for example: app "Product Catalog" and type "Product")*
-1.2 Click *Edit Elements* near the type name. Add required elements *“PricePro”, “Quantity”* and *“ZOOcart”* from the ZOOcart block of the Element Library. Other elements are optional. 
-1.3 Configure each of the chosen elements. If you are not familiar with this process please review the [Elements section](#elements).
+1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* (on the right side of the tab bar). Click on the app for which you want to setup a specific type *(for example: app "Product Catalog" and type "Product")*
+2. Click *Edit Elements* near the type name. Add required elements *“PricePro”, “Quantity”* and *“ZOOcart”* from the ZOOcart block of the Element Library. Other elements are optional. 
+3. Configure each of the chosen elements. If you are not familiar with this process please review the [Elements section](#elements).
 For more information review the [official ZOO docs](http://yootheme.com/zoo/documentation/advanced/extend-pre-build-types) 
 
 **Result:** Product type and its elements configurations are ready.  
@@ -65,11 +65,11 @@ For more information review the [official ZOO docs](http://yootheme.com/zoo/docu
 **Tip:**
 Follow the Configuration Wizard messages - it will help you to complete the configuration step-by-step. 
 
-2.1 Go to the *Joomla Administration / Components / ZOOlanders /  ZOOcart tab / Settings* to configure **ZOOcart**.
-2.2 Create a new [tax class](#settings-taxes-tax-classes) and set its name. 
-2.3 Create and configure [currencies](#settings-currencies).
-2.4 Configure the [address constituents and layouts](#settings-addresses-address-type). Select and configure the elements from the Element Library.
-2.5 Create and configure [shipping rates](#settings-shipping-shipping-rates).
+1. Go to the *Joomla Administration / Components / ZOOlanders /  ZOOcart tab / Settings* to configure **ZOOcart**.
+2. Create a new [tax class](#settings-taxes-tax-classes) and set its name. 
+3. Create and configure [currencies](#settings-currencies).
+4. Configure the [address constituents and layouts](#settings-addresses-address-type). Select and configure the elements from the Element Library.
+5. Create and configure [shipping rates](#settings-shipping-shipping-rates).
 
 **Note:** 
 For some types of products (intangible assets) shipping is not required. You can set *“Enable Shipping Rates”* and *“Require Address”* options to *"No"* and ZOOcart will not require to specify a shipping rate and an address during checkout process.
@@ -80,9 +80,9 @@ For more details about ZOOcart settings please review [this section](#settings).
 
 ### Step 3. Setup the Items
 
-3.1 Go to the *Joomla Administration / Components / ZOO/ App tab*. Choose the same app as in the Step 1 *(for example: app "Product Catalog")*
-3.2 Click the button *“New”* to create a new item and select the item type the same as in the Step 1. *(for example: type "Product")*
-3.3 Setup the details of the item.
+1. Go to the *Joomla Administration / Components / ZOO/ App tab*. Choose the same app as in the Step 1 *(for example: app "Product Catalog")*
+2. Click the button *“New”* to create a new item and select the item type the same as in the Step 1. *(for example: type "Product")*
+3. Setup the details of the item.
 
 Add and configure all necessary items. 
 
@@ -90,9 +90,9 @@ Add and configure all necessary items.
 
 Step 4. Setup the Layout
 
-4.1 Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app (for example: app "Product Catalog")
-4.2 Click on the chosen template layout in the specific type line (for example - Default: full)  
-4.3 Assign the elements to positions. 
+1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app (for example: app "Product Catalog")
+2. Click on the chosen template layout in the specific type line (for example - Default: full)  
+3. Assign the elements to positions. 
 For more information about layouts setup, please review the [ZOO official docs](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
 #### Done! 
