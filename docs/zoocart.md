@@ -143,16 +143,16 @@ To create/edit currency you need to set the following fields:
 
 IMAGE HERE
 
-**Name** - Currency name.
-**Code** - International currency 3-letter code (e.g. EUR, USD, e.t.c)
-**Symbol** - Allows to specify the symbol, that will be displayed with the price.
-**Format** - Allows to specify in what format the price with the currency symbol will be displayed (X-currency symbol, 0-digit). 
-**Number of Decimals** - Integer number value that specifies the number of signs after decimal separator for price.
-**Number of Decimals to Show** - Integer number value that specifies the number of signs after decimal separator for price that will be displayed.
-**Decimal Separator** - Determines the symbol, that will be used as decimal separator for price values.
-**Thousand Separator** - Determines the symbol, that will be used as thousand separator for price values.
-**Conversion Rate (USD)** - Allows to set conversation rate of the currency, relative to USD.
-**Status** - Enable/disable this currency
+* **Name** - Currency name.
+* **Code** - International currency 3-letter code (e.g. EUR, USD, e.t.c)
+* **Symbol** - Allows to specify the symbol, that will be displayed with the price.
+* **Format** - Allows to specify in what format the price with the currency symbol will be displayed (X-currency symbol, 0-digit). 
+* **Number of Decimals** - Integer number value that specifies the number of signs after decimal separator for price.
+* **Number of Decimals to Show** - Integer number value that specifies the number of signs after decimal separator for price that will be displayed.
+* **Decimal Separator** - Determines the symbol, that will be used as decimal separator for price values.
+* **Thousand Separator** - Determines the symbol, that will be used as thousand separator for price values.
+* **Conversion Rate (USD)** - Allows to set conversation rate of the currency, relative to USD.
+* **Status** - Enable/disable this currency
 
 Shipping
 --------
@@ -172,21 +172,21 @@ To describe the new shipping rate or update an existing you should specify the f
 
 IMAGE HERE
 
-**Name** - To setup Shipping rate name, that will be displayed.
-**Price** - To setup shipping price.
-**Type** - Chose rate type. It could be based on ordered items or entire order.
-**Price From** - Left price margin
-**Price To** - Right price margin
-**Quantity From** - Left quantity margin
-**Quantity To** - Right quantity margin
-**Weight From** - Left weight margin
-**Weight To** - Right weight margin
-**Countries** - Countries, that shipping rate could be applied to.
-**States** - Use to specify states, related to chosen countries.
-**Cities** - Use to specify cities, related to chosen countries.
-**ZIP Codes** - Comma-separated Zip codes or postal codes
-**User Groups** - Chose groups of users that could use this shipping rate.
-**Status** - Enable/disable this shipping rate
+* **Name** - To setup Shipping rate name, that will be displayed.
+* **Price** - To setup shipping price.
+* **Type** - Chose rate type. It could be based on ordered items or entire order.
+* **Price From** - Left price margin
+* **Price To** - Right price margin
+* **Quantity From** - Left quantity margin
+* **Quantity To** - Right quantity margin
+* **Weight From** - Left weight margin
+* **Weight To** - Right weight margin
+* **Countries** - Countries, that shipping rate could be applied to.
+* **States** - Use to specify states, related to chosen countries.
+* **Cities** - Use to specify cities, related to chosen countries.
+* **ZIP Codes** - Comma-separated Zip codes or postal codes
+* **User Groups** - Chose groups of users that could use this shipping rate.
+* **Status** - Enable/disable this shipping rate
 
 
 Discounts
@@ -224,8 +224,8 @@ To describe order state, you should setup the following fields:
 
 IMAGE HERE
 
-**Name** - New state name.
-**Description** - State description.
+* **Name** - New state name.
+* **Description** - State description.
 
 
 Addresses
@@ -276,14 +276,14 @@ To create new Tax Rule, you need to specify the following fields for it:
 
 IMAGE HERE
 
-**Country** - Use to specify the country for which this Tax Rule should be applied.
-**State** - Use to set state, inside the chosen country (Usualy it’s set like two letter code e.g. AA, BB e.t.c).
-**City** - Allows to specify the city.
-**ZIP Code** - ZIP code or Postal code of the appropriate location.
-**Tax Rate** - Tax rate (in percents), that will be applied to related products prices.
-**Tax Class** - Choose the related Tax Class. You can manage Tax Classes on the “Tax Classes” page.
-**Status** - Enable/disable this tax rule.
-**VIES** - Set to “Yes” if there are registered VAT for the specified region.
+* **Country** - Use to specify the country for which this Tax Rule should be applied.
+* **State** - Use to set state, inside the chosen country (Usualy it’s set like two letter code e.g. AA, BB e.t.c).
+* **City** - Allows to specify the city.
+* **ZIP Code** - ZIP code or Postal code of the appropriate location.
+* **Tax Rate** - Tax rate (in percents), that will be applied to related products prices.
+* **Tax Class** - Choose the related Tax Class. You can manage Tax Classes on the “Tax Classes” page.
+* **Status** - Enable/disable this tax rule.
+* **VIES** - Set to “Yes” if there are registered VAT for the specified region.
 
 Emails
 ------
@@ -292,17 +292,17 @@ Emails
 You can manage email notifications on the Email Tamplate page.
 
 
-**Type** – type of the email (new order, order state changed, etc.)
-**Language** – allows to specify language for which this email template will be applied.
+* **Type** – type of the email (new order, order state changed, etc.)
+* **Language** – allows to specify language for which this email template will be applied.
 
 Choose Email Type and Language and click "Proceed" button to configure the email tamplate further.
 
-**User Groups** –  email will be sent to chosen target group.
-**Subject** – Email subject
-**CC** – Carbon Copy. Send a copy of each email received to another address. 
+* **User Groups** –  email will be sent to chosen target group.
+* **Subject** – Email subject
+* **CC** – Carbon Copy. Send a copy of each email received to another address. 
 Separate multiple addresses with commas.
-**BCC** – Blind Carbon Copy. It is used if you are sending them a Copy and you don't wish the other recipients to see that you sent it to this contact. 
-**Template** –  Write your email body template here.
+* **BCC** – Blind Carbon Copy. It is used if you are sending them a Copy and you don't wish the other recipients to see that you sent it to this contact. 
+* **Template** –  Write your email body template here.
 
 You can use the following placeholders to setup emails Subject and Body templates:
 
