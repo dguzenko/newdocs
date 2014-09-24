@@ -88,7 +88,7 @@ Add and configure all necessary items.
 
 **Result:** Your products were added to the ZOO cart.   
 
-Step 4. Setup the Layout
+### Step 4. Setup the Layout
 
 1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app (for example: app "Product Catalog")
 2. Click on the chosen template layout in the specific type line (for example - Default: full)  
