@@ -306,14 +306,14 @@ Separate multiple addresses with commas.
 
 You can use the following placeholders to setup emails Subject and Body templates:
 
-`{sitename}` - To be replaced with Your site name 
-`{siteurl}` - To be replaced with Your site URL 
-`{user}` - To be replaced with user full name 
-`{username}` - To be replaced with user login 
-`{order_number}` - To be replaced with order number 
-`{order_link}` - To be replaced with order link 
-`{order_state}` - To be replaced with current order state 
-`{order_summary}` - To be replaced with ordered items list and order summary 
+* `{sitename}` - To be replaced with Your site name 
+* `{siteurl}` - To be replaced with Your site URL 
+* `{user}` - To be replaced with user full name 
+* `{username}` - To be replaced with user login 
+* `{order_number}` - To be replaced with order number 
+* `{order_link}` - To be replaced with order link 
+* `{order_state}` - To be replaced with current order state 
+* `{order_summary}` - To be replaced with ordered items list and order summary 
 
 **Status** – publication status
 
