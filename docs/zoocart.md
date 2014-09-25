@@ -53,7 +53,7 @@ User Guide: ZOOcart basic setup
 
 ### Step 1.  Setup the Type
 
-1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* (on the right side of the tab bar). Click on the app for which you want to setup a specific type *(for example: app "Product Catalog" and type "Product")*
+1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* (on the right side of the tab bar). Click on the app for which you want to setup a specific type *(e.g. app "Product Catalog" and type "Product")*
 2. Click *Edit Elements* near the type name. Add required elements *“PricePro”, “Quantity”* and *“ZOOcart”* from the ZOOcart block of the Element Library. Other elements are optional. 
 3. Configure each of the chosen elements. If you are not familiar with this process please review the [Elements section](#elements).
 For more information review the [official ZOO docs](http://yootheme.com/zoo/documentation/advanced/extend-pre-build-types).
@@ -80,8 +80,8 @@ For more details about ZOOcart settings please review [this section](#settings).
 
 ### Step 3. Setup the Items
 
-1. Go to the *Joomla Administration / Components / ZOO/ App tab*. Choose the same app as in the Step 1 *(for example: app "Product Catalog")*
-2. Click the button *“New”* to create a new item and select the item type the same as in the Step 1. *(for example: type "Product")*
+1. Go to the *Joomla Administration / Components / ZOO/ App tab*. Choose the same app as in the Step 1 *(e.g. app "Product Catalog")*
+2. Click the button *“New”* to create a new item and select the item type the same as in the Step 1. *(e.g. type "Product")*
 3. Setup the *Details* of the item.
 
 Add and configure all necessary items. 
@@ -90,8 +90,8 @@ Add and configure all necessary items.
 
 ### Step 4. Setup the Layout
 
-1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app *(for example: app "Product Catalog")*
-2. Click on the chosen template layout in the specific type line *(for example - Default: full)*  
+1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*
+2. Click on the chosen template layout in the specific type line *(e.g. Default: full)*  
 3. Assign the elements to positions. 
 For more information about layouts setup, please review the [ZOO official docs](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
@@ -376,3 +376,32 @@ IMAGE HERE
 * **Update the cart module?** - If set to "Yes", ZOOcart module state will be updated (if it is present on the current page).
 * **Avoid ReAdd** - Set this option to Yes to disallow repeatedly adding items to the cart by clicking the button time after time.
 * **Label for already in the cart** - To specify the text on the "Add to Cart" button when the appropriate item is already in the cart.
+
+Variations Element 
+------------------
+
+**ZOOcart Variations Element** is used for products that have variation parametes, such as color, size, etc. 
+
+### Configuration
+
+#### Step 1. Add and configure **Variations** element to your product type
+
+1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab*. Click on the app for which you want to setup a specific type *(e.g. app "Product Catalog" and type "Product")*
+2. Click *Edit Elements* near the type name. Add *"Variations"* element from the ZOOcart block of the Element Library. 
+3. Set **Name** and **Description** (if you need it) for the element and *save* these settings.
+4. Open the element again (Press Edit element). **Specific** settings will be enabled. 
+  * **Elements** setting allows you to specify element(s) that will vary for different products (e.g. for different  colors of product we can have different images)
+  * ** Attributes** settings allows to specify parameters of product that could vary (e.g. wear differs usually by colors and sizes). Set **Name**, **Value** and **Options** for the attribute. Please, note that all values for attributes and options should be set to avoid problems with synchronization.
+
+#### Step 2. Set variations for your product
+
+1.  Go to the *Joomla Administration / Components / ZOO / Shop*. Create or open some product.
+2.  Add and configure all necessary variations for the product in the *Variation* block.
+ 
+  * **Attributes** - select variation parameters from the dropdown menu;
+  * **Price** - set price for this variation of product;
+  * **Quantity** - specify quantity of this variation of product;
+  * **Elements** -
+
+
+
