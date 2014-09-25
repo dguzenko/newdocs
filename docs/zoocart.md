@@ -33,7 +33,7 @@ Trough Joomla Manager
 * Use the "Upload Package File" option to choose the previously downloaded package from your pc.
 * Click on the "Upload & Install" button.
 
-`ZOOcart requires ZOOlanders component to be installed (It is provided within ZOOcart package).`
+*ZOOcart requires ZOOlanders component to be installed (It is provided within ZOOcart package).*
 
 Once the installation process have finished the **ZOOcart** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
@@ -56,20 +56,20 @@ User Guide: ZOOcart basic setup
 1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* (on the right side of the tab bar). Click on the app for which you want to setup a specific type *(for example: app "Product Catalog" and type "Product")*
 2. Click *Edit Elements* near the type name. Add required elements *“PricePro”, “Quantity”* and *“ZOOcart”* from the ZOOcart block of the Element Library. Other elements are optional. 
 3. Configure each of the chosen elements. If you are not familiar with this process please review the [Elements section](#elements).
-For more information review the [official ZOO docs](http://yootheme.com/zoo/documentation/advanced/extend-pre-build-types) 
+For more information review the [official ZOO docs](http://yootheme.com/zoo/documentation/advanced/extend-pre-build-types).
 
 **Result:** Product type and its elements configurations are ready.  
 
 ### Step 2. Setup ZOOcart
 
 **Tip:**
-Follow the Configuration Wizard messages - it will help you to complete the configuration step-by-step. 
+Follow the *Configuration Wizard* messages - it will help you to complete the configuration step-by-step. 
 
 1. Go to the *Joomla Administration / Components / ZOOlanders /  ZOOcart tab / Settings* to configure **ZOOcart**.
 2. Create a new [tax class](#settings-taxes-tax-classes-page) and set its name. 
 3. Create and configure [currencies](#settings-currencies).
-4. Configure the [address constituents and layouts](#settings-addresses-address-type-page). Select and configure the elements from the Element Library.
-5. Create and configure [shipping rates](#settings-shipping-shipping-rates-page).
+4. Configure the [address constituents and layouts](#settings-addresses-address-types-page). Select and configure the elements from the Element Library.
+5. Create and configure [shipping rates](#settings-shipping-rates-page).
 
 **Note:** 
 For some types of products (intangible assets) shipping is not required. You can set *“Enable Shipping Rates”* and *“Require Address”* options to *"No"* and ZOOcart will not require to specify a shipping rate and an address during checkout process.
@@ -82,7 +82,7 @@ For more details about ZOOcart settings please review [this section](#settings).
 
 1. Go to the *Joomla Administration / Components / ZOO/ App tab*. Choose the same app as in the Step 1 *(for example: app "Product Catalog")*
 2. Click the button *“New”* to create a new item and select the item type the same as in the Step 1. *(for example: type "Product")*
-3. Setup the details of the item.
+3. Setup the *Details* of the item.
 
 Add and configure all necessary items. 
 
@@ -90,8 +90,8 @@ Add and configure all necessary items.
 
 ### Step 4. Setup the Layout
 
-1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app (for example: app "Product Catalog")
-2. Click on the chosen template layout in the specific type line (for example - Default: full)  
+1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app *(for example: app "Product Catalog")*
+2. Click on the chosen template layout in the specific type line *(for example - Default: full)*  
 3. Assign the elements to positions. 
 For more information about layouts setup, please review the [ZOO official docs](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
@@ -135,7 +135,7 @@ General
 Currencies
 ----------
 
-* **Default Currency** - Allows to chose default currency for product prices. You can manage currencies on the “Currencies” page.
+* **Default Currency** - Allows to chose default currency for product prices. You can manage currencies on the *“Currencies”* page.
 
 ### Currencies page
 
@@ -164,7 +164,7 @@ Recommended to use in combination with Show prices with tax option.
 
 ### Rates page
 
-If the option *“Enable Shipping Rates”* (on the Shipping tab) is set to “Yes”, you should provide some shipping rates. You can manage them on the “Rates” page.
+If the option *“Enable Shipping Rates”* (on the Shipping tab) is set to “Yes”, you should provide some shipping rates. You can manage them on the *“Rates”* page.
 
 IMAGE HERE
 
@@ -192,7 +192,7 @@ IMAGE HERE
 Discounts
 ---------
 
-* **Allow discounts** – If set to “Yes” discounting will be applied for orders, if discount coupon is provided .You can manage your discounting on the page ZOOcart tab / Discounts. 
+* **Allow discounts** – If set to “Yes” discounting will be applied for orders, if discount coupon is provided .You can manage your discounting on the page *ZOOcart tab / Discounts*. 
 * **Apply discount before tax** - If set to “Yes” discounting will be applied for the tax free price, otherwise it will be applied after tax calculations .
 
 
@@ -245,12 +245,12 @@ Important! Set corresponding "Billing information" parameter for each element.
 
 IMAGE HERE
 
-To configure Address layout (e.g. Billing Form, Billing, Shipping Form, Shipping) click appropriate layout’s name in the Layouts collumn on the “Address Types” page. Address layout can be configured like any other ZOO layout. Setup appropriate layout positions and save changes.
+To configure Address layout *(e.g. Billing Form, Billing, Shipping Form, Shipping)* click appropriate layout’s name in the Layouts collumn on the *“Address Types”* page. Address layout can be configured like any other ZOO layout. Setup appropriate layout positions and save changes.
 
 Taxes
 -----
 
-* **Default Tax Class** - You can choose Tax Class, that will be used as default for products without explicit tax class assigned (You can manage Tax classes on the “Tax Classes” page).
+* **Default Tax Class** - You can choose Tax Class, that will be used as default for products without explicit tax class assigned (You can manage Tax classes on the *“Tax Classes”* page).
 * **Shipping Tax Class** – You can specify separate tax class for shipping (different from product tax class). Also you can set option -default- and Default tax class will be applied to shipping fee, or set -none- if you don't need taxes to be calculated for shipping at all.
 * **Show price and fees with tax** -  If set to “Yes” the product price will be recounted displayed with tax.
 * **Validate VAT using VIES?** - If set to “Yes” and VAT (Value Added Tax) is populated, VAT will be validated using EU VIES service. (http://ec.europa.eu/taxation_customs/vies/faq.html).
@@ -295,7 +295,7 @@ You can manage email notifications on the Email Tamplate page.
 * **Type** – type of the email (new order, order state changed, etc.)
 * **Language** – allows to specify language for which this email template will be applied.
 
-Choose Email Type and Language and click "Proceed" button to configure the email tamplate further.
+Choose Email Type and Language and click *"Proceed"* button to configure the email tamplate further.
 
 * **User Groups** –  email will be sent to chosen target group.
 * **Subject** – Email subject
