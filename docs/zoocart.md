@@ -253,7 +253,7 @@ Taxes
 * **Default Tax Class** - You can choose Tax Class, that will be used as default for products without explicit tax class assigned (You can manage Tax classes on the *“Tax Classes”* page).
 * **Shipping Tax Class** – You can specify separate tax class for shipping (different from product tax class). Also you can set option -default- and Default tax class will be applied to shipping fee, or set -none- if you don't need taxes to be calculated for shipping at all.
 * **Show price and fees with tax** -  If set to “Yes” the product price will be recounted displayed with tax.
-* **Validate VAT using VIES?** - If set to “Yes” and VAT (Value Added Tax) is populated, VAT will be validated using EU VIES service. (http://ec.europa.eu/taxation_customs/vies/faq.html).
+* **Validate VAT using VIES?** - If set to “Yes” and VAT (Value Added Tax) is populated, VAT will be validated using [EU VIES service](http://ec.europa.eu/taxation_customs/vies/faq.html).
 * **Stop if VAT is not VIES?** - If set to “Yes” and VAT validation enabled, checkout will be not proceeded if VAT (Value Added Tax) is not valid.
 
 ### Tax Classes Page
@@ -391,7 +391,7 @@ Variations Element
 3. Set **Name** and **Description** (if you need it) for the element and *save* these settings.
 4. Open the element again (Press Edit element). **Specific** settings will be available. 
   * **Elements** setting allows you to specify element(s) of different variations of products *(e.g. for different  colors of product we can have different images)*.
-  * ** Attributes** settings allows to specify parameters of product that could vary *(e.g. wear differs usually by colors and sizes)*. Set **Name**, **Value** and **Options** for the attribute. Please, note that all values for attributes and options should be set to avoid problems with synchronization.
+  * **Attributes** settings allows to specify parameters of product that could vary *(e.g. wear differs usually by colors and sizes)*. Set **Name**, **Value** and **Options** for the attribute. Please, note that all values for attributes and options should be set to avoid problems with synchronization.
 
 #### Step 2. Set Variations for Your Product
 
