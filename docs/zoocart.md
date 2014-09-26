@@ -418,7 +418,7 @@ Variations Element
 
 Variations have such **specific** parameters: 
 
-* **Elements** - You can connect variable elements with the product type. Please note, that necessary elements should be added to the type. *(e.g. For different  colors of product we can have different images. Choose Product > Image option to have an abbility to add images for diffent variations of the product while setting variations)*.
+* **Elements** - You can connect variable elements with the product type. Please note, that necessary elements should be added. *(e.g. For different  colors of product we can have different images. Choose Product > Image option to have an abbility to add images for diffent variations of the product while setting variations)*.
 * **Attributes** - this settings allow to specify different parameters of product and their options *(e.g. Attribute: Size; Options: S, M, L)*.
 
 ### Layout
