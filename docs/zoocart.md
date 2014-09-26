@@ -104,34 +104,37 @@ Variations
 
 ### Step 1. Setup the Element
 
-1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
+1. Go to the *Joomla Administration / Components / ZOO / gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
 2. Click *Edit Elements* near the type name. Add *"Variations"* element from the ZOOcart block of the Element Library. 
 3. Set **Name** and **Description** (if you need it) for the element and *save* these settings.
 4. Open the element again (Press Edit element). **Specific** settings will be available. 
   * **Elements** setting allows you to specify element(s) of different variations of products *(e.g. for different  colors of product we can have different images)*.
   * **Attributes** settings allows to specify parameters of product that could vary *(e.g. wear differs usually by colors and sizes)*. Set **Name**, **Value** and **Options** for the attribute. Please, note that all values for attributes and options should be set to avoid problems with synchronization.
 
-### Step 2. Setup Variations
+### Step 2. Fill in the Variations
 
-1.  Go to the *Joomla Administration / Components / ZOO / Shop*. Create or open some product.
-2.  Add and configure all necessary variations for the product in the *Variation* block.
+Now that the Variations Element is set, we can edit our Products and the necessary variations.
+
+1. Go to the *Joomla Administration / Components / ZOO* and create or edit some Product.
+2. Search for the Variations Elements we have set in the Step 1.
+3. Choose the Attributes of the first Variation.
+4. Set the price, in the Price Tab, for the Variation.
+5. Set the quantity, in the Quantity Tab, for the Variation.
+6. Optionally, override the Elements value for this Variation in the Elements Tab. *This option allows to have different Images for each Variation, e.g. different T-Shirt colors*
  
-  * **Attributes** - select variation parameters from the dropdown menu.
-  * **Price** - set price for this variation of product.
-  * **Quantity** - specify amount of products with given attributes.
-  * **Elements** - specify the element(s) seleced in the Step 1 for this variation of product.  
+Each Element instance represents a Product variation, repeat the steps 3 to 6 to set them all or just the ones you need.
 
 
 ### Step 3. Setup the Layout 
 
-1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
+1. Go to the *Joomla Administration / Components / ZOO / gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
 2. Click on the chosen template layout in the specific type line *(e.g. Default: full)*.  
 3. Assign the element to necessary position. 
 For more information about layouts setup, please review the [ZOO official docs](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
 ### Done! 
 
-**Variations** element configuration is ready. Variation options should be available in your ZOOcart.
+**Variations** are ready, a dropdown with the possible Products Attribures should be visible in your Product view.
 
 Translation
 -----------
@@ -421,6 +424,13 @@ Variations have such **specific** parameters:
 * **Elements** - You can connect variable elements with the product type. Please note, that necessary elements should be added. *(e.g. For different  colors of product we can have different images. Choose Product > Image option to have an abbility to add images for diffent variations of the product while setting variations)*.
 * **Attributes** - this settings allow to specify different parameters of product and their options *(e.g. Attribute: Size; Options: S, M, L)*.
 
-### Layout
+### Edit Layout
+
+* **Attributes** - select variation parameters from the dropdown menu.
+* **Price** - set price for this variation of product.
+* **Quantity** - specify amount of products with given attributes.
+* **Elements** - specify the element(s) seleced in the Step 1 for this variation of product.
+
+### Render Layout
 
 There is also only one specific parameter for *Variations* element - *Main Layout*. It allows to choose layout for quantity value output among available ones.
