@@ -48,8 +48,8 @@ Once the installation process have finished the **ZOOcart** plugin should be ins
 Configuration
 =============
 
-User Guide: ZOOcart Basic Setup
--------------------------------
+First Steps
+-----------
 
 ### Step 1.  Setup the Type
 
@@ -95,9 +95,43 @@ Add and configure all necessary items.
 3. Assign the elements to positions. 
 For more information about layouts setup, please review the [ZOO official docs](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
-#### Done! 
+### Done! 
 
 Your ZOOcart basic setup is ready! 
+
+Variations
+----------
+
+### Step 1. Add and Configure the **Variations** Element for Your Product Type
+
+1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
+2. Click *Edit Elements* near the type name. Add *"Variations"* element from the ZOOcart block of the Element Library. 
+3. Set **Name** and **Description** (if you need it) for the element and *save* these settings.
+4. Open the element again (Press Edit element). **Specific** settings will be available. 
+  * **Elements** setting allows you to specify element(s) of different variations of products *(e.g. for different  colors of product we can have different images)*.
+  * **Attributes** settings allows to specify parameters of product that could vary *(e.g. wear differs usually by colors and sizes)*. Set **Name**, **Value** and **Options** for the attribute. Please, note that all values for attributes and options should be set to avoid problems with synchronization.
+
+### Step 2. Set Variations for Your Product
+
+1.  Go to the *Joomla Administration / Components / ZOO / Shop*. Create or open some product.
+2.  Add and configure all necessary variations for the product in the *Variation* block.
+ 
+  * **Attributes** - select variation parameters from the dropdown menu.
+  * **Price** - set price for this variation of product.
+  * **Quantity** - specify amount of products with given attributes.
+  * **Elements** - specify the element(s) seleced in the Step 1 for this variation of product.  
+
+
+### Step 3. Set the **Variations** Element Position in the Layout 
+
+1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
+2. Click on the chosen template layout in the specific type line *(e.g. Default: full)*.  
+3. Assign the element to necessary position. 
+For more information about layouts setup, please review the [ZOO official docs](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
+
+### Done! 
+
+**Variations** element configuration is ready. Variation options should be available in your ZOOcart.
 
 Translation
 -----------
@@ -351,7 +385,7 @@ There is also only one specific parameter for *Quantity* element - *Main Layout*
 IMAGE HERE
 
 ZOOcart Element
--------------------
+---------------
 
 For **ZOOcart** element you can set only one specific param:
 
@@ -382,35 +416,11 @@ Variations Element
 
 **ZOOcart Variations Element** is used for products that have variation parametes, such as color, size, etc. 
 
-### Configuration
+Variations have such **specific** parameters: 
 
-#### Step 1. Add and Configure the **Variations** Element for Your Product Type
+* **Elements** - You can connect variable elements with the product type. Please note, that necessary elements should be added to the type. *(e.g. For different  colors of product we can have different images. Choose Product > Image option to have an abbility to add images for diffent variations of the product while setting variations)*.
+* **Attributes** - this settings allow to specify different parameters of product and their options *(e.g. Attribute: Size; Options: S, M, L)*.
 
-1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
-2. Click *Edit Elements* near the type name. Add *"Variations"* element from the ZOOcart block of the Element Library. 
-3. Set **Name** and **Description** (if you need it) for the element and *save* these settings.
-4. Open the element again (Press Edit element). **Specific** settings will be available. 
-  * **Elements** setting allows you to specify element(s) of different variations of products *(e.g. for different  colors of product we can have different images)*.
-  * **Attributes** settings allows to specify parameters of product that could vary *(e.g. wear differs usually by colors and sizes)*. Set **Name**, **Value** and **Options** for the attribute. Please, note that all values for attributes and options should be set to avoid problems with synchronization.
+### Layout
 
-#### Step 2. Set Variations for Your Product
-
-1.  Go to the *Joomla Administration / Components / ZOO / Shop*. Create or open some product.
-2.  Add and configure all necessary variations for the product in the *Variation* block.
- 
-  * **Attributes** - select variation parameters from the dropdown menu.
-  * **Price** - set price for this variation of product.
-  * **Quantity** - specify amount of products with given attributes.
-  * **Elements** - specify the element(s) seleced in the Step 1 for this variation of product.  
-
-
-#### Step 3. Set the **Variations** Element Position in the Layout 
-
-1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
-2. Click on the chosen template layout in the specific type line *(e.g. Default: full)*.  
-3. Assign the element to necessary position. 
-For more information about layouts setup, please review the [ZOO official docs](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
-
-#### Done! 
-
-**Variations** element configuration is ready. Variation options should be available in your ZOOcart.
+There is also only one specific parameter for *Variations* element - *Main Layout*. It allows to choose layout for quantity value output among available ones.
