@@ -120,16 +120,21 @@ Now that the Variations Element is set, we can edit our Products and the necessa
 3. Choose the Attributes of the first Variation.
 4. Set the price, in the Price Tab, for the Variation.
 5. Set the quantity, in the Quantity Tab, for the Variation.
-6. Optionally, override the Elements value for this Variation in the Elements Tab. *This option allows to have different Images for each Variation, e.g. different T-Shirt colors*
+6. Optionally, override the Elements value for this Variation in the Elements Tab. *This option allows to have different Images for each Variation, e.g. different T-Shirt colors*.
  
 Each Element instance represents a Product variation, repeat the steps 3 to 6 to set them all or just the ones you need.
 
 
-### Step 3. Setup the Layout 
+### Step 3. Setup the Layouts 
 
 1. Go to the *Joomla Administration / Components / ZOO / gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
-2. Click on the chosen template layout in the specific type line *(e.g. Default: full)*.  
-3. Assign the element to necessary position. 
+2. Setup *template* layouts *(e.g. Default: Full and Teaser)*. Click on the layout in the specific type line and assign the elements to positions. 
+   * **Full** layout is used for full item view
+   * **Teaser** layout is used for teaser item view on the frontpage. 
+3. Setup *extension* layouts **ZOOcart: Cart and Order**. Click on the layout in the specific type line and assign the elements to positions.
+   * **Cart** layout is used for checkout page view.
+   * **Order** layout is used for order page view.
+
 For more information about layouts setup, please review the [ZOO official docs](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
 ### Done! 
@@ -427,9 +432,9 @@ Variations have such **specific** parameters:
 ### Edit Layout
 
 * **Attributes** - select variation parameters from the dropdown menu.
-* **Price** - set price for this variation of product.
+* **Price** - set price for each variation of product.
 * **Quantity** - specify amount of products with given attributes.
-* **Elements** - specify the element(s) seleced in the Step 1 for this variation of product.
+* **Elements** - specify the element(s) seleced in the Step 1 of [configuration guide](#configuration-variations) for this variation of product.
 
 ### Render Layout
 
