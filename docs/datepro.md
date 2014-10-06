@@ -189,7 +189,7 @@ Listed are the inbuild layouts of Date Pro element but if those don't meet your 
 
 The Default layout has several Sublayouts
 
-#### Default
+**Default**
 
 Will render the formated date value.
 
@@ -198,11 +198,11 @@ IMAGE HERE
 * **Date Format** - Allow to set the format by which to display the date. You can choose from several standard (PHP syntax) date formats or set your own one by choosing the *Custom* format option.
 * **Custom format** - Only shown when *Date Format* is set to *Custom format* allows to specify a custom date format following the PHP standard date string syntax. You can find a complete listing of availiable date/time formatting options here.
 
-#### Event
+**Event**
 
 Will render the formated dates value with *from* and *until* indications.
 
-#### Resume
+**Resume**
 
 Will render a clever resume of the Dates when there are several dates and/or hours stated.
 

@@ -259,31 +259,31 @@ Listed are the inbuild layouts of Download Pro element but if those don't meet y
 
 The Default layout has several Sublayouts
 
-####Default
+**Default**
 
 Displays a link to the file.
 
-####Button link
+**Button link**
 
 Displays a nice button with a download action.
 
-####Download Limit
+**Download Limit**
 
 Displays the download limit value.
 
-####File Hits
+**File Hits**
 
 Displays the number of times the file was downloaded.
 
-####File Size
+**File Size**
 
 Displays the file size.
 
-####Image Link
+**Image Link**
 
 Displays an nice image, diferent for each extension type, with a link to the file.
 
-####Raw Link
+**Raw Link**
 
 Renders a raw URL to the file. Useful for further integrations.
 

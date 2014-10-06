@@ -188,11 +188,11 @@ Listed are the inbuild layouts of Link Pro element but if those don't meet your 
 
 The Default layout has several Sublayouts
 
-#### Default
+**Default**
 
 Displays the link tag.
 
-#### Raw Link
+**Raw Link**
 
 Renders the link raw url. Useful for further integrations.
 

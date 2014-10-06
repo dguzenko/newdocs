@@ -125,7 +125,7 @@ It is only posible to compare Items from the same Type/App at a time and you wou
 
 IMAGE HERE
 
-* App
+* **App**
 
   * **App** - allows to choose the App Instance to be used within this module.
   * **Type** - allows to choose the Type to be used within this module.
@@ -136,7 +136,7 @@ IMAGE HERE
   * **Item row Layout** - allows to choose the Layout to be used for the Item row rendering.
   * **Style** - allows to choose the Layout style, Vertical or Horizontal.
 
-* General
+* **General**
 
   * **Result Page ItemId** - allows to choose the Joomla Menu Item to be attached to the compare link.
   * **Module Class Suffix** - allows to set a module class suffix for specific module styling.
@@ -168,7 +168,7 @@ IMAGE HERE
   * **Main Header**
 
    Will render a Header with the appropiate Item name on each column.
-
+   
    * **Link to item** - allows to choose if the Item name should be linkable to the Item full view.
    * **Remove button** - allows to choose if beside the Item name it should be displayed a button which will remove the Item from the table.
 
@@ -183,9 +183,9 @@ IMAGE HERE
 
   Will offer a Toolbar related displays, such as Download CSV, Restore Chart and Restore Hidden buttons.
 
-  * **Download CSV** - allows to download a CSV of the currently displayed Chart data.
-  * **Restore Chart** - allows to restore the Chart to it's initial state, if some Items was removed for example.
-  * **Restore Hidden** - allows to restore the hidden rows.
+   * **Download CSV** - allows to download a CSV of the currently displayed Chart data.
+   * **Restore Chart** - allows to restore the Chart to it's initial state, if some Items was removed for example.
+   * **Restore Hidden** - allows to restore the hidden rows.
 
 Upgrading to v3
 ===============

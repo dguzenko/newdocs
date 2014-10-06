@@ -265,15 +265,15 @@ Listed are the inbuild layouts of Download Pro element but if those don't meet y
 
 The Default layout has several Sublayouts
 
-#### Default
+**Default**
 
 Displays the resized and cached image.
 
-#### No cache
+**No cache**
 
 Displays the source image without caching it.
 
-#### Raw path
+**Raw path**
 
 Renders the image raw url. Useful for further integrations.
 
