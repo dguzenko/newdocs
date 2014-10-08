@@ -59,16 +59,6 @@ The Module will display the prefiltered Items with the chosen layout style.
 Translation
 -----------
 
- and the translation should be placed into the language related folder replacing the **en-GB** part.
-
-Eg:
-
-The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can download the available language files and submit your ones.
-
-
-Translation
------------
-
 The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can get the latest versions and participate as translator.
 
 You can install the translations:
