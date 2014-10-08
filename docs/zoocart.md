@@ -144,19 +144,27 @@ For more information about layouts setup, please review the [ZOO official docs](
 Translation
 -----------
 
-The default **en-GB.plg_system_zoocart.ini** language file is located in the **administrator/language/en-GB** folder and the translation should be placed into the language related folder replacing the **en-GB** part.
+The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can get the latest versions and participate as translator.
 
-Eg: **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zoocart.ini**
+You can install the translations:
 
-The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can download the available language files and submit your ones.
+### Manually
 
-### Payment plugins
+Download the files from Transifex and place them into **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zoocart.ini**
+
+### Trough the ZL Component
+
+Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
+
+**Note:** The default **en-GB.plg_system_zoocart.ini** language file is located in the **administrator/language/en-GB** folder.
+
+**Payment plugins**
 
 The ZOOcart payment plugins language files are located in the **administrator/language/en-GB** folder with the and the translation should be placed into the language related folder replacing the **en-GB** part.
 
 Eg: **administrator/language/YOUR-LANG/YOUR-LANG.plg_zoocart_payment_PLUGINNAME.ini**
 
-### Shipping plugins
+**Shipping plugins**
 
 The ZOOcart shipping plugins language files are located in the **administrator/language/en-GB** folder with the and the translation should be placed into the language related folder replacing the **en-GB** part.
 
