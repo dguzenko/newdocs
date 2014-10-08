@@ -35,13 +35,20 @@ Once the installation process have finished the **ZOOlanders component** should 
 Translation
 -----------
 
-Only ZL Framework translation is necessary. 
+**Note:** ZL Component relies on ZLFW for its translation. 
 
 The default **en-GB.plg_system_zlframework.ini** language file is located in the **administrator/language/en-GB** folder and the translation should be placed into the language related folder replacing the **en-GB** part.
-
 Eg: **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zlframework.ini**
 
+You can manage translations manually or trough ZL Component.
+
+### Manually
+
 The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can download the available language files and submit your ones.
+
+### Trough the ZL Component
+
+Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations. 
 
 ZOOlanders constituents
 =======================
