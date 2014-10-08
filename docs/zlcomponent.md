@@ -32,6 +32,17 @@ Once the installation process have finished the **ZOOlanders component** should 
 4. Use the “Install from Directory” option to set the directory of your uploaded package files.
 5. Click on the “Install” button and Joomla will install it from the given directory.
 
+Translation
+-----------
+
+Only ZL Framework translation is necessary. 
+
+The default **en-GB.plg_system_zlframework.ini** language file is located in the **administrator/language/en-GB** folder and the translation should be placed into the language related folder replacing the **en-GB** part.
+
+Eg: **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zlframework.ini**
+
+The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can download the available language files and submit your ones.
+
 ZOOlanders constituents
 =======================
 
