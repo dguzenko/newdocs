@@ -64,15 +64,22 @@ You can also set the access to the Elements without base acces the same way you 
 
 Now your elements will be accessible only to the appropiate users.
 
-
 Translation
 -----------
 
-The default **en-GB.plg_system_zooaccess.ini** language file is located in the **administrator/language/en-GB** folder and the translation should be placed into the language related folder replacing the **en-GB** part.
+The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can get the latest versions and participate as translator.
 
-Eg: **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zooaccess.ini**
+You can install the translations:
 
-The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can download the available language files and submit your ones.
+### Manually
+
+Download the files from Transifex and place them into **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zooaccess.ini**
+
+### Trough the ZL Component
+
+Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
+
+**Note:** The default **en-GB.plg_system_zooaccess.ini** language file is located in the **administrator/language/en-GB** folder.
 
 Elements Access
 ===============
