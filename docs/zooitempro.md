@@ -59,11 +59,29 @@ The Module will display the prefiltered Items with the chosen layout style.
 Translation
 -----------
 
-The **default en-GB.mod_zooitempro.ini** language file is located in the **language/en-GB** folder and the translation should be placed into the language related folder replacing the **en-GB** part.
+ and the translation should be placed into the language related folder replacing the **en-GB** part.
 
-Eg: **language/YOUR-LANG/YOUR-LANG.mod_zooitempro.ini**
+Eg:
 
 The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can download the available language files and submit your ones.
+
+
+Translation
+-----------
+
+The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can get the latest versions and participate as translator.
+
+You can install the translations:
+
+### Manually
+
+Download the files from Transifex and place them into **language/YOUR-LANG/YOUR-LANG.mod_zooitempro.ini**
+
+### Trough the ZL Component
+
+Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
+
+**Note:** The **default en-GB.mod_zooitempro.ini** language file is located in the **language/en-GB** folder.
 
 Layouts
 =======
