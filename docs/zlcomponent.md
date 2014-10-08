@@ -1,20 +1,20 @@
-ZOOlanders component
+ZOOlanders Component
 ====================
 
 This documentation offers help and guidance for **ZOOlanders component**. More information about it can be found on the [official page](https://www.zoolanders.com/extensions/zoolanders).
 
 **ZOOlanders component** 3.x versions are compatible with Joomla! 2.5.x/3.x and ZOO 3.x. All previous versions, if available, are ONLY for Joomla 1.5 and are considered deprecated.
 
-REQUIREMENTS
+Requirement
 ------------
 
 * **[Joomla](http://www.joomla.org/) 2.5.6** or higher
 * **[ZOO](http://www.yootheme.com/zoo) 3.1** or higher
 
-INSTALLATION
+Installation
 ============
 
-TROUGH JOOMLA MANAGER
+Trough Joomla Manager
 ---------------------
 
 1. Download  **ZOOlanders** package from [ZOOlanders site](https://www.zoolanders.com/extensions/zoolanders).
@@ -37,20 +37,21 @@ Translation
 
 **Note:** ZL Component relies on ZLFW for its translation. 
 
-The default **en-GB.plg_system_zlframework.ini** language file is located in the **administrator/language/en-GB** folder and the translation should be placed into the language related folder replacing the **en-GB** part.
-Eg: **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zlframework.ini**
+The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can get the latest versions and participate as translator.
 
-You can manage translations manually or trough ZL Component.
+You can install the translations:
 
 ### Manually
 
-The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can download the available language files and submit your ones.
+Download the files from Transifex and place them into **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zlframework.ini**
 
 ### Trough the ZL Component
 
-Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations. 
+Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
 
-ZOOlanders constituents
+**Note:** The default **en-GB.plg_system_zlframework.ini** language file is located in the **administrator/language/en-GB** folder.
+
+ZOOlanders Constituents
 =======================
 
 ### ZL Farmework 
