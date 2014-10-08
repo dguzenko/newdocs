@@ -72,11 +72,19 @@ For more information on the module please review it [section](#module).
 Translation
 -----------
 
-The default **en-GB.com_zoo.ini** language file is located in the **media/zoo/applications/events/language/en-GB** folder and the translation should be placed into the language related folder replacing the **en-GB** part.
+The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can get the latest versions and participate as translator.
 
-Eg: **media/zoo/applications/events/language/YOUR-LANG/YOUR-LANG.com_zoo.ini**
+You can install the translations:
 
-The translations are managed by [Transifex](https://www.transifex.com/projects/p/zoolanders/) where you can download the available language files and submit your ones.
+### Manually
+
+Download the files from Transifex and place them into **media/zoo/applications/events/language/YOUR-LANG/YOUR-LANG.com_zoo.ini**
+
+### Trough the ZL Component
+
+Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
+
+**Note:** The default **en-GB.com_zoo.ini** language file is located in the **media/zoo/applications/events/language/en-GB** folder.
 
 App
 ===
