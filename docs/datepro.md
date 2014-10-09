@@ -69,7 +69,7 @@ If you have a site with a standard ZOO element, it would would be a lot of work 
 
 Follow the next steps and be sure you have [installed](#installation) the *Date Pro* element.
 
-**Note:** please backup before proceeding. ZOOlanders will not take any responsability of lost data.
+**Note:** please backup before proceeding. ZOOlanders will not take any responsibility of lost data.
 
 1. Locate the *media / zoo / applications / [YOURAPP] / types / [YOURTYPE].config* file and open it for editing with any plain text editor.
 2. Search for the param that relates to the specific element you are upgrading.
@@ -133,7 +133,7 @@ Position Assignment
 IMAGE HERE
 
 * **Show Label** - Allows to choose if the element label should be rendered or not.
-* **Alternative Label** - Allows to customoze the default label (the element's name set in the Type) for this specific position.
+* **Alternative Label** - Allows to customize the default label (the element's name set in the Type) for this specific position.
 
 ### Layout Parameters
 
@@ -171,8 +171,8 @@ IMAGE HERE
   * **Pipe** - inserts a pipe `|` between the instances.
   * **Break** - inserts a 'Break' `<br>` tag between the instances.
   * **List Item** - wraps the instances with a `<li>` tag, however, it does NOT include any `<ol>` or `<ul>` wrapper.
-  * **Unordered List** - wraps each instance with `<li>` tag and wrapp the result with `<ul>` tag.
-  * **Ordered List** - wraps each instance with `<li>` tag and wrapp the result with `<ol>` tag.
+  * **Unordered List** - wraps each instance with `<li>` tag and wrap the result with `<ul>` tag.
+  * **Ordered List** - wraps each instance with `<li>` tag and wrap the result with `<ol>` tag.
   * **Custom** - allows to set your own separator
 * **Custom By** - only shown if By is set as Custom allows to specify a custom separator.
 * **Class** - allows to add custom class to the result if the separator wraps the content.
@@ -199,16 +199,16 @@ The Default layout has several Sublayouts
 
 **Default**
 
-Will render the formated date value.
+Will render the formatted date value.
 
 IMAGE HERE
 
 * **Date Format** - Allow to set the format by which to display the date. You can choose from several standard (PHP syntax) date formats or set your own one by choosing the *Custom* format option.
-* **Custom format** - Only shown when *Date Format* is set to *Custom format* allows to specify a custom date format following the PHP standard date string syntax. You can find a complete listing of availiable date/time formatting options here.
+* **Custom format** - Only shown when *Date Format* is set to *Custom format* allows to specify a custom date format following the PHP standard date string syntax. You can find a complete listing of available date/time formatting options here.
 
 **Event**
 
-Will render the formated dates value with *from* and *until* indications.
+Will render the formatted dates value with *from* and *until* indications.
 
 **Resume**
 
@@ -224,11 +224,11 @@ Although we try to provide many layouts with different options you've possibly r
 
 Although you could just directly change and override the code of an existing layout, that will create confusions in the future as the default element behaviour would change without any indication.
 
-What we suggest is to create your own layout (you can copy/paste an existing one) and store the resultant file in one of the ZOO overrable Elements folder. That way the file will be easily localizable and risk free on updates.
+What we suggest is to create your own layout (you can copy/paste an existing one) and store the resultant file in one of the ZOO overridable Elements folder. That way the file will be easily localizable and risk free on updates.
 
 ### Before starting
 
-As much as we try to make our docs complete, with a system as versitle as ZOO and some of the integrations included in our elements (like WidgetKit and qTip) even our documentation might not make a potential rendering manner obvious. Feel free to ask us in our support center.
+As much as we try to make our docs complete, with a system as versatile as ZOO and some of the integrations included in our elements (like WidgetKit and qTip) even our documentation might not make a potential rendering manner obvious. Feel free to ask us in our support center.
 
 ### Step 1. Locate the layouts path
 
@@ -236,11 +236,11 @@ The *Date Pro* layouts are located in **plugins / system / zoo_zlelements / zoo_
 
 ### Step 2. Create your layout
 
-Copy one of the existing layouts in the path from the Step 1 and change it name to a custom one. Be sure to keep the underscore `_`at the begining of the file if it's a sublayout.
+Copy one of the existing layouts in the path from the Step 1 and change it name to a custom one. Be sure to keep the underscore `_`at the beginning of the file if it's a sublayout.
 
 ### Step 3. Place your layout
 
-Your layout is ready but should be stored in a safe place, as we mentioned in the begining. You can place your custom layout in:
+Your layout is ready but should be stored in a safe place, as we mentioned in the beginning. You can place your custom layout in:
 
 
 * **media / zoo / custom_elements / datepro / tmpl / render**
