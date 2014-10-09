@@ -15,7 +15,7 @@ Requirements
 Installation
 ============
 
-Trough ZOOlanders Manager
+Through ZOOlanders Manager
 -------------------------
 1. Go to *Joomla Administration / Components / ZOOlanders*.
 2. Set your zoolanders.com site login credentials trough the Options button.
@@ -24,7 +24,7 @@ Trough ZOOlanders Manager
 
 Once the installation process have finished the **ZL Elements** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Trough Joomla Manager
+Through Joomla Manager
 ----------------------
 
 1. Download **Google Maps Pro** package from [ZOOlanders site](https://www.zoolanders.com/extensions/google-maps-pro).
@@ -90,11 +90,11 @@ You can install the translations:
 
 Download the files from Transifex and place them into **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zoo_zlelements_googlemapspro.ini**
 
-### Trough the ZL Component
+**Note:** The default **en-GB.plg_system_zoo_zlelements_googlemapspro.ini** language file is located in the **administrator/language/en-GB** folder.
+
+### Through the ZL Component
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
-
-**Note:** The default **en-GB.plg_system_zoo_zlelements_googlemapspro.ini** language file is located in the **administrator/language/en-GB** folder.
 
 Params in detail
 ================
