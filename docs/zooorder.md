@@ -15,7 +15,7 @@ Requirements
 Installation
 ============
 
-Trough ZOOlanders Manager
+Through ZOOlanders Manager
 -------------------------
 
 1. Go to *Joomla Administration / Components / ZOOlanders*.
@@ -25,7 +25,7 @@ Trough ZOOlanders Manager
 
 Once the installation process have finished the **ZOOorder** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Trough Joomla Manager
+Through Joomla Manager
 ----------------------
 
 1. Download **ZOOorder** package from [ZOOlanders site](https://www.zoolanders.com/extensions/zooorder).
@@ -57,9 +57,9 @@ Drag & Drop the elements you would like the Order Form to be composed by.
 
 ### Step 2. Set up the Module
 
-Create a new *ZOOorder Module* module and set it's title, position and publish state. Under the *Basic Options* tab, on the righ, choose the App and Type you have set up in the Step 1. Save and Close the module.
+Create a new *ZOOorder Module* module and set it's title, position and publish state. Under the *Basic Options* tab, on the right, choose the App and Type you have set up in the Step 1. Save and Close the module.
 
-**Quick note**: the module should be displayed withing a ZOO App view, it will not work as standalone.
+**Quick note**: the module should be displayed within a ZOO App view, it will not work as standalone.
 
 IMAGE HERE
 
@@ -80,16 +80,16 @@ You can install the translations:
 
 Download the files from Transifex and place them into **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zooorder.ini**
 
-### Trough the ZL Component
+**Note:** The default **en-GB.plg_system_zooorder.ini** language file is located in the **administrator/language/en-GB** folder.
+
+### Through the ZL Component
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
-
-**Note:** The default **en-GB.plg_system_zooorder.ini** language file is located in the **administrator/language/en-GB** folder.
 
 Layouts
 =======
 
-There are ZOOorder layouts accesible within ZOO App Layouts. These layouts are used to assign the elements that will be part of the Order form.
+There are ZOOorder layouts accessible within ZOO App Layouts. These layouts are used to assign the elements that will be part of the Order form.
 
 Module
 ======
@@ -99,7 +99,7 @@ The Module is used to display the Order Forms.
 Options
 -------
 
-It is only posible to order Items from the same Type/App at a time and you would need to choose it in the Module params.
+It is only possible to order Items from the same Type/App at a time and you would need to choose it in the Module params.
 
 IMAGE HERE
 
