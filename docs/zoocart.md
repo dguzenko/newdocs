@@ -15,7 +15,7 @@ Requirements
 Installation
 ============
 
-Trough ZOOlanders Manager
+Through ZOOlanders Manager
 -------------------------
 
 1. Go to *Joomla Administration / Components / ZOOlanders*.
@@ -25,7 +25,7 @@ Trough ZOOlanders Manager
 
 Once the installation process have finished the **ZOOcart** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Trough Joomla Manager
+Through Joomla Manager
 ----------------------
 
 1. Download **ZOOcart** package from [ZOOlanders site](https://www.zoolanders.com/extensions/zoocart).
@@ -139,7 +139,7 @@ For more information about layouts setup, please review the [ZOO official docs](
 
 ### Done! 
 
-**Variations** are ready, a dropdown with the possible Products Attribures should be visible in your Product view.
+**Variations** are ready, a dropdown with the possible Products Attributes should be visible in your Product view.
 
 Translation
 -----------
@@ -152,11 +152,11 @@ You can install the translations:
 
 Download the files from Transifex and place them into **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zoocart.ini**
 
-### Trough the ZL Component
+**Note:** The default **en-GB.plg_system_zoocart.ini** language file is located in the **administrator/language/en-GB** folder.
+
+### Through the ZL Component
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
-
-**Note:** The default **en-GB.plg_system_zoocart.ini** language file is located in the **administrator/language/en-GB** folder.
 
 **Payment plugins**
 
@@ -179,7 +179,7 @@ General
 -------
 
 * **Default Country** - Allows to set default country (Uses in shipping and billing plugins).
-* **Show terms and conditions** - If set to “Yes”, the Terms Agreement checkbox will be displayed on the checkut page.
+* **Show terms and conditions** - If set to “Yes”, the Terms Agreement checkbox will be displayed on the checkout page.
 * **Terms and condition URL** - Allows to specify the “Terms and Conditions” page URL.
 
 Currencies
@@ -286,7 +286,7 @@ Addresses
 
 ### Address Types Page
 
-On the *“Address Types”* page you can configure addresses comonents (Such as Country, Street, e.t.c.), that will be used for billing and shipping. And configure appropriate Billing and Shipping addresses layouts.
+On the *“Address Types”* page you can configure addresses components (Such as Country, Street, e.t.c.), that will be used for billing and shipping. And configure appropriate Billing and Shipping addresses layouts.
 
 IMAGE HERE
 
@@ -295,7 +295,7 @@ Important! Set corresponding "Billing information" parameter for each element.
 
 IMAGE HERE
 
-To configure Address layout *(e.g. Billing Form, Billing, Shipping Form, Shipping)* click appropriate layout’s name in the Layouts collumn on the *“Address Types”* page. Address layout can be configured like any other ZOO layout. Setup appropriate layout positions and save changes.
+To configure Address layout *(e.g. Billing Form, Billing, Shipping Form, Shipping)* click appropriate layout’s name in the Layouts column on the *“Address Types”* page. Address layout can be configured like any other ZOO layout. Setup appropriate layout positions and save changes.
 
 Taxes
 -----
@@ -308,7 +308,7 @@ Taxes
 
 ### Tax Classes Page
 
-Different Tax Classes could be aplied to different products or groups of products. You can manage them on the *“Tax Classes”* page.
+Different Tax Classes could be applied to different products or groups of products. You can manage them on the *“Tax Classes”* page.
 
 IMAGE HERE
 
@@ -327,7 +327,7 @@ To create new Tax Rule, you need to specify the following fields for it:
 IMAGE HERE
 
 * **Country** - Use to specify the country for which this Tax Rule should be applied.
-* **State** - Use to set state, inside the chosen country (Usualy it’s set like two letter code e.g. AA, BB e.t.c).
+* **State** - Use to set state, inside the chosen country (Usually it’s set like two letter code e.g. AA, BB e.t.c).
 * **City** - Allows to specify the city.
 * **ZIP Code** - ZIP code or Postal code of the appropriate location.
 * **Tax Rate** - Tax rate (in percents), that will be applied to related products prices.
@@ -337,15 +337,15 @@ IMAGE HERE
 
 Emails
 ------
-### Email Tamplate Page
+### Email Template Page
 
-You can manage email notifications on the Email Tamplate page.
+You can manage email notifications on the Email Template page.
 
 
 * **Type** – type of the email (new order, order state changed, etc.).
 * **Language** – allows to specify language for which this email template will be applied.
 
-Choose Email Type and Language and click *"Proceed"* button to configure the email tamplate further.
+Choose Email Type and Language and click *"Proceed"* button to configure the email Template further.
 
 * **User Groups** –  email will be sent to chosen target group.
 * **Subject** – Email subject.
@@ -377,7 +377,7 @@ For Price Pro element except Basic params *( e.g. Name, Description, Access Leve
 
 IMAGE HERE
 
-* **Default** - Set defeault (minimal) price value in chosen currency.
+* **Default** - Set default (minimal) price value in chosen currency.
 * **Default Tax Class** - You can chose default tax class from the list of Tax Classes, that were provided on "Tax Classes" page.
 * **Currency** - Choose currency from the list of provided currencies (You can manage your currencies on the "Currencies" page).
 
@@ -434,7 +434,7 @@ Variations Element
 
 Variations have such **specific** parameters: 
 
-* **Elements** - You can connect variable elements with the product type. Please note, that necessary elements should be added. *(e.g. For different  colors of product we can have different images. Choose Product > Image option to have an abbility to add images for diffent variations of the product while setting variations)*.
+* **Elements** - You can connect variable elements with the product type. Please note, that necessary elements should be added. *(e.g. For different  colors of product we can have different images. Choose Product > Image option to have an ability to add images for different variations of the product while setting variations)*.
 * **Attributes** - this settings allow to specify different parameters of product and their options *(e.g. Attribute: Size; Options: S, M, L)*.
 
 ### Edit Layout
@@ -442,7 +442,7 @@ Variations have such **specific** parameters:
 * **Attributes** - select variation parameters from the dropdown menu.
 * **Price** - set price for each variation of product.
 * **Quantity** - specify amount of products with given attributes.
-* **Elements** - specify the element(s) seleced in the Step 1 of [configuration guide](#configuration-variations) for this variation of product.
+* **Elements** - specify the element(s) selected in the Step 1 of [configuration guide](#configuration-variations) for this variation of product.
 
 ### Render Layout
 
