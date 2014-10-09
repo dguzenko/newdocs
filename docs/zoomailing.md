@@ -15,7 +15,7 @@ Requirements
 Installation
 ============
 
-Trough ZOOlanders Manager
+Through ZOOlanders Manager
 -------------------------
 
 1. Go to *Joomla Administration / Components / ZOOlanders*.
@@ -25,7 +25,7 @@ Trough ZOOlanders Manager
 
 Once the installation process have finished the **ZOOmailing** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Trough Joomla Manager
+Through Joomla Manager
 ----------------------
 
 1. Download **ZOOmailing** package from [ZOOlanders site](https://www.zoolanders.com/extensions/zoomailing).
@@ -94,26 +94,26 @@ You can install the translations:
 
 Download the files from Transifex and place them into **administrator/language/YOUR-LANG/YOUR-LANG.plg_acymailing_zoomailing.ini**
 
-### Trough the ZL Component
+**Note:** The default **en-GB.plg_acymailing_zoomailing.ini** language file is located in the **administrator/language/en-GB** folder.
+
+### Through the ZL Component
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
-
-**Note:** The default **en-GB.plg_acymailing_zoomailing.ini** language file is located in the **administrator/language/en-GB** folder.
 
 Layouts
 =======
 
-There are ZOOmailing layouts accesible within ZOO App Layouts. These layouts are used to render the Item content that will replace the AcyMailing newsletter tags.
+There are ZOOmailing layouts accessible within ZOO App Layouts. These layouts are used to render the Item content that will replace the AcyMailing newsletter tags.
 
 Custom Layout
 -------------
 
-There are situations where your newsletter design will require a custom Item rendering layout. As with all ZOO layouts that is posible. For more information please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/developers/create-a-new-layout-with-positions).
+There are situations where your newsletter design will require a custom Item rendering layout. As with all ZOO layouts that is possible. For more information please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/developers/create-a-new-layout-with-positions).
 
 AcyMailing Tags
 ===============
 
-The AcyMailing ZOO Tag allows for including individual Items (Items Tab) or Items from a Category (Categories Tab). They are ment for different purposes and involves different configuration. Let's look at each one individually.
+The AcyMailing ZOO Tag allows for including individual Items (Items Tab) or Items from a Category (Categories Tab). They are meant for different purposes and involves different configuration. Let's look at each one individually.
 
 Individual Items tag
 --------------------
