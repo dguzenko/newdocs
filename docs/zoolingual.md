@@ -15,7 +15,7 @@ Requirements
 Installation
 ============
 
-Trough ZOOlanders Manager
+Through ZOOlanders Manager
 -------------------------
 
 1. Go to *Joomla Administration / Components / ZOOlanders*.
@@ -25,7 +25,7 @@ Trough ZOOlanders Manager
 
 Once the installation process have finished the **ZOOlingual plugin** should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Trough Joomla Manager
+Through Joomla Manager
 ----------------------
 
 1. Download **ZOOlingual** package from [ZOOlanders site](https://www.zoolanders.com/extensions/zoolingual).
@@ -50,7 +50,7 @@ All of your elements in ZOO should have now a new section in the configuration c
 
 The language evaluation can be set on each element Configuration or Assignment. Our recommendation is to set your base or most common restrictions at the Type level, in the element Configuration, and override them in the Layout Positions assignments as needed.
 
-If you do so, in the Layout Positions assignment the ZOOlingual configuration will show a *Overide Options* chechbox. By enabling it you can then override the settings that have been placed on this element.
+If you do so, in the Layout Positions assignment the ZOOlingual configuration will show a *Override Options* checkbox. By enabling it you can then override the settings that have been placed on this element.
 
 Steps
 -----
@@ -65,7 +65,7 @@ IMAGE HERE
 
 #### Quick note
 
-For number based elements, such as Price, this step should be skipped as the language could be assigned in the Layout Positions as explained in Step 2. Being able to set only in the positions the language specific configurations, such as label or currency format, the value would be inputed once for all languages but displayed with particual diferences for each of them.
+For number based elements, such as Price, this step should be skipped as the language could be assigned in the Layout Positions as explained in Step 2. Being able to set only in the positions the language specific configurations, such as label or currency format, the value would be inputted once for all languages but displayed with particular differences for each of them.
 
 ### Step 2. Position assignment
 
@@ -77,7 +77,7 @@ For elements without language association but which should be adjusted for each 
 
 ### Step 3. Content translation
 
-Now that the elements are set we can start translating the content. Please proceede by creating or editing an existing Item. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/getting-started/create-and-manage-items).
+Now that the elements are set we can start translating the content. Please proceed by creating or editing an existing Item. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/getting-started/create-and-manage-items).
 
 Populate and translate the elements set in Step 1 as you would usually do.
 
@@ -85,7 +85,7 @@ Populate and translate the elements set in Step 1 as you would usually do.
 
 IMAGE HERE
 
-Proceede the same way for the Category and Frontpage content translation.
+proceed the same way for the Category and Frontpage content translation.
 
 ### Step 4. Language switcher
 
@@ -105,9 +105,8 @@ You can install the translations:
 ### Manually
 
 Download the files from Transifex and place them into **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zoolingual.ini**
+**Note:** The default **en-GB.plg_system_zoolingual.ini** language file is located in the **administrator/language/en-GB** folder.
 
-### Trough the ZL Component
+### Through the ZL Component
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
-
-**Note:** The default **en-GB.plg_system_zoolingual.ini** language file is located in the **administrator/language/en-GB** folder.
