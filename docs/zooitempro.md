@@ -15,14 +15,14 @@ Requirements
 Installation
 ============
 
-Trough ZOOlanders Manager
+Through ZOOlanders Manager
 -------------------------
 1. Go to *Joomla Administration / Components / ZOOlanders*.
 2. Set your zoolanders.com site login credentials trough the Options button.
 3. Find the **ZOOitem Pro** Extension in the list and click on the Install button.
 4. Be patient while the Installation proceeds, status notification will arise.
 
-Trough Joomla Manager
+Through Joomla Manager
 ----------------------
 
 1. Download **ZOOitem Pro** package from [ZOOlanders site](https://www.zoolanders.com/extensions/zooitem-pro).
@@ -46,7 +46,7 @@ Steps
 
 ### Step 1. Create a module instance
 
-Go to the *Joomla Administration / Extensions / Module Manager* and create a new *ZOOitem Pro* module instance and populate the basic Moudule settings (Title, Position, Status, Assignement).
+Go to the *Joomla Administration / Extensions / Module Manager* and create a new *ZOOitem Pro* module instance and populate the basic Module settings (Title, Position, Status, Assignment).
 
 ### Step 2. Set up the Layout
 
@@ -67,18 +67,18 @@ You can install the translations:
 
 Download the files from Transifex and place them into **language/YOUR-LANG/YOUR-LANG.mod_zooitempro.ini**
 
-### Trough the ZL Component
+**Note:** The **default en-GB.mod_zooitempro.ini** language file is located in the **language/en-GB** folder.
+
+### Through the ZL Component
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
-
-**Note:** The **default en-GB.mod_zooitempro.ini** language file is located in the **language/en-GB** folder.
 
 Layouts
 =======
 
-The ZOOitem Pro Layouts display the prefiltered Items with diferent styles and options but each of them use the same Filter and Order params that can be reviewed in the [Filtering Params section](#filtering-params).
+The ZOOitem Pro Layouts display the prefiltered Items with different styles and options but each of them use the same Filter and Order params that can be reviewed in the [Filtering Params section](#filtering-params).
 
-Creating custom layouts is posible and recommended, more information can be found on the [Custom Layouts section](#custom-layouts).
+Creating custom layouts is possible and recommended, more information can be found on the [Custom Layouts section](#custom-layouts).
 
 Default layout
 --------------
@@ -92,7 +92,7 @@ The Default layout renders a simple Item List.
 Widgetkit layout
 ----------------
 
-Is the Widgetkit Integration layout which will render the Items using the choosen Widget style and features. F
+Is the Widgetkit Integration layout which will render the Items using the chosen Widget style and features. F
 
 * **Widget** - allows to choose the Widget to be used.
 * **Rendered Layout** - allows to choose the Item Rendering layout.
@@ -114,7 +114,7 @@ For more information please review the [ZOOtrack Product Page](https://www.zoola
 Filtering Params
 ================
 
-ZOOitem Pro filter/order params are very extense and flexible, following is a resume of the common options.
+ZOOitem Pro filter/order params are very extensive and flexible, following is a resume of the common options.
 
 IMAGE HERE
 
@@ -122,7 +122,7 @@ IMAGE HERE
   * **Apps** - allows to choose the Apps the Item should be part of. No selection is equal to select all.
   * **Categories** - allows to choose the Categories the Item should be part of. No selection is equal to select all.
   * **Types** - allows to choose the Types the Item should be part of. No selection is equal to select all.
-  * **Author** - allows to filter the Items by Authors settings it's User IDs delimeted by a comma. The [userid] variable can be used to add the ID of the curren User.
+  * **Author** - allows to filter the Items by Authors settings it's User IDs delimited by a comma. The [userid] variable can be used to add the ID of the current User.
   * **Published State** - allows to set Published State the Items should have.
   * **Frontpage State** - allows to set Frontpage State the Items should have.
   * **Offset** - allows to set the query offset removing the first Items from the result.
@@ -135,7 +135,7 @@ IMAGE HERE
 
 * **Order**
   * **Random** - allows to set a random order for the filtered items.
-  * **Revers** - allows to reverse the final ordering.
+  * **Reverse** - allows to reverse the final ordering.
   * **Priority** - allows to set if the Items priority should be considered for the ordering.
   * **Alphanumeric** - allows to choose if the ordering should be done with alphanumeric values. Enable if your order is failing, specially if there are numbers involved.
   * **Core** - allows to choose the core element by which will be made the order.
@@ -151,7 +151,7 @@ Custom Layouts
 
 Creating custom layouts with ZOOitem Pro is very easy, just copy/paste the Default layout file and folder changing it's name to some custom name. After that you can start adapting the layout as you needed and even adapt it's params editing the *params.php* file. You can add your own CSS styles using the style.css example file (just be sure to uncomment the loading style line in the layout file) or just use your template CSS files.
 
-[Add info about positions.xml which is not overrided on updates.]
+[Add info about positions.xml which is not overridden on updates.]
 
 Custom Elements
 ===============
@@ -160,8 +160,8 @@ In order to filter by custom elements data, those must have specified the ZL Fil
 
 1. Open the custom element XML file.
 2. Localize the `<element/>` tag.
-3. Add a *zl_filter_group* attribute with the appropiate category value.
+3. Add a *zl_filter_group* attribute with the appropriate category value.
   Eg: `<element type="textpro" zl_filter_group="input">`
 4. Save the file and done!
 
-If you are using 3rd party element be sure to override it in the appropiate folder in order to preserve the change after future updates.
+If you are using 3rd party element be sure to override it in the appropriate folder in order to preserve the change after future updates.

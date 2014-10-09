@@ -14,7 +14,7 @@ Requirement
 Installation
 ============
 
-Trough Joomla Manager
+Through Joomla Manager
 ---------------------
 
 1. Download  **ZOOlanders** package from [ZOOlanders site](https://www.zoolanders.com/extensions/zoolanders).
@@ -45,11 +45,11 @@ You can install the translations:
 
 Download the files from Transifex and place them into **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zlframework.ini**
 
-### Trough the ZL Component
+**Note:** The default **en-GB.plg_system_zlframework.ini** language file is located in the **administrator/language/en-GB** folder.
+
+### Through the ZL Component
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
-
-**Note:** The default **en-GB.plg_system_zlframework.ini** language file is located in the **administrator/language/en-GB** folder.
 
 ZOOlanders Constituents
 =======================

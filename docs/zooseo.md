@@ -15,7 +15,7 @@ Requirements
 Installation
 ============
 
-Trough ZOOlanders Manager
+Through ZOOlanders Manager
 -------------------------
 
 1. Go to *Joomla Administration / Components / ZOOlanders*.
@@ -25,7 +25,7 @@ Trough ZOOlanders Manager
 
 Once the installation process have finished the **ZOOseo plugin** should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Trough Joomla Manager
+Through Joomla Manager
 ----------------------
 
 1. Download **ZOOseo** package from [ZOOlanders site](https://www.zoolanders.com/extensions/zooseo).
@@ -74,11 +74,11 @@ You can install the translations:
 
 Download the files from Transifex and place them into **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zooseo.ini**
 
-### Trough the ZL Component
+**Note:** The default **en-GB.plg_system_zooseo.ini** language file is located in the **administrator/language/en-GB** folder.
+
+### Through the ZL Component
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
-
-**Note:** The default **en-GB.plg_system_zooseo.ini** language file is located in the **administrator/language/en-GB** folder.
 
 Settings
 ========
@@ -90,8 +90,8 @@ IMAGE HERE
 * **Remove /category** - removes the /category from the generated SEF urls.
 * **Redirect old urls** - will redirect the the old urls (/item and /category) to the new ones to avoid content duplication.
 * **Alias Priority** - allows to choose which alias should take priority if a category and an item have the same one.
-* **Overwrite Item Metadata** - if enabled, even the manually set metadata of the item will be overwriten. Reccomended only if you're fixing your site metadata the first time. Should be disabled later to allow custom metadata.
-* **Overwrite Category Metadata** - if enabled, even the manually set metadata of the category will be overwriten. Reccomended only if you're fixing your site metadata the first time. Should be disabled later to allow custom metadata
+* **Overwrite Item Metadata** - if enabled, even the manually set metadata of the item will be overwritten. Recommended only if you're fixing your site metadata the first time. Should be disabled later to allow custom metadata.
+* **Overwrite Category Metadata** - if enabled, even the manually set metadata of the category will be overwritten. Recommended only if you're fixing your site metadata the first time. Should be disabled later to allow custom metadata
 * **Item: Generate on** - allows to set when the metadata should be generated, on item saving or displaying (init). On init is great for first time generation, but has very bad performance, so it's better to leave it to saved for live sites.
 * **Category: Generate on** - allows to set when the metadata should be generated, on category saving or displaying (init). On init is great for first time generation, but has very bad performance, so it's better to leave it to saved for live sites.
 * **Item Separator** - separator if there are more elements in the same position. For keywords, comma will always be used.
@@ -110,7 +110,7 @@ IMAGE HERE
 
 * **Title** - the title of your page.
 * **Description** - a one to two sentence description of your page.
-* **Keywords** - a comma separate words descripting your page.
+* **Keywords** - a comma separate words describing your page.
 * **Author** - the page author name
 
 Opengraph
@@ -125,6 +125,6 @@ IMAGE HERE
 * **Type** - the type of your page, e.g., "video.movie".
 * **Image** - an image URL which should represent your page within the graph. ZOOseo will retrieve automatically the url from the image element.
 * **Url** - the canonical URL of your page that will be used as its permanent ID in the graph, e.g., "http://www.imdb.com/title/tt0117500/".
-* **Custom** - set custom OG properties using the element **Alternative label** to set the poperty type.
+* **Custom** - set custom OG properties using the element **Alternative label** to set the property type.
 
 For more information about Open Graph visit it's [official page](http://ogp.me/), for testing we recommend [Facebook Debuger](https://www.facebook.com/login.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2F).

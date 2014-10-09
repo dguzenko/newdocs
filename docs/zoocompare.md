@@ -14,7 +14,7 @@ Requirements
 Installation
 ============
 
-Trough ZOOlanders Manager
+Through ZOOlanders Manager
 -------------------------
 
 1. Go to *Joomla Administration / Components / ZOOlanders*.
@@ -24,7 +24,7 @@ Trough ZOOlanders Manager
 
 Once the installation process have finished the **ZOOcompare** plugin should be installed and published. To be sure go to Joomla Administration / Extensions / Plugin Manager and check if it is present and enabled.
 
-Trough Joomla Manager
+Through Joomla Manager
 ----------------------
 
 1. Download **ZOOcompare** package from [ZOOlanders site](https://www.zoolanders.com/extensions/zoocompare).
@@ -64,7 +64,7 @@ The compare chart is very flexible and allows you to not just set up the Data to
 
 Locate and open the ZOOcompare Chart / Compare layout assignment view for the App and Type you have set up in the Step 1. For detailed information please review the [ZOO Positions Assignments](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions) and [Chart](#chart) section.
 
-Drag & Drop the elements you would like to be bart of the comparison chart.
+Drag & Drop the elements you would like to be part of the comparison chart.
 
 ### Step 4. Set up the App instance
 
@@ -72,7 +72,7 @@ In the App Instance Configuration search for the ZOOcompare Tab and choose the L
 
 ### Step 5. Set up the Module. Optional.
 
-Additionaly you could set up the ZOOcompare Module in order to list the user selected Items for comparison. Checkout it's [section](#module) for more details about it.
+Additionally you could set up the ZOOcompare Module in order to list the user selected Items for comparison. Checkout it's [section](#module) for more details about it.
 
 ### Done!
 
@@ -89,11 +89,11 @@ You can install the translations:
 
 Download the files from Transifex and place them into **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zoocompare.ini**
 
-### Trough the ZL Component
+**Note:** The default **en-GB.plg_system_zoocompare.ini** language file is located in the **administrator/language/en-GB** folder.
+
+### Through the ZL Component
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
-
-**Note:** The default **en-GB.plg_system_zoocompare.ini** language file is located in the **administrator/language/en-GB** folder.
 
 Chart
 =====
@@ -128,7 +128,7 @@ The Module is used to display and manage the *Items Comparison* List.
 Options
 -------
 
-It is only posible to compare Items from the same Type/App at a time and you would need to choose it in the Module params. It is posible however to display several Modules with diferent configurations in the same page.
+It is only possible to compare Items from the same Type/App at a time and you would need to choose it in the Module params. It is possible however to display several Modules with different configurations in the same page.
 
 IMAGE HERE
 
@@ -151,20 +151,20 @@ IMAGE HERE
 Compare Element
 ===============
 
-The *Compare* Element is used by ZOOcompare for several compare features. Is necesary to be part of the Type being compared.
+The *Compare* Element is used by ZOOcompare for several compare features. Is necessary to be part of the Type being compared.
 
 Element Layouts
 ---------------
 
-The element will show diferent rendering layouts depending of the position and layout where it is dropped:
+The element will show different rendering layouts depending of the position and layout where it is dropped:
 
 ### Standard ZOO layouts
 
-When placed into any standart ZOO Layout position it will offer an *Add to Compare / Remove from Compare* button display.
+When placed into any standard ZOO Layout position it will offer an *Add to Compare / Remove from Compare* button display.
 
 ### ZOOcompare Chart Layout
 
-When placed into the *ZOOcompare Chart Compare* layout it will adapt to offer diferenty displays depending of the position:
+When placed into the *ZOOcompare Chart Compare* layout it will adapt to offer differently displays depending of the position:
 
 * **Row position**
 
@@ -174,7 +174,7 @@ IMAGE HERE
 
   * **Main Header**
 
-   Will render a Header with the appropiate Item name on each column.
+   Will render a Header with the appropriate Item name on each column.
    
    * **Link to item** - allows to choose if the Item name should be linkable to the Item full view.
    * **Remove button** - allows to choose if beside the Item name it should be displayed a button which will remove the Item from the table.
@@ -184,7 +184,7 @@ IMAGE HERE
    Will render a Header which can Hide/Show it's childs.
 
    * **Title** - the Header title.
-   * **Fold feature** - allows to choose the Fold (child hiding feature) state. Offers to start with the childs hiden, unhiden or don't allow this feature at all.
+   * **Fold feature** - allows to choose the Fold (child hiding feature) state. Offers to start with the childs hidden, unhidden or don't allow this feature at all.
 
 * **Toolbar position**
 

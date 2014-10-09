@@ -15,7 +15,7 @@ Requirements
 Installation
 ============
 
-Trough ZOOlanders Manager
+Through ZOOlanders Manager
 -------------------------
 
 1. Go to *Joomla Administration / Components / ZOOlanders*.
@@ -25,7 +25,7 @@ Trough ZOOlanders Manager
 
 Once the installation process have finished the **ZL Elements** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Trough Joomla Manager
+Through Joomla Manager
 ----------------------
 
 1. Download **Events** package from [ZOOlanders site](https://www.zoolanders.com/extensions/events).
@@ -61,7 +61,7 @@ You can adjust now or leave for later the general calendar and template options.
 
 ### Step 2. Set up the view
 
-The App is ready and you can proceede displaying it in the Frontend. Follow the [official ZOO docs](http://www.yootheme.com/zoo/documentation/getting-started/how-to-create-a-joomla-menu-link) to set up the *Events App* Frontpage view.
+The App is ready and you can proceed displaying it in the Frontend. Follow the [official ZOO docs](http://www.yootheme.com/zoo/documentation/getting-started/how-to-create-a-joomla-menu-link) to set up the *Events App* Frontpage view.
 
 ### Step 3. Set up the Module
 
@@ -80,11 +80,11 @@ You can install the translations:
 
 Download the files from Transifex and place them into **media/zoo/applications/events/language/YOUR-LANG/YOUR-LANG.com_zoo.ini**
 
-### Trough the ZL Component
+**Note:** The default **en-GB.com_zoo.ini** language file is located in the **media/zoo/applications/events/language/en-GB** folder.
+
+### Through the ZL Component
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
-
-**Note:** The default **en-GB.com_zoo.ini** language file is located in the **media/zoo/applications/events/language/en-GB** folder.
 
 App
 ===
@@ -137,7 +137,7 @@ The *ZOO Events module* is used to display an Calendar view of the events.
 
 ### Options
 
-It is only posible to show events from the same Type/App at a time and you would need to choose it in the Module params.
+It is only possible to show events from the same Type/App at a time and you would need to choose it in the Module params.
 
 IMAGE HERE
 

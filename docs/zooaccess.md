@@ -14,7 +14,7 @@ Requirements
 Installation
 ============
 
-Trough ZOOlanders Manager
+Through ZOOlanders Manager
 -----------------
 
 1. Go to *Joomla Administration / Components / ZOOlanders*.
@@ -24,7 +24,7 @@ Trough ZOOlanders Manager
 
 Once the installation process have finished the **ZL Elements plugin** should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Trough Joomla Manager
+Through Joomla Manager
 ----------------------
 
 1. Download **ZOOaccess** package from [ZOOlanders site](https://www.zoolanders.com/extensions/zooaccess).
@@ -56,13 +56,13 @@ Locate and edit the desired Type elements. Choose the Elements you would like to
 
 ### Step 2. Tune up the access
 
-Now that the base access is set we can override it completly or partially on each position. To do so go to the Positions Assignment view for the Layout you would like to work with and seek for the Element ZOOaccess section. Click on the *Override* box and set the specific param for this particular position.
+Now that the base access is set we can override it completely or partially on each position. To do so go to the Positions Assignment view for the Layout you would like to work with and seek for the Element ZOOaccess section. Click on the *Override* box and set the specific param for this particular position.
 
-You can also set the access to the Elements without base acces the same way you did in Step 1.
+You can also set the access to the Elements without base access the same way you did in Step 1.
 
 ### Done!
 
-Now your elements will be accessible only to the appropiate users.
+Now your elements will be accessible only to the appropriate users.
 
 Translation
 -----------
@@ -75,23 +75,23 @@ You can install the translations:
 
 Download the files from Transifex and place them into **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zooaccess.ini**
 
-### Trough the ZL Component
+**Note:** The default **en-GB.plg_system_zooaccess.ini** language file is located in the **administrator/language/en-GB** folder.
+
+### Through the ZL Component
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
-
-**Note:** The default **en-GB.plg_system_zooaccess.ini** language file is located in the **administrator/language/en-GB** folder.
 
 Elements Access
 ===============
 
-In your ZOO elements configuration and assignement there is a section called ZOOaccess, it allows you to set who can access that specific element. The *Evalute* checkbox must be marked in order to start evaluating them.
+In your ZOO elements configuration and assignment there is a section called ZOOaccess, it allows you to set who can access that specific element. The *Evaluate* checkbox must be marked in order to start evaluating them.
 
 IMAGE HERE
 
 * **Evaluate** - allows to choose if the access will be evaluated for this element. Must be selected in order to view the rest of the options.
 * **Apply on Edit View** - allows to choose if the selected rules should be applied also in the Edit view.
 * **Matching method** - allows to choose if a match should be accepted when ALL or ANY (one or more) of the assignments are matched.
-* **Action** - allows to choose the action that should be applied to the element if there is a match. The *Render* action will render the element if the evalution was positive, the *Not render* action will render the element if the evalution was negative.
+* **Action** - allows to choose the action that should be applied to the element if there is a match. The *Render* action will render the element if the evaluation was positive, the *Not render* action will render the element if the evaluation was negative.
 
 If you are in the Positions Assignments and have set an evaluation in the Element config, the ZOOaccess section will display *Override* instead of *Evaluate*.
 
@@ -110,7 +110,7 @@ ZOOaccess has a list of rules for the access evaluation. By default the rules ar
 
 ### User Access rule
 
-This rule evaluates if the User has the appropiate Joomla Viewing Access Level.
+This rule evaluates if the User has the appropriate Joomla Viewing Access Level.
 
 IMAGE HERE
 
@@ -125,7 +125,7 @@ This rule evaluates if the User is part of the selected Joomla User Groups.
 IMAGE HERE
 
 * **Levels** - allows to choose the User Group which will be evaluated. Multiple selection is possible.
-* **Mode** - allows to choose if the User should be parto of all (AND) groups or any (OR) of them.
+* **Mode** - allows to choose if the User should be part of all (AND) groups or any (OR) of them.
 * **User** - allows to choose who will be the evaluated user, the current viewer (User) or the Item's Author (Author).
 
 ### Date rule
@@ -156,7 +156,7 @@ IMAGE HERE
 
 ### Content Plugin rule
 
-This rule uses the Joomla Content plugins to make an evaluation. It should be used when there is no specific rule but there is an apropiate Content Plugin.
+This rule uses the Joomla Content plugins to make an evaluation. It should be used when there is no specific rule but there is an appropriate Content Plugin.
 
 IMAGE HERE
 

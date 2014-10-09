@@ -15,7 +15,7 @@ Requirements
 Installation
 ============
 
-Trough ZOOlanders Manager
+Through ZOOlanders Manager
 -------------------------
 
 1. Go to *Joomla Administration / Components / ZOOlanders*.
@@ -25,7 +25,7 @@ Trough ZOOlanders Manager
 
 Once the installation process have finished the **ZOOtools plugin** should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Trough Joomla Manager
+Though Joomla Manager
 ----------------------
 
 1. Download **ZOOtools** package from [ZOOlanders site](https://www.zoolanders.com/extensions/zootools).
@@ -65,7 +65,7 @@ The element is placed beside the other ZOO Core elements, Drag & Drop it in any 
 
 ### Done!
 
-Please review agin this doc whenever a new feature is released.
+Please review again this doc whenever a new feature is released.
 
 Translation
 -----------
@@ -78,11 +78,11 @@ You can install the translations:
 
 Download the files from Transifex and place them into **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zootools.ini**
 
-### Trough the ZL Component
+**Note:** The default **en-GB.plg_system_zootools.ini** language file is located in the **administrator/language/en-GB** folder.
+
+### Through the ZL Component
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
-
-**Note:** The default **en-GB.plg_system_zootools.ini** language file is located in the **administrator/language/en-GB** folder.
 
 Separator Element
 =================
@@ -107,7 +107,7 @@ There are two Layouts, *Section* and *Subsection*, each of them with it's own fe
 
 ### Section
 
-Provides you with a foldable (colapsable) section where the following elements will be wrapped. It has several options:
+Provides you with a foldable (collapsible) section where the following elements will be wrapped. It has several options:
 
 * **Title** - Allows to set the title of the section.
 * **Fold feature** - Allows to set the fold feature.
@@ -134,7 +134,7 @@ The Static Content element will allow you to render not just static text but Ite
 Assigning the Element
 ---------------------
 
-To assign the element to any postion, just Drag & Drop as you would to with any other Core Element. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
+To assign the element to any position, just Drag & Drop as you would to with any other Core Element. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
 IMAGE HERE
 
@@ -156,7 +156,7 @@ Allows to display static text.
 
 ### Link
 
-Displays diferent kind of links, *Item, Category* or *Custom*.
+Displays different kind of links, *Item, Category* or *Custom*.
 
 * **Common link options**
   * **Text** - Allows to set the link text.

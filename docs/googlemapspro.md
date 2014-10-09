@@ -15,7 +15,7 @@ Requirements
 Installation
 ============
 
-Trough ZOOlanders Manager
+Through ZOOlanders Manager
 -------------------------
 1. Go to *Joomla Administration / Components / ZOOlanders*.
 2. Set your zoolanders.com site login credentials trough the Options button.
@@ -24,7 +24,7 @@ Trough ZOOlanders Manager
 
 Once the installation process have finished the **ZL Elements** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Trough Joomla Manager
+Through Joomla Manager
 ----------------------
 
 1. Download **Google Maps Pro** package from [ZOOlanders site](https://www.zoolanders.com/extensions/google-maps-pro).
@@ -67,7 +67,7 @@ If you have a site with a standard ZOO element, it would would be a lot of work 
 
 Follow the next steps and be sure you have [installed](#installation) the *Google Maps Pro* element.
 
-**Note**: please backup before proceeding. ZOOlanders will not take any responsability of lost data.
+**Note**: please backup before proceeding. ZOOlanders will not take any responsibility of lost data.
 
 1. Locate the *media / zoo / applications / [YOURAPP] / types / [YOURTYPE].config* file and open it for editing with any plain text editor.
 2. Search for the param that relates to the specific element you are upgrading.
@@ -90,11 +90,11 @@ You can install the translations:
 
 Download the files from Transifex and place them into **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zoo_zlelements_googlemapspro.ini**
 
-### Trough the ZL Component
+**Note:** The default **en-GB.plg_system_zoo_zlelements_googlemapspro.ini** language file is located in the **administrator/language/en-GB** folder.
+
+### Through the ZL Component
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
-
-**Note:** The default **en-GB.plg_system_zoo_zlelements_googlemapspro.ini** language file is located in the **administrator/language/en-GB** folder.
 
 Params in detail
 ================
@@ -116,14 +116,14 @@ IMAGE HERE
 
 IMAGE HERE
 
-* **API Key** - Allows to specify the Google API key if necesary.
+* **API Key** - Allows to specify the Google API key if necessary.
 * **Backend Location Map** - Settings for the backend Map
 
   * **Type** - Allows to choose the initial Map Type.
   * **Zoom level** - Allows to choose the initial Map Zoom level.
   * **Width** - Allows to set the initial Map width.
   * **Height** - Allows to set the initial Map height.
-  * **Default center** - Allows to set the initial Map ubication.
+  * **Default center** - Allows to set the initial Map publication.
 
 Position Assignment
 -------------------
@@ -135,7 +135,7 @@ Position Assignment
 IMAGE HERE
 
 * **Show Label** - Allows to choose if the element label should be rendered or not.
-* **Alternative Label** - Allows to customoze the default label (the element's name set in the Type) for this specific position.
+* **Alternative Label** - Allows to customize the default label (the element's name set in the Type) for this specific position.
 
 ### Layout Parameters
 
@@ -169,11 +169,11 @@ Although we try to provide many layouts with different options you've possibly r
 
 Although you could just directly change and override the code of an existing layout, that will create confusions in the future as the default element behaviour would change without any indication.
 
-What we suggest is to create your own layout (you can copy/paste an existing one) and store the resultant file in one of the ZOO overrable Elements folder. That way the file will be easily localizable and risk free on updates.
+What we suggest is to create your own layout (you can copy/paste an existing one) and store the resultant file in one of the ZOO overridable Elements folder. That way the file will be easily localizable and risk free on updates.
 
 ### Before starting
 
-As much as we try to make our docs complete, with a system as versitle as ZOO and some of the integrations included in our elements (like WidgetKit and qTip) even our documentation might not make a potential rendering manner obvious. Feel free to ask us in our support center.
+As much as we try to make our docs complete, with a system as versatile as ZOO and some of the integrations included in our elements (like WidgetKit and qTip) even our documentation might not make a potential rendering manner obvious. Feel free to ask us in our support center.
 
 ### Step 1. Locate the layouts path
 
@@ -181,11 +181,11 @@ The *Google Maps Pro layouts* are located in **plugins / system / zoo_zlelements
 
 ### Step 2. Create your layout
 
-Copy one of the existing layouts in the path from the Step 1 and change it name to a custom one. Be sure to keep the underscore `_` at the begining of the file if it's a sublayout.
+Copy one of the existing layouts in the path from the Step 1 and change it name to a custom one. Be sure to keep the underscore `_` at the beginning of the file if it's a sublayout.
 
 ### Step 3. Place your layout
 
-Your layout is ready but should be stored in a safe place, as we mentioned in the begining. You can place your custom layout in:
+Your layout is ready but should be stored in a safe place, as we mentioned in the beginning. You can place your custom layout in:
 
 * **media / zoo / custom_elements / googlemapspro / tmpl / render**
 

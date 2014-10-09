@@ -14,7 +14,7 @@ Requirements
 Installation
 ============
 
-Trough ZOOlanders Manager
+Through ZOOlanders Manager
 -------------------------
 
 1. Go to *Joomla Administration / Components / ZOOlanders*.
@@ -24,7 +24,7 @@ Trough ZOOlanders Manager
 
 Once the installation process have finished the **ZOOfilter** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Trough Joomla Manager
+Through Joomla Manager
 ---------------------
 
 1. Download **ZOOfilter** package from [ZOOlanders site](https://www.zoolanders.com/extensions/zoofilter).
@@ -60,7 +60,7 @@ Locate and open the *ZOOfilter Results* Default layout assignment view. Drag & D
 
 ### Step 3. Set up the Module
 
-Create a new *ZOOfilter Module* module and set it's title, position and publish state. Under the *Basic Options* tab, on the righ, choose the App and Type you have set up in the Step 1. Save and Close the module.
+Create a new *ZOOfilter Module* module and set it's title, position and publish state. Under the *Basic Options* tab, on the right, choose the App and Type you have set up in the Step 1. Save and Close the module.
 
 For more information on the module and it's options please review the [Module section](#module).
 
@@ -79,11 +79,11 @@ You can install the translations:
 
 Download the files from Transifex and place them into **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zoofilter.ini**
 
-### Trough the ZL Component
+**Note:** The default **en-GB.plg_system_zoofilter.ini** language file is located in the **administrator/language/en-GB** folder.
+
+### Through the ZL Component
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
-
-**Note:** The default **en-GB.plg_system_zoofilter.ini** language file is located in the **administrator/language/en-GB** folder.
 
 Search Form
 ===========
@@ -94,7 +94,7 @@ The Form inputs are composed by the Elements in the ZOOfilter layouts.
 
 ### Search layout
 
-This layout is used to assign the elements that will be part of the Search form. Notice that the render layouts and params are specific for the form purpose. Only the serachable and Elements with a group are compatible with this laout. For more information please review the [Field section](#fields).
+This layout is used to assign the elements that will be part of the Search form. Notice that the render layouts and params are specific for the form purpose. Only the searchable and Elements with a group are compatible with this layout. For more information please review the [Field section](#fields).
 
 ### Order layout
 
@@ -121,7 +121,7 @@ If you are using custom elements and those are searchable you would need to assi
 
 1. Open the custom element XML file.
 2. Localize the `<element/>` tag.
-3. Add a zfgroup attribute with the appropiate category value.
+3. Add a zfgroup attribute with the appropriate category value.
 
   Eg: `<element type="textpro" zfgroup="input">`
 
@@ -139,7 +139,7 @@ For the Elements considered part of the Category group, 4 layouts are available:
 * **Default** - Will render a Dropdown form field.
 * **Checkbox** - Will render a Checkbox form field.
 * **Radio** - Will render a Radio form field.
-* **Ajax** - Will render a one level Dropdown form field which will load consecuent Dropdown subcategories when the parent is selected.
+* **Ajax** - Will render a one level Dropdown form field which will load consequent Dropdown subcategories when the parent is selected.
 
 ### Date
 
@@ -188,14 +188,14 @@ The Module is used to display the Search Forms.
 Options
 -------
 
-It is only posible to filter Items from the same Type/App at a time and you would need to choose it in the Module params. It is posible however to display several Modules with diferent configurations in the same page.
+It is only possible to filter Items from the same Type/App at a time and you would need to choose it in the Module params. It is possible however to display several Modules with different configurations in the same page.
 
 IMAGE HERE
 
 * **Items** - allows to choose the ZOO App and Type which Items will be filtered.
 * **Form method** - allows to choose the method that will be used by the Form to send the search data.
   * **GET** - Recommended.
-  * **POST** - This methos does NOT support pagination between results.
+  * **POST** - This method does NOT support pagination between results.
 
 * **Show Ordering** - allows to choose if the Ordering Form should be displayed in the results page. If enabled it will allow the users to reorder the filtered results.
 * **Show search page title** - allows to choose if the Page Title should be displayed in the results page. If enabled it will allow the users to reorder the filtered results. See Search page title below.
@@ -204,10 +204,10 @@ IMAGE HERE
 * **Search page title** - allows to set the Search page title. See previous Show search page title.
 * **Columns** - allows to choose the amount of columns with which will be rendered the Items in the results view.
 * **Items Per Page** - allows to choose the amount of Items per page that will be displayed in the results view.
-* **Max number of results** - allows to set a maximun number of results to display. 1000 (default) will display up to 1000 results/entries in the filter results. Any items matching the filter criteria that are beyond 1000 will not be rendered. You can set this to any valid integer.
+* **Max number of results** - allows to set a maximum number of results to display. 1000 (default) will display up to 1000 results/entries in the filter results. Any items matching the filter criteria that are beyond 1000 will not be rendered. You can set this to any valid integer.
 * **Page Layout** - allows to set the type of Page Layout for the results page:
   * **Search** - (default) will display the results using standard results display
-  * **Json** - will return the JSON (code) result of the filtering operation. This option is ment for custom results layouts.
+  * **Json** - will return the JSON (code) result of the filtering operation. This option is meant for custom results layouts.
 
 * **Ordering Layout** - allows to choose the Order Layout that will be used to render the order form.
 * **Result Layout** - allows to choose the Result Layout that will be used to render Items in the results view.
@@ -218,7 +218,7 @@ IMAGE HERE
 Usage case: Menu Item
 =====================
 
-There is a case when you would like to display a prefiltere list of ZOO items, without letting them actually refilter the list. ZOO doesn't come with that ability, and it might not be obvious, but with the ZOOfilter extension you CAN do that, and relatively easily.
+There is a case when you would like to display a prefilter list of ZOO items, without letting them actually refilter the list. ZOO doesn't come with that ability, and it might not be obvious, but with the ZOOfilter extension you CAN do that, and relatively easily.
 
 Steps
 -----
