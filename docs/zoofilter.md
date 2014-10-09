@@ -114,12 +114,10 @@ Fields
 
 ZOOfilter Form fields are composed by the Elements for whom ZOOfilter will use specific group layouts. Those layouts are stored in the **modules/mod_zoofilter/tmpl/_elements** folder, where you can even store your custom layouts.
 
-Groups
-------
+Custom elements
+---------------
 
-In order to apply the correct field layout to each Element ZOOfilter groups them into *Category, Date, Input, Option, Rating* and *Tag*. When an Element is assigned to a position of the *Search Layout* the Group specific layout will appear as options.
-
-If you are using custom elements and those are searchable you would need to assign them the Group manually, to do so:
+If you are using custom elements and those are searchable you would need to assign them the Group manually for ZOOfilter to recognise them:
 
 1. Open the custom element XML file.
 2. Localize the `<element/>` tag.
@@ -129,7 +127,12 @@ If you are using custom elements and those are searchable you would need to assi
 
 4. Save the file and done!
 
-### Category group
+Groups
+------
+
+In order to apply the correct field layout to each Element ZOOfilter groups them into *Category, Date, Input, Option, Rating* and *Tag*. When an Element is assigned to a position of the *Search Layout* the Group specific layout will appear as options.
+
+### Category
 
 For the Elements considered part of the Category group, 4 layouts are available:
 
@@ -138,21 +141,21 @@ For the Elements considered part of the Category group, 4 layouts are available:
 * **Radio** - Will render a Radio form field.
 * **Ajax** - Will render a one level Dropdown form field which will load consecuent Dropdown subcategories when the parent is selected.
 
-### Date group
+### Date
 
 For the Elements considered part of the Date group, next layouts are available:
 
 * **Default** - Will render a date Input form field.
 * **Range** - Will render two date Inputs form fields for range searches.
 
-### Input group
+### Input
 
 For the Elements considered part of the Input group, next layouts are available:
 
 * **Default** - Will render a text Input form field.
 * **Range** - Will render two text Inputs form fields for range searches.
 
-### Option group
+### Option
 
 For the Elements considered part of the Option group, next layouts are available:
 
@@ -160,7 +163,7 @@ For the Elements considered part of the Option group, next layouts are available
 * **Checkbox** - Will render a Checkbox form field.
 * **Radio** - Will render a Radio form field.
 
-### Rating group
+### Rating
 
 For the Elements considered part of the Rating group, next layouts are available:
 
@@ -169,7 +172,7 @@ For the Elements considered part of the Rating group, next layouts are available
 * **Radio** - Will render a Radio form field.
 * **Range** - Will render two text Inputs form fields for range searches.
 
-### Tag group
+### Tag
 
 For the Elements considered part of the Tag group, next layouts are available:
 
