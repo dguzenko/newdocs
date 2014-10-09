@@ -15,7 +15,7 @@ Requirements
 Installation
 ============
 
-Trough ZOOlanders Manager
+Through ZOOlanders Manager
 -------------------------
 
 1. Go to *Joomla Administration / Components / ZOOlanders*.
@@ -25,7 +25,7 @@ Trough ZOOlanders Manager
 
 Once the installation process have finished the **ZOOtrack** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Trough Joomla Manager
+Through Joomla Manager
 ----------------------
 
 1. Download **ZOOtrack** package from [ZOOlanders site](https://www.zoolanders.com/extensions/zootrack).
@@ -54,7 +54,7 @@ The ZOOtrack configuration is very simple. Go to the **Joomla Plugin Manager** (
 Further integrations
 --------------------
 
-ZOOtrack is ment to be used by other Extensions, such us ZOOitem Pro, which thanks to ZOOtrack will be able to render the *Current Item* or *Latest Viewed* items. To do so install, [set up](http://joolanders.github.io/newdocs/?zooitempro#configuration) a ZOOitem Pro (3.1v or superior) module instance and choose one of the available ZOOtrack layouts.
+ZOOtrack is meant to be used by other Extensions, such us ZOOitem Pro, which thanks to ZOOtrack will be able to render the *Current Item* or *Latest Viewed* items. To do so install, [set up](http://joolanders.github.io/newdocs/?zooitempro#configuration) a ZOOitem Pro (3.1v or superior) module instance and choose one of the available ZOOtrack layouts.
 
 Translation
 -----------
@@ -67,8 +67,8 @@ You can install the translations:
 
 Download the files from Transifex and place them into **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zootrack.ini**
 
-### Trough the ZL Component
+**Note:** The default **en-GB.plg_system_zootrack.ini** language file is located in the **administrator/language/en-GB** folder.
+
+### Through the ZL Component
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
-
-**Note:** The default **en-GB.plg_system_zootrack.ini** language file is located in the **administrator/language/en-GB** folder.
