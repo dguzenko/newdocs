@@ -15,7 +15,7 @@ Requirements
 Installation
 ============
 
-Trough ZOOlanders Manager
+Through ZOOlanders Manager
 -------------------------
 
 1. Go to *Joomla Administration / Components / ZOOlanders*.
@@ -25,7 +25,7 @@ Trough ZOOlanders Manager
 
 Once the installation process have finished the **ZL Elements** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Trough Joomla Manager
+Through Joomla Manager
 ----------------------
 
 1. Download **Events** package from [ZOOlanders site](https://www.zoolanders.com/extensions/events).
@@ -80,11 +80,11 @@ You can install the translations:
 
 Download the files from Transifex and place them into **media/zoo/applications/events/language/YOUR-LANG/YOUR-LANG.com_zoo.ini**
 
-### Trough the ZL Component
+**Note:** The default **en-GB.com_zoo.ini** language file is located in the **media/zoo/applications/events/language/en-GB** folder.
+
+### Through the ZL Component
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
-
-**Note:** The default **en-GB.com_zoo.ini** language file is located in the **media/zoo/applications/events/language/en-GB** folder.
 
 App
 ===
