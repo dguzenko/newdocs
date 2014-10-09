@@ -15,7 +15,7 @@ Requirements
 Installation
 ============
 
-Trough ZOOlanders Manager
+Through ZOOlanders Manager
 -------------------------
 
 1. Go to *Joomla Administration / Components / ZOOlanders*.
@@ -23,9 +23,9 @@ Trough ZOOlanders Manager
 3. Find the **ZOOaksubs** Extension in the list and click on the Install button.
 4. Be patient while the Installation proceeds, status notification will arise.
 
-Once the installation process have finished the **ZOOaksubs** plagin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
+Once the installation process have finished the **ZOOaksubs** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
-Trough Joomla Manager
+Through Joomla Manager
 ----------------------
 
 1. Download **ZOOaksubs** package from [ZOOlanders site](https://www.zoolanders.com/extensions/zooaksubs).
@@ -59,13 +59,13 @@ Locate and edit the desired Type elements. Choose the Elements you would like to
 
 ### Step 2. Tune up the access
 
-Now that the base access is set we can override it completly or partially on each position. To do so go to the Positions Assignment view for the Layout you would like to work with and seek for the Element ZOOaksubs section. Click on the *Override* box and set the specific param for this particular position.
+Now that the base access is set we can override it completely or partially on each position. To do so go to the Positions Assignment view for the Layout you would like to work with and seek for the Element ZOOaksubs section. Click on the *Override* box and set the specific param for this particular position.
 
-You can also set the access to the Elements without base acces the same way you did in Step 1.
+You can also set the access to the Elements without base access the same way you did in Step 1.
 
 ### Done!
 
-Now your elements will be accessible only to the Users with the appropiate Akeeba Subscription.
+Now your elements will be accessible only to the Users with the appropriate Akeeba Subscription.
 
 Translation
 -----------
@@ -78,23 +78,23 @@ You can install the translations:
 
 Download the files from Transifex and place them into **administrator/language/YOUR-LANG/YOUR-LANG.plg_system_zooaksubs.ini**
 
-### Trough the ZL Component
+**Note:** The **default en-GB.plg_system_zooaksubs.ini** language file is located in the **administrator/language/en-GB** folder.
+
+### Through the ZL Component
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
-
-**Note:** The **default en-GB.plg_system_zooaksubs.ini** language file is located in the **administrator/language/en-GB** folder.
 
 Elements Access
 ===============
 
-In your ZOO elements configuration and assignement there is a section called ZOOaccess, it allows you to set who can access that specific element. The *Evalute* checkbox must be marked in order to start evaluating them.
+In your ZOO elements configuration and assignment there is a section called ZOOaccess, it allows you to set who can access that specific element. The *Evaluate* checkbox must be marked in order to start evaluating them.
 
 IMAGE HERE
 
 * **Item Override** - allows to enable the access overriding on each Item.
 * **Evaluate** - allows to choose if the access will be evaluated for this element. Must be selected in order to view the rest of the options.
 * **Matching method** - allows to choose if a match should be accepted when ALL or ANY (one or more) of the assignments are matched.
-* **Action** - allows to choose the action that should be applied to the element if there is a match. The Render action will render the element if the evalution was positive, the Not render action will render the element if the evalution was negative. 
+* **Action** - allows to choose the action that should be applied to the element if there is a match. The Render action will render the element if the evaluation was positive, the Not render action will render the element if the evaluation was negative. 
 
 If you are in the Positions Assignments and have set an evaluation in the Element config, the ZOOaccess section will display *Override* instead of *Evaluate*. By checking the *Yes* box you can override any or all existing restrictions that have been stated.
 
@@ -127,13 +127,13 @@ This rule evaluates if the User has an active and valid Akeeba Subscription for 
 IMAGE HERE
 
 * **Levels** - allows to choose Related Item Element that represents the Package.
-* **Mode** - allows to choose if the User should be parto of all (AND) groups or any (OR) of them.
+* **Mode** - allows to choose if the User should be part of all (AND) groups or any (OR) of them.
 * **User** - allows to choose who will be the evaluated user, the current viewer (User) or the Item's Author (Author).
 
 Level Syncing
 =============
 
-This Doc will show you how to sync your ZOO *Items* with *Akeeba Subscription Levels*. It would be still posible to create and control the Levels trough Akeeba and is optional but we recommend it as you will be able to:
+This Doc will show you how to sync your ZOO *Items* with *Akeeba Subscription Levels*. It would be still possible to create and control the Levels trough Akeeba and is optional but we recommend it as you will be able to:
 
 * Control within ZOO the Levels content and configuration.
 * Display your Levels with ZOO render flexibility.
@@ -141,26 +141,26 @@ This Doc will show you how to sync your ZOO *Items* with *Akeeba Subscription Le
 
 ### Step 1. Type configuration
 
-Please add the *Aksubs Level Sync* element to the Type you would like to sync with Levels. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types). Additionally you will need to create some fields that will provide the necesary Level information.
+Please add the *Aksubs Level Sync* element to the Type you would like to sync with Levels. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types). Additionally you will need to create some fields that will provide the necessary Level information.
 
-You should add the following necesary fields:
+You should add the following necessary fields:
 
-* **Price** - A text field that will store the Level price. The stored value should be formated as 000.00. Recommended Element: Text Pro, will allow you to control the charachters limit.
-* **Duration** - A text field that will store the Level duration (days). Only integrer value is allowed. Recommended Element: Text Pro, will allow you to control the charachters input.
-* **Image** - An image field that will store the Level Image. Even if the Level will not be displayed with Akeeba it is a necesary sync value. If you would like the images be recognized by Akeeba Level be sure to store them in images folder. Recommended Element: Image.
+* **Price** - A text field that will store the Level price. The stored value should be formatted as 000.00. Recommended Element: Text Pro, will allow you to control the characters limit.
+* **Duration** - A text field that will store the Level duration (days). Only integer value is allowed. Recommended Element: Text Pro, will allow you to control the characters input.
+* **Image** - An image field that will store the Level Image. Even if the Level will not be displayed with Akeeba it is a necessary sync value. If you would like the images be recognized by Akeeba Level be sure to store them in images folder. Recommended Element: Image.
 
 Optionally add the following ones:
 
 * **Description** - A textarea field that will store the Level description. Recommended Element: *Textarea*.
-* **Fixed expiration** - A date field that will store the Level fixed expiration date. The stored value should be formated as *0000-00-00 00:00:00*. Recommended Element: *Date*.
+* **Fixed expiration** - A date field that will store the Level fixed expiration date. The stored value should be formatted as *0000-00-00 00:00:00*. Recommended Element: *Date*.
 * **Forever** - A boolean field that will store the Level forever statement value. The stored value should be boolean (0 or 1). Recommended Element: *Select* or *Radio*.
-* **Sign-up fee** - A text field that will store the Level Sign-up fee. The stored value should be formated as *000.00*. Recommended Element: *Text Pro*, will allow you to control the charachters limit.
+* **Sign-up fee** - A text field that will store the Level Sign-up fee. The stored value should be formatted as *000.00*. Recommended Element: *Text Pro*, will allow you to control the characters limit.
 * **Order Text** - A textarea field that will store the text displayed when the User's subscription has been completed successfully. Recommended Element: *Textarea*.
 * **Cancel Text** - A textarea field that will store the text displayed when the User's subscription has NOT been completed successfully. Recommended Element: *Textarea*.
 * **Forbid renewals** - A boolean field that will store the Level Forbid renewals statement value. The stored value should be boolean (0 or 1). Recommended Element: *Select* or *Radio*.
 * **Recurring** - A boolean field that will store the Level recurring statement value. The stored value should be boolean (0 or 1). Recommended Element: *Select* or *Radio*.
-* **First expiration notification** - A text field that will store the Level First expiration notification (days). Only integrer value is allowed. Recommended Element: *Text Pro*, will allow you to control the charachters input.
-* **Second expiration notification** - A text field that will store the Level Second expiration notification (days). Only integrer value is allowed. Recommended Element: *Text Pro*, will allow you to control the charachters input.
+* **First expiration notification** - A text field that will store the Level First expiration notification (days). Only integer value is allowed. Recommended Element: *Text Pro*, will allow you to control the characters input.
+* **Second expiration notification** - A text field that will store the Level Second expiration notification (days). Only integer value is allowed. Recommended Element: *Text Pro*, will allow you to control the characters input.
 
 For more information on Level fields please review the [official Akeeba Subscription docs](https://www.akeebabackup.com/documentation/akeeba-subscriptions/subscription-levels.html).
 
@@ -176,7 +176,7 @@ Each position represents a Level data and it's rendered value will be passed to 
 
 ### Step 3. Creating the Level trough ZOO
 
-It's all set, go and create a new Item. Populate the fields and be sure the *Aksubs Level Sync* value is set to *Yes*. If all went well you will see an succesfull notification and a link to the synced Level. If otherwise the notification was negative, review the configuration and try again.
+It's all set, go and create a new Item. Populate the fields and be sure the *Aksubs Level Sync* value is set to *Yes*. If all went well you will see an successfully notification and a link to the synced Level. If otherwise the notification was negative, review the configuration and try again.
 
 These are the common errors you could come along:
 
@@ -184,7 +184,7 @@ These are the common errors you could come along:
 * Akeeba Subscription Level has NOT been synced: A subscription level must have a Length of at least 1 day.
 * Akeeba Subscription Level has NOT been synced: A subscription level must have an Image.
 
-All of them are complaining about missing or bad formated sync data. Be sure the appropiate field exist (step 1), is assigned in the ZOOaksubs Layout (step 2) and is populated in the Item.
+All of them are complaining about missing or bad formatted sync data. Be sure the appropriate field exist (step 1), is assigned in the ZOOaksubs Layout (step 2) and is populated in the Item.
 
 ### Step 4. Display Level and checkout button
 
@@ -224,7 +224,7 @@ Position Assignment
 IMAGE HERE
 
 * **Show Label** - Allows to choose if the element label should be rendered or not.
-* **Alternative Label** - Allows to customoze the default label (the element's name set in the Type) for this specific position.
+* **Alternative Label** - Allows to customize the default label (the element's name set in the Type) for this specific position.
 
 ### Layout Parameters
 
