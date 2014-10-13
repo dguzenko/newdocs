@@ -89,7 +89,7 @@ Import
 ### Import from JSON
 
 1. In the *Import from JSON* block use the "Search" option to choose the file from your pc and click on "Upload" button.
-2. Pick the check boxes to import the frontpage and categories (if you need it). Choose a type and match the data with the elements. When you ready, click the "Import" button to start. 
+2. Pick the check boxes to import the frontpage and categories (if you need it). Choose a type and match the data with the elements. When you are ready, click the "Import" button to start. 
 3. Be patient while ZOO port imports your application content.  Progress bars help to track the progress.
 
 ***JSON imports:*** all types 
@@ -99,7 +99,7 @@ Import
 1. In the *Import from JSON* block use the "Search" option to choose the file from your pc and click on "Upload" button.
 **Note:** If files were exported as an archive, unarchive them first and then import each file separately.
 2. Set up the file details and click “Next”.
-3. Choose a type and match the data with the elements. When you ready, click the "Import" button to start.
+3. Choose a type and match the data with the elements. When you are ready, click the "Import" button to start.
 4. Be patient while ZOO port imports your application content.  Progress bars help to track the progress.
 
 ***CSV  imports:*** Name, Alias, Author Alias, Created Date, Category, Tag. 
