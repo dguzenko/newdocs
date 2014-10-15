@@ -241,7 +241,7 @@ IMAGE HERE
 
 * **Name** - To setup Shipping rate name, that will be displayed.
 * **Price** - To setup shipping price.
-* **Type** - Chose rate type. It could be based on ordered items or entire order.
+* **Type** - Choose rate type. It could be based on ordered items or entire order.
 * **Price From** - Left price margin.
 * **Price To** - Right price margin.
 * **Quantity From** - Left quantity margin.
@@ -259,8 +259,22 @@ IMAGE HERE
 Discounts
 ---------
 
-* **Allow discounts** – If set to “Yes” discounting will be applied for orders, if discount coupon is provided .You can manage your discounting on the page *ZOOcart tab / Discounts*. 
+* **Allow discounts** – If set to “Yes” discounting will be applied for orders, if discount coupon is provided. You can manage your discounting on the page *ZOOcart tab / Discounts*. 
 * **Apply discount before tax** - If set to “Yes” discounting will be applied for the tax free price, otherwise it will be applied after tax calculations .
+
+Go to the *Joomla Administration / Components / ZOO landers / ZOO cart tab / Discounts* to manage discounting.
+
+Press *"New"* button to create a discount and set up the following parameters:
+
+* **Name** - Set up the discount coupon identifier.
+* **Coupon code** - Set up the discount coupon code. This coupon code will be requested to get the discount. 
+* **Discount type** - Define the type of the discount. It could be fixed amount or percent from total sum.
+* **Discount** - Specify the value of the discount in monetary terms for the fixed type and in percents for percentage type.
+* **Status** - Enable/disable this discount.
+* **Valid from** - Specify the start date for publication of this coupon.
+* **Valid to** - Specify the finish date for publication of this coupon.
+* **User Groups** - Define user groups that can use the coupon. Picked groups will have an ability to use the discount, remaining groups will not. If any group is picked, all user groups will have an ability to use the discount by default.
+* **Hits per user** - Specify the limit number of coupone usages. Leave empty or set 0 for unlimited usage.
 
 
 Quantities
