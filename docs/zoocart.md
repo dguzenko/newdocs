@@ -91,8 +91,21 @@ Add and configure all necessary items.
 ### Step 4. Setup the Layout
 
 1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
-2. Click on the chosen template layout in the specific type line *(e.g. Default: full)*. 
-3. Assign the elements to positions. 
+2. Setup *template* layouts *(e.g. Default: Full and Teaser)*. Click on the layout in the specific type line and assign the elements to positions. 
+   * **Full** layout is used in the item view. Assign the elements to the full layout, to show them on the detail page of an item.
+   * **Teaser** layout is used in the category view. Assign the elements to the teaser layout, to show them on the frontpage.
+3. Setup *extension* layouts *ZOOcart: Cart and Order*. Click on the layout in the specific type line and assign the elements to positions.
+   * **Cart** layout is used for checkout page view. Assign the elements to the cart layout, to show them on the checkout page.
+   * **Order** layout is used for order page view. Assign the elements to the order layout, to show them on the order page. 
+
+**Tip:** To assign the elements to the layout positions, click on the element name and Drag & Drop it to its new position.
+
+E.g.: 
+
+* Assign *ZOOcart element* to the position where you want to show the *Add To Cart* button.
+* Assign *Price Pro element* to the position where you want to show the *Price*. 
+* Assign *Quantity element* to the position where you want to show the *Quantity* of products (if you need it).
+
 For more information about layouts setup, please review the [ZOO official docs](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
 ### Done! 
@@ -127,13 +140,17 @@ Each Element instance represents a Product variation, repeat the steps 3 to 6 to
 
 ### Step 3. Setup the Layouts 
 
-1. Go to the *Joomla Administration / Components / ZOO / gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
+1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
 2. Setup *template* layouts *(e.g. Default: Full and Teaser)*. Click on the layout in the specific type line and assign the elements to positions. 
-   * **Full** layout is used for full item view
-   * **Teaser** layout is used for teaser item view on the frontpage. 
+   * **Full** layout is used in the item view. Assign the elements to the full layout, to show them on the detail page of an item.
+   * **Teaser** layout is used in the category view. Assign the elements to the teaser layout, to show them on the frontpage.
 3. Setup *extension* layouts *ZOOcart: Cart and Order*. Click on the layout in the specific type line and assign the elements to positions.
-   * **Cart** layout is used for checkout page view.
-   * **Order** layout is used for order page view.
+   * **Cart** layout is used for checkout page view. Assign the elements to the cart layout, to show them on the checkout page.
+   * **Order** layout is used for order page view. Assign the elements to the order layout, to show them on the order page. 
+
+**Tip:** To assign the elements to the layout positions, click on the element name and Drag & Drop it to its new position.
+
+E.g.: Assign *Variations element* to the position where you want to show the *Variations* of your product. 
 
 For more information about layouts setup, please review the [ZOO official docs](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
@@ -162,13 +179,13 @@ Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"L
 
 The ZOOcart payment plugins language files are located in the **administrator/language/en-GB** folder with the and the translation should be placed into the language related folder replacing the **en-GB** part.
 
-Eg: **administrator/language/YOUR-LANG/YOUR-LANG.plg_zoocart_payment_PLUGINNAME.ini**
+E.g.: **administrator/language/YOUR-LANG/YOUR-LANG.plg_zoocart_payment_PLUGINNAME.ini**
 
 **Shipping plugins**
 
 The ZOOcart shipping plugins language files are located in the **administrator/language/en-GB** folder with the and the translation should be placed into the language related folder replacing the **en-GB** part.
 
-Eg: **administrator/language/YOUR-LANG/YOUR-LANG.plg_zoocart_shipping_PLUGINNAME.ini**
+E.g.: **administrator/language/YOUR-LANG/YOUR-LANG.plg_zoocart_shipping_PLUGINNAME.ini**
 
 Settings
 ========
