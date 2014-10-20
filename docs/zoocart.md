@@ -91,8 +91,21 @@ Add and configure all necessary items.
 ### Step 4. Setup the Layout
 
 1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
-2. Click on the chosen template layout in the specific type line *(e.g. Default: full)*. 
-3. Assign the elements to positions. 
+2. Setup *template* layouts *(e.g. Default: Full and Teaser)*. Click on the layout in the specific type line and assign the elements to positions. 
+   * **Full** layout is used in the item view. Assign the elements to the full layout, to show them on the detail page of an item.
+   * **Teaser** layout is used in the category view. Assign the elements to the teaser layout, to show them on the frontpage.
+3. Setup *extension* layouts *ZOOcart: Cart and Order*. Click on the layout in the specific type line and assign the elements to positions.
+   * **Cart** layout is used for checkout page view. Assign the elements to the cart layout, to show them on the checkout page.
+   * **Order** layout is used for order page view. Assign the elements to the order layout, to show them on the order page. 
+
+**Tip:** To assign the elements to the layout positions, click on the element name and Drag & Drop it to its new position.
+
+*E.g.:* 
+
+* Assign *ZOOcart element* to the position where you want to show the *Add To Cart* button.
+* Assign *Price Pro element* to the position where you want to show the *Price*. 
+* Assign *Quantity element* to the position where you want to show the *Quantity* of products (if you need it).
+
 For more information about layouts setup, please review the [ZOO official docs](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
 ### Done! 
@@ -127,19 +140,82 @@ Each Element instance represents a Product variation, repeat the steps 3 to 6 to
 
 ### Step 3. Setup the Layouts 
 
-1. Go to the *Joomla Administration / Components / ZOO / gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
+1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
 2. Setup *template* layouts *(e.g. Default: Full and Teaser)*. Click on the layout in the specific type line and assign the elements to positions. 
-   * **Full** layout is used for full item view
-   * **Teaser** layout is used for teaser item view on the frontpage. 
+   * **Full** layout is used in the item view. Assign the elements to the full layout, to show them on the detail page of an item.
+   * **Teaser** layout is used in the category view. Assign the elements to the teaser layout, to show them on the frontpage.
 3. Setup *extension* layouts *ZOOcart: Cart and Order*. Click on the layout in the specific type line and assign the elements to positions.
-   * **Cart** layout is used for checkout page view.
-   * **Order** layout is used for order page view.
+   * **Cart** layout is used for checkout page view. Assign the elements to the cart layout, to show them on the checkout page.
+   * **Order** layout is used for order page view. Assign the elements to the order layout, to show them on the order page. 
+
+**Tip:** To assign the elements to the layout positions, click on the element name and Drag & Drop it to its new position.
+
+*E.g.:* Click on the layout(s) where you want to display the *Variations* of your product and assign *Variations element* to the required position. 
 
 For more information about layouts setup, please review the [ZOO official docs](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
 ### Done! 
 
 **Variations** are ready, a dropdown with the possible Products Attributes should be visible in your Product view.
+
+Digital Products
+----------------
+
+If you deal with the intangible products, you can set up the digital type of items in combination with **ZOOaccess**. 
+
+The example of a digital product could be e-books. The following guide will be provided with the example how to set up an e-book online shop that will help you to make setting to your digital products. 
+
+**Tip:** Before start make sure your ZOOaccess plugin is installed and enabled.
+
+### Step 1. Setup the Type
+
+1. Go to the *Joomla Administration / Components / ZOO/ gearwheel* (on the right side of the tab bar). Click on the app for which you want to setup a specific type.
+2. Click *Edit Elements* near the type name *(e.g. E-books)*. Make sure all the required elements (PricePro, Quantity and ZOOcart) are present and configured. For more information please review the [Elements section](#elements) and the [official ZOO docs](http://yootheme.com/zoo/documentation/advanced/extend-pre-build-types). 
+3. Click the *Edit* button (pencil) on the *ZOOcart* element and choose the Item Type *“Digital”* in the Specific settings panel.
+4. Add the element you want to integrate the ZOOaccess with. *(E.g. When a user buys an e-book and his order gets Payment received status, then the download option appears, so the user can download the file and enjoy his book.  In our example we will use Download element.)*
+5. Click the *Edit* button (pencil) on this element *(E.g. Download element)* and configure the basic params.
+6. Click *Edit access evaluation params* in the *ZOOaccess* panel to set up integration of the element with the ZOOaccess plugin. Pick the *Yes* in the *Evaluate* checkbox to open the access rules settings. For more information please review the [ZOOaccess doc, Element Access section](http://joolanders.github.io/newdocs/?zooaccess#elements-access).
+7. Set up the [*ZOOcart Items* rule](http://joolanders.github.io/newdocs/?zooaccess#rules-zoocart-items-rule).
+
+**Note:** Configuring ZOOaccess rules you can follow one of scenarios: positive or negative evaluation. The *Render* action would render the element if the evaluation was positive, the *Not render* action would render the element if the evaluation was negative. The element will be rendered when the order has the status *Payment received* or *Completed*.
+
+### Step 2. Disable shipping option (if required).
+
+For digital products you probably will not need to deliver anything to customers, so the shipping is not required. 
+
+You can disable shipping option and ZOOcart will not require to specify a shipping rate and an address during checkout process.
+
+1. Go to the *Joomla Administration / Components / ZOOlanders / ZOOcart tab / Settings*.
+2. In the *Shipping* settings set “Enable Shipping Rates”  option to "No".
+3. In the *Addresses* settings set “Require Address”  option to "No".
+
+### Step 3. Setup the Items
+
+1. Go to the *Joomla Administration / Components / ZOO/ App tab*. 
+2. Click the button “New” to create a new item and select the item type that you have configured in the Step 1. *(E.g. E-books Type)*
+3. Setup the *Details* of the item. Specify the essence (element that you have integrated with ZOOaccess) that will be accessible after evaluation. *(E.g. As we work with Download element, we will go to the Download panel and upload the file with our e-book)* 
+ 
+Add and configure all necessary items.
+
+### Step 4. Setup the Layout
+
+1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app.
+2. Setup *template* layouts *(e.g. Default: Full and Teaser)*. Click on the layout in the specific type line and assign the elements to positions. 
+   * **Full** layout is used in the item view. Assign the elements to the full layout, to show them on the detail page of an item.
+   * **Teaser** layout is used in the category view. Assign the elements to the teaser layout, to show them on the frontpage.
+3. Setup *extension* layouts *ZOOcart: Cart and Order*. Click on the layout in the specific type line and assign the elements to positions.
+   * **Cart** layout is used for checkout page view. Assign the elements to the cart layout, to show them on the checkout page.
+   * **Order** layout is used for order page view. Assign the elements to the order layout, to show them on the order page. 
+
+**Tip:** To assign the elements to the layout positions, click on the element name and Drag & Drop it to its new position.
+
+*E.g.:* Click on the layout(s) where you want to display the element integrated with ZOOaccess plugin (E.g. Download element) and assign the element to the required position. 
+
+For more information about layouts setup, please review the [ZOO official docs](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
+
+### Done! 
+
+Your ZOOcart digital products setup is ready! 
 
 Translation
 -----------
@@ -162,13 +238,13 @@ Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"L
 
 The ZOOcart payment plugins language files are located in the **administrator/language/en-GB** folder with the and the translation should be placed into the language related folder replacing the **en-GB** part.
 
-Eg: **administrator/language/YOUR-LANG/YOUR-LANG.plg_zoocart_payment_PLUGINNAME.ini**
+E.g.: **administrator/language/YOUR-LANG/YOUR-LANG.plg_zoocart_payment_PLUGINNAME.ini**
 
 **Shipping plugins**
 
 The ZOOcart shipping plugins language files are located in the **administrator/language/en-GB** folder with the and the translation should be placed into the language related folder replacing the **en-GB** part.
 
-Eg: **administrator/language/YOUR-LANG/YOUR-LANG.plg_zoocart_shipping_PLUGINNAME.ini**
+E.g.: **administrator/language/YOUR-LANG/YOUR-LANG.plg_zoocart_shipping_PLUGINNAME.ini**
 
 Settings
 ========
@@ -224,7 +300,7 @@ IMAGE HERE
 
 * **Name** - To setup Shipping rate name, that will be displayed.
 * **Price** - To setup shipping price.
-* **Type** - Chose rate type. It could be based on ordered items or entire order.
+* **Type** - Choose rate type. It could be based on ordered items or entire order.
 * **Price From** - Left price margin.
 * **Price To** - Right price margin.
 * **Quantity From** - Left quantity margin.
@@ -242,8 +318,22 @@ IMAGE HERE
 Discounts
 ---------
 
-* **Allow discounts** – If set to “Yes” discounting will be applied for orders, if discount coupon is provided .You can manage your discounting on the page *ZOOcart tab / Discounts*. 
+* **Allow discounts** – If set to “Yes” discounting will be applied for orders, if discount coupon is provided. You can manage your discounting on the page *ZOOcart tab / Discounts*. 
 * **Apply discount before tax** - If set to “Yes” discounting will be applied for the tax free price, otherwise it will be applied after tax calculations .
+
+Go to the *Joomla Administration / Components / ZOO landers / ZOO cart tab / Discounts* to manage discounting.
+
+Press *"New"* button to create a discount and set up the following parameters:
+
+* **Name** - Set up the discount coupon identifier.
+* **Coupon code** - Set up the discount coupon code. This coupon code will be requested to get the discount. 
+* **Discount type** - Define the type of the discount. It could be fixed amount or percent from total sum.
+* **Discount** - Specify the value of the discount in monetary terms for the fixed type and in percents for percentage type.
+* **Status** - Enable/disable this discount.
+* **Valid from** - Specify the start date for publication of this coupon.
+* **Valid to** - Specify the finish date for publication of this coupon.
+* **User Groups** - Define user groups that can use the coupon. Picked groups will have an ability to use the discount, remaining groups will not. If any group is picked, all user groups will have an ability to use the discount by default.
+* **Hits per user** - Specify the limit number of coupone usages. Leave empty or set 0 for unlimited usage.
 
 
 Quantities
