@@ -144,7 +144,7 @@ Each Element instance represents a Product variation, repeat the steps 3 to 6 to
 2. Setup *template* layouts *(e.g. Default: Full and Teaser)*. Click on the layout in the specific type line and assign the elements to positions. 
    * **Full** layout is used in the item view. Assign the elements to the full layout, to show them on the detail page of an item.
    * **Teaser** layout is used in the category view. Assign the elements to the teaser layout, to show them on the frontpage.
-3. Setup *extension* layouts *ZOOcart: Cart and Order*. Click on the layout in the specific type line and assign the elements to positions.
+3. Setup *extension* layouts *ZOOcart: Cart and Order* (if you need). Click on the layout in the specific type line and assign the elements to positions.
    * **Cart** layout is used for checkout page view. Assign the elements to the cart layout, to show them on the checkout page.
    * **Order** layout is used for order page view. Assign the elements to the order layout, to show them on the order page. 
 
