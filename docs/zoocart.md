@@ -118,11 +118,14 @@ Variations
 ### Step 1. Setup the Element
 
 1. Go to the *Joomla Administration / Components / ZOO / gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
-2. Click *Edit Elements* near the type name. Add *"Variations"* element from the ZOOcart block of the Element Library. 
+2. Click *Edit Elements* near the type name. Add *"Variations"* element from the ZOOcart block of the Element Library.
+    **Note:** You can add only one element *"Variations"*, otherwise the system conflict can appear. But you can add as many attributes and options as you need in the specific settings of the element. 
 3. Set **Name** and **Description** (if you need it) for the element and *save* these settings.
 4. Open the element again (Press Edit element). **Specific** settings will be available. 
   * **Elements** setting allows you to specify element(s) of different variations of products *(e.g. for different  colors of product we can have different images)*.
   * **Attributes** settings allows to specify parameters of product that could vary *(e.g. wear differs usually by colors and sizes)*. Set **Name**, **Value** and **Options** for the attribute. Please, note that all values for attributes and options should be set to avoid problems with synchronization.
+
+*E.g.:* Type "T-shirt" has the first attribute "Color" with options "blue", "red" and "green" and the second attribute "Size" with options "S", "M" and "L".  
 
 ### Step 2. Fill in the Variations
 
