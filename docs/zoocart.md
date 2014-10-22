@@ -307,13 +307,14 @@ IMAGE HERE
 * **Quantity To** - Right quantity margin.
 * **Weight From** - Left weight margin.
 * **Weight To** - Right weight margin.
-* **Countries** - Countries, that shipping rate could be applied to.
+* **Countries** - Countries, that shipping rate could be applied to. 
 * **States** - Use to specify states, related to chosen countries.
 * **Cities** - Use to specify cities, related to chosen countries.
 * **ZIP Codes** - Comma-separated Zip codes or postal codes.
 * **User Groups** - Chose groups of users that could use this shipping rate.
 * **Status** - Enable/disable this shipping rate.
 
+**Note:** *Countries*, *States*, *Cities*, *ZIP Codes* and *User Groups* will limit shipping rate availability. Chosen params will restrict the access to this shipping rate. If you don't need to set any or some of restrictions you can leave this params without changes. *(E.g. I would like to set up that this shipping rate will be accessable only for registered customers from USA, but no matter what state, city and ZIP code. I will choose Country - "United States" and User Groups - "Registered", but leave all other params without changes)* 
 
 Discounts
 ---------
