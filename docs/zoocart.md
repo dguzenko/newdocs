@@ -173,11 +173,11 @@ The example of a digital product could be e-books. The following guide will be p
 ### Step 1. Setup the Type
 
 1. Go to the *Joomla Administration / Components / ZOO/ gearwheel* (on the right side of the tab bar). Click on the app for which you want to setup a specific type.
-2. Click *Edit Elements* near the type name *(e.g. E-books)*. Make sure all the required elements (PricePro, Quantity and ZOOcart) are present and configured. For more information please review the [Elements section](#elements) and the [official ZOO docs](http://yootheme.com/zoo/documentation/advanced/extend-pre-build-types). 
+2. Create a new type for your digital products. Click *Edit Elements* near the type name *(e.g. E-books)*. Make sure all the required elements (PricePro, Quantity and ZOOcart) are present and configured. For more information please review the [Elements section](#elements) and the [official ZOO docs](http://yootheme.com/zoo/documentation/advanced/extend-pre-build-types). 
 3. Click the *Edit* button (pencil) on the *ZOOcart* element and choose the Item Type *“Digital”* in the Specific settings panel.
 4. Add the element you want to integrate the ZOOaccess with. *(E.g. When a user buys an e-book and his order gets Payment received status, then the download option appears, so the user can download the file and enjoy his book.  In our example we will use Download element.)*
 5. Click the *Edit* button (pencil) on this element *(E.g. Download element)* and configure the basic params.
-6. Click *Edit access evaluation params* in the *ZOOaccess* panel to set up integration of the element with the ZOOaccess plugin. Pick the *Yes* in the *Evaluate* checkbox to open the access rules settings. For more information please review the [ZOOaccess doc, Element Access section](http://joolanders.github.io/newdocs/?zooaccess#elements-access).
+6. Click *Edit access evaluation params* in the *ZOOaccess* panel to set up integration of the element with the ZOOaccess plugin. Pick *Yes* in the *Evaluate* checkbox to open the access rules settings. For more information please review the [ZOOaccess doc, Element Access section](http://joolanders.github.io/newdocs/?zooaccess#elements-access).
 7. Set up the [*ZOOcart Items* rule](http://joolanders.github.io/newdocs/?zooaccess#rules-zoocart-items-rule).
 
 **Note:** Configuring ZOOaccess rules you can follow one of scenarios: positive or negative evaluation. The *Render* action would render the element if the evaluation was positive, the *Not render* action would render the element if the evaluation was negative. The element will be rendered when the order has the status *Payment received* or *Completed*.
@@ -219,6 +219,81 @@ For more information about layouts setup, please review the [ZOO official docs](
 ### Done! 
 
 Your ZOOcart digital products setup is ready! 
+
+Subscription
+----------------
+
+In ZOOcart you can set up subscriptions with duration parameter in combination with **ZOOaccess**. 
+
+The following guide will be provided with the example how to set up a subscription for one month that allow users to watch media files. It will help you to set up your subscription. 
+
+**Tip:** Before start make sure your ZOOaccess plugin is installed and enabled.
+
+### Step 1. Setup the Type
+
+1. Go to the *Joomla Administration / Components / ZOO/ gearwheel* (on the right side of the tab bar). Click on the app for which you want to setup a specific type.
+2. Create a new type for your subscriptions. Click *Edit Elements* near the type name *(e.g. Subscriptions)*. Make sure all the required elements (PricePro, Quantity and ZOOcart) are present and configured. **Note:** Often you don't need quantity parameter for subscriptions, nevertheless, please add all required elements, as ZOOcart relies on them. For more information please review the [Elements section](#elements) and the [official ZOO docs](http://yootheme.com/zoo/documentation/advanced/extend-pre-build-types).
+3. Click the *Edit* button (pencil) on the *ZOOcart* element and choose the Item Type *“Subscription”* in the Specific settings panel.
+4. Add the element you want to integrate the ZOOaccess with. *(E.g. When a user subscribes and his request gets Payment received status, then the media file appears on the page, so the user can watch the video.  In our example we will use Media element.)*
+5. Click the *Edit* button (pencil) on this element *(E.g. Media element)* and configure the basic params.
+6. Click *Edit access evaluation params* in the *ZOOaccess* panel to set up integration of the element with the ZOOaccess plugin. Pick *Yes* in the *Evaluate* checkbox to open the access rules settings. For more information please review the [ZOOaccess doc, Element Access section](http://joolanders.github.io/newdocs/?zooaccess#elements-access).
+7. Set up the [*ZOOcart Subscription* rule](http://joolanders.github.io/newdocs/?zooaccess#rules-zoocart-items-rule). **Note:** Configuring ZOOaccess rules you can follow one of scenarios: positive or negative evaluation. The *Render* action would render the element if the evaluation was positive, the *Not render* action would render the element if the evaluation was negative. The element will be rendered when the order has the status *Payment received* or *Completed*.
+8. Add the element that will specify the duration of your subscription. *(E.g. When a user subscribes and his request gets Payment received status, then the media file appears on the page for the period of 30 days, so the user can watch the video during this period.  In our example we will use Text element to specify the duration. It is also possible to use Select or Radio elements. If you subscription has various durations, you can use Variations element)* 
+
+### Step 2.  Set up ZOOmapping
+
+Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app. Click on the *ZOOcart mapping: Subscription* in the Extension Layouts section in the specific type line and assign the corresponding element *(E.g. Text element)* to position *Duration*. 
+
+### Step 3. Disable shipping option (if required)
+
+For subscriptions you probably will not need to deliver anything to customers, so the shipping is not required. 
+
+You can disable shipping option and ZOOcart will not require to specify a shipping rate and an address during checkout process.
+
+1. Go to the *Joomla Administration / Components / ZOOlanders / ZOOcart tab / Settings*.
+2. In the *Shipping* settings set “Enable Shipping Rates”  option to "No".
+3. In the *Addresses* settings set “Require Address”  option to "No".
+
+### Step 4. Setup the Items
+
+1. Go to the *Joomla Administration / Components / ZOO/ App tab*. 
+2. Click the button “New” to create a new item and select the item type that you have configured in the Step 1. *(E.g. Subscription type)*
+3. Setup the *Details* of the item, including following settings:
+    * Specify the essence (element that you have integrated with ZOOaccess) that will be accessible after evaluation. *(E.g. As we work with Media element, we will go to the Media panel and upload the file with our video)*
+    * Specify the duration of the subscription **in days (integral number)**. *(E.g. We use Text element to specify the duration, so we will go to the corresponding panel and set how many days our video will be accessible on the page. We will set 30)*
+ 
+Add and configure all necessary items.
+
+### Step 5. Setup the Layout
+
+1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app.
+2. Setup *template* layouts *(e.g. Default: Full and Teaser)*. Click on the layout in the specific type line and assign the elements to positions. 
+   * **Full** layout is used in the item view. Assign the elements to the full layout, to show them on the detail page of an item.
+   * **Teaser** layout is used in the category view. Assign the elements to the teaser layout, to show them on the frontpage.
+3. Setup *extension* layouts *ZOOcart: Cart and Order*. Click on the layout in the specific type line and assign the elements to positions.
+   * **Cart** layout is used for checkout page view. Assign the elements to the cart layout, to show them on the checkout page.
+   * **Order** layout is used for order page view. Assign the elements to the order layout, to show them on the order page. 
+
+**Tip 1:** To assign the elements to the layout positions, click on the element name and Drag & Drop it to its new position.
+
+*E.g.:* Click on the layout(s) where you want to display the element integrated with ZOOaccess plugin (Media element) and assign the element to the position where you want to display the video. Assign *ZOOcart element* to the position where you want to show the *Subscribe* button.
+
+**Tip 2:** Alternative labels can help to make the layouts clearer for the customers.
+
+*E.g.:* Click *Edit*(pencil) on the element corresponding to duration, pick “Yes” for *Show Label* and specify the *Alternative Label:* “30 days subscription”.
+
+**Tip 3:** Set up the ZOOcart layout so it corresponds to Subscription Type.
+
+*E.g.:*
+* Change the default “Add to Cart” label to “Subscribe”.
+* You probably will not need re add option for subscriptions, so set “Yes” for “Avoid Re Add”.
+* You can hide “Subscribe” button once the user have the subscription. Use ZOOaccess *Exclude Selection* for *ZOOcart Subscription* evaluation rule.
+
+For more information about layouts setup, please review the [ZOO official docs](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
+
+### Done! 
+
+Your ZOOcart subscribtion setup is ready! 
 
 Translation
 -----------
