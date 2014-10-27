@@ -9,93 +9,115 @@
 
   <!-- Flatdoc -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src='vendor/flatdoc.min.js'></script>
+  <script src='http://rstacruz.github.io/flatdoc/v/0.8.6/legacy.js'></script>
+  <script src='http://rstacruz.github.io/flatdoc/v/0.8.6/flatdoc.js'></script>
 
-  <!-- Theme -->
-  <link rel="stylesheet" href="assets/css/yoodocs.min.css">
-  <script src="assets/js/uikit/uikit.min.js"></script>
-  <script src="assets/js/uikit/addons/sticky.min.js"></script>
-  <script src='assets/js/yoodocs.min.js'></script>
-  <script src='assets/js/docs.js'></script>
+  <!-- Flatdoc theme -->
+  <link  href='http://rstacruz.github.io/flatdoc/v/0.8.6/theme-white/style.css' rel='stylesheet'>
+  <script src='http://rstacruz.github.io/flatdoc/v/0.8.6/theme-white/script.js'></script>
 
   <!-- Meta -->
   <meta content="ZOOlanders Documentation" property="og:title">
-  <meta content="Documentation for ZOOlanders Extensions" name="description">
+  <meta content="Documentation for Joomla Extensions developed by ZOOlanders." name="description">
 
+  <!-- Initializer -->
+  <script>
+    var urlParts = document.URL.split('?', 2),
+      state = {},
+      here = urlParts[0],
+      view;
+
+    var currentDoc = urlParts[1] ? urlParts[1].match(/^(\w)*/) : '';
+    if (urlParts.length > 1) {
+      currentDoc = currentDoc[0];
+      view = 'docs/' + currentDoc + '.md';
+
+    } else {
+      currentDoc = 'GettingStarted';
+      view = "README.md";
+    }
+
+    Flatdoc.run({
+      fetcher: Flatdoc.file(view)
+    });
+
+    // match select with current view
+    $(document).ready(function(){
+        $('select').val(currentDoc);
+    });
+
+    /*
+     * on select change
+     */
+     $(document).on('change', 'select', function(e){
+      var ext = $(this).val();
+
+      Flatdoc.run({
+        fetcher: Flatdoc.file('docs/'+ext+'.md')
+      });
+
+      window.history.pushState({}, '', '?'+ext);
+    });
+  </script>
 </head>
 <body role='flatdoc'>
 
-  <!-- Navbar -->
-  <nav class="tm-navbar uk-navbar uk-navbar-attached">
-    <a href="" class="uk-navbar-brand">ZOOlanders Documentation</a>
+  <div class='header'>
+    <div class='left'>
+      <h1>ZOOlanders Docs</h1>
+      <ul>
+        <li><a href='https://github.com/JOOlanders/newdocs'>View on GitHub</a></li>
+        <li><a href='https://github.com/JOOlanders/newdocs/issues'>Issues</a></li>
+      </ul>
+    </div>
+    <div class='right'>
+      <li>
+        <select>
+          <option value="zlcomponent">ZOOlanders Component</option>
 
-    <ul class="uk-navbar-nav">
-      <li class="uk-parent" data-uk-dropdown>
+          <optgroup label="Elements">
+            <option value="datepro">Date Pro</option>
+            <option value="downloadpro">Download Pro</option>
+            <option value="googlemapspro">Google Maps Pro</option>
+            <option value="imagepro">Image Pro</option>
+            <option value="linkpro">Link Pro</option>
+            <option value="mediapro">Media Pro</option>
+            <option value="rcategoriespro">Related Categories Pro</option>
+            <option value="ritemspro">Related Items Pro</option>
+            <option value="textareapro">Textarea Pro</option>
+            <option value="textpro">Text Pro</option>
+          </optgroup>
 
-        <a href="#">Extensions <i class="uk-icon-caret-down"></i></a>
+          <optgroup label="Extensions">
+            <option value="zooaccess">ZOOaccess</option>
+            <option value="zooaksubs">ZOOaksubs</option>
+            <option value="zoocart">ZOOcart</option>
+            <option value="zoocompare">ZOOcompare</option>
+            <option value="zoofilter">ZOOfilter</option>
+            <option value="zooitempro">ZOOitem Pro</option>
+            <option value="zoolingual">ZOOlingual</option>
+            <option value="zoomailing">ZOOmailing</option>
+            <option value="zooorder">ZOOorder</option>
+            <option value="zooport">ZOOport</option>
+            <option value="zooseo">ZOOseo</option>
+            <option value="zootools">ZOOtools</option>
+            <option value="zootrack">ZOOtrack</option>
+          </optgroup>
 
-        <div class="uk-dropdown uk-dropdown-navbar">
-          <ul class="uk-nav">
+          <optgroup label="Apps">
+            <option value="events">Events</option>
+          </optgroup>
 
-            <li><a href="zlcomponent">ZOOlanders Component</a></li>
-
-            <li class="uk-nav-header">Elements</li>
-            <li><a href="datepro">Date Pro</a></li>
-            <li><a href="downloadpro">Download Pro</a></li>
-            <li><a href="googlemapspro">Google Maps Pro</a></li>
-            <li><a href="imagepro">Image Pro</a></li>
-            <li><a href="linkpro">Link Pro</a></li>
-            <li><a href="mediapro">Media Pro</a></li>
-            <li><a href="rcategoriespro">Related Categories Pro</a></li>
-            <li><a href="ritemspro">Related Items Pro</a></li>
-            <li><a href="textareapro">Textarea Pro</a></li>
-            <li><a href="textpro">Text Pro</a></li>
-
-            <li class="uk-nav-header">Extensions</li>
-            <li><a href="zooaccess">ZOOaccess</a></li>
-            <li><a href="zooaksubs">ZOOaksubs</a></li>
-            <li><a href="zoocart">ZOOcart</a></li>
-            <li><a href="zoocompare">ZOOcompare</a></li>
-            <li><a href="zoofilter">ZOOfilter</a></li>
-            <li><a href="zooitempro">ZOOitem Pro</a></li>
-            <li><a href="zoolingual">ZOOlingual</a></li>
-            <li><a href="zoomailing">ZOOmailing</a></li>
-            <li><a href="zooorder">ZOOorder</a></li>
-            <li><a href="zooport">ZOOport</a></li>
-            <li><a href="zooseo">ZOOseo</a></li>
-            <li><a href="zootools">ZOOtools</a></li>
-            <li><a href="zootrack">ZOOtrack</a></li>
-
-            <li class="uk-nav-header">Apps</li>
-            <li><a href="events">Events</a></li>
-          </ul>
-        </div>
-
+        </select>
       </li>
-    </ul>
-
-    <div class="uk-navbar-flip">
-      <div class="uk-navbar-content uk-text-small uk-text-right">
-        If you find issues, missing information or have suggestions, contact us on <a href="https://zoolanders.zendesk.com/home" target="_blank">Support</a> or contribute on <a href="https://github.com/JOOlanders/newdocs" target="_blank">Github</a>!
-      </div>
     </div>
-  </nav>
+  </div>
 
-  <div class="tm-middle">
-
-    <!-- Side bar -->
-    <div class="tm-sidebar uk-hidden-small">
-    <div data-uk-sticky>
-      
-      <!-- Menu -->
-      <section class="tm-menu" role="flatdoc-menu"></section>
-
+  <div class='content-root'>
+    <div class='menubar'>
+      <div class='menu section' role='flatdoc-menu'></div>
     </div>
-    </div>
-
-    <!-- Main content -->
-    <article class="tm-content uk-article" role="flatdoc-content"></article>
-
+    <div role='flatdoc-content' class='content'></div>
   </div>
 
 </body>
