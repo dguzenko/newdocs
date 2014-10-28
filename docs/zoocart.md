@@ -220,8 +220,8 @@ For more information about layouts setup, please review the [ZOO official docs](
 
 Your ZOOcart digital products setup is ready! 
 
-Subscription
-----------------
+Subscriptions
+-------------
 
 In ZOOcart you can set up subscriptions with duration parameter in combination with **ZOOaccess**. 
 
@@ -285,6 +285,7 @@ Add and configure all necessary items.
 **Tip 3:** Set up the ZOOcart layout so it corresponds to Subscription Type.
 
 *E.g.:*
+
 * Change the default “Add to Cart” label to “Subscribe”.
 * You probably will not need re add option for subscriptions, so set “Yes” for “Avoid Re Add”.
 * You can hide “Subscribe” button once the user have the subscription. Use ZOOaccess *Exclude Selection* for *ZOOcart Subscription* evaluation rule.
@@ -636,3 +637,26 @@ Variations have such **specific** parameters:
 ### Render Layout
 
 There is also only one specific parameter for *Variations* element - *Main Layout*. It allows to choose layout for quantity value output among available ones.
+
+Layouts override
+================
+
+In order to customize the view of your ZOOcart you can override the layouts. Don't change the standard ZOOcart .php files, so you can turn back to standard ones, if you want.
+
+To override some ZOOcart standard layout template you should place file with appropriate name to the following folder in your template:
+
+* **Site (frontend):** to override put your .php file with the customized HTML in the folder with the following path: *templates / "your template" / html / plg_system_zoocart / "view name"*.
+* **Administrator (backend):** to override put your .php file with the customized HTML in the folder with the following path: *Administrator / templates / "your template" / html / plg_system_zoocart / "view name"*.
+* Partials (cross-system layouts): 
+  * **Site partials:** to override put your .php file with the customized HTML in the folder with the following path: *templates / "your template" / html / plg_system_zoocart / "view name"*.
+  * Administrator partials.
+
+  /templates/<your_template>/html/plg_system_zoocart/<view_name>/<template_file>. 
+For example, if you wish to override cart layout default.php, the path to overriden template should be like:
+/templates/<your_template>/html/plg_system_zoocart/cart/default.php.
+
+
+
+
+
+
