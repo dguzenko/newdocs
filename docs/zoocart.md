@@ -641,8 +641,8 @@ There is also only one specific parameter for *Variations* element - *Main Layou
 How to...
 =========
 
-Override Layout Template 
--------------------------
+How to Override Layout Template 
+-------------------------------
 
 In order to customize the view of your ZOOcart you can override the layout template. Don't change the standard ZOOcart .php files, so you can turn back to standard ones, if you want.
 
@@ -650,7 +650,7 @@ To override ZOOcart standard layout template you should place a file with approp
 
 * **Site (frontend) views:** place your customized .php template file in the folder with the following path: *templates / <your template> / html / plg_system_zoocart / <view name>*.
 * **Administrator (backend) views:** place your customized .php template file in the folder with the following path: *administrator / templates / <your template> / html / plg_system_zoocart / <view name>*.
-* **Partials (cross-system layouts):** 
+* **Partials (cross-system sublayouts):** 
   * **Site partials:** place your customized .php template file in the folder with the following path: *templates / <your template> / html / plg_system_zoocart / partials*.
   * **Administrator partials:** place your customized .php template file in the folder with the following path: *administrator / templates / <your template> / html / plg_system_zoocart / partials*.
 
