@@ -641,8 +641,8 @@ There is also only one specific parameter for *Variations* element - *Main Layou
 How to...
 =========
 
-How to Override Layouts Templates 
--------------------------------
+How to Override Layouts 
+-----------------------
 
 In order to customize the view of your ZOOcart you can override the layouts templates. Don't change the standard ZOOcart .php files, so you can turn back to standard ones, if you want.
 
