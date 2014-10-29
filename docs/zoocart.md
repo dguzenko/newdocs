@@ -648,8 +648,8 @@ In order to customize the view of your ZOOcart you can override the layouts temp
 
 To override a ZOOcart standard layout template you should place a customized .php template file with an appropriate name to the following folders in your template:
 
-* **Site (frontend) views:** place your customized .php template file in the folder with the following path: *templates / < your template > / html / plg_system_zoocart / < view name > / <layout.php>*.
-* **Administrator (backend) views:** place your customized .php template file in the folder with the following path: *administrator / templates / < your template > / html / plg_system_zoocart / < view name > / <layout.php>*.
+* **Site (frontend) views:** place your customized .php template file in the folder with the following path: *templates / < your template > / html / plg_system_zoocart / < view name > / < layout.php >*.
+* **Administrator (backend) views:** place your customized .php template file in the folder with the following path: *administrator / templates / < your template > / html / plg_system_zoocart / < view name > / < layout.php >*.
 * **Partials (cross-system sublayouts):** 
   * **Site partials:** place your customized .php template file in the folder with the following path: *templates / < your template > / html / plg_system_zoocart / partials / < layout.php >*.
   * **Administrator partials:** place your customized .php template file in the folder with the following path: *administrator / templates / < your template > / html / plg_system_zoocart / partials / < layout.php >*.
