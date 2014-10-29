@@ -641,12 +641,12 @@ There is also only one specific parameter for *Variations* element - *Main Layou
 How to...
 =========
 
-How to Override Layout Template 
+How to Override Layouts Templates 
 -------------------------------
 
-In order to customize the view of your ZOOcart you can override the layout template. Don't change the standard ZOOcart .php files, so you can turn back to standard ones, if you want.
+In order to customize the view of your ZOOcart you can override the layouts templates. Don't change the standard ZOOcart .php files, so you can turn back to standard ones, if you want.
 
-To override ZOOcart standard layout template you should place a file with appropriate name to the following folders in your template:
+To override a ZOOcart standard layout template you should place a customized .php template file with an appropriate name to the following folders in your template:
 
 * **Site (frontend) views:** place your customized .php template file in the folder with the following path: *templates / <your template> / html / plg_system_zoocart / <view name>*.
 * **Administrator (backend) views:** place your customized .php template file in the folder with the following path: *administrator / templates / <your template> / html / plg_system_zoocart / <view name>*.
@@ -654,6 +654,6 @@ To override ZOOcart standard layout template you should place a file with approp
   * **Site partials:** place your customized .php template file in the folder with the following path: *templates / <your template> / html / plg_system_zoocart / partials*.
   * **Administrator partials:** place your customized .php template file in the folder with the following path: *administrator / templates / <your template> / html / plg_system_zoocart / partials*.
 
-**E.g.:** We would like to change the view of the Print Order layout in the Administration. To do this we need to override the layout template *print.php*. Overriden layout will have the path: *administrator / templates/ <your_template> / html / plg_system_zoocart / order / print.php*.
+**E.g.:** We would like to change the view of the Print Order layout in the Administration. To do this we need to override the layout template *print.php*. The overriden layout will have the path: *administrator / templates/ <your_template> / html / plg_system_zoocart / order / print.php*.
 
-**Important:** Name of your custom .php file should be the same as standard one. You can see names of standard layout templates here: *plugins / system / zoocart / zoocart / views / site (admin)*. 
+**Important:** Name of your custom .php file should be the same as standard one. You can see names of standard layouts templates here: *plugins / system / zoocart / zoocart / views / site (admin)*. 
