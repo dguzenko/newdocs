@@ -638,19 +638,22 @@ Variations have such **specific** parameters:
 
 There is also only one specific parameter for *Variations* element - *Main Layout*. It allows to choose layout for quantity value output among available ones.
 
-Layouts template override
-=========================
+How to...
+=========
 
-In order to customize the view of your ZOOcart you can override the layouts template. Don't change the standard ZOOcart .php files, so you can turn back to standard ones, if you want.
+Override Layout Template 
+-------------------------
 
-**Important:** Name of your custom .php file should be the same as standard one. You can see names of standard layout templates here: *plugins / system / zoocart / zoocart / views / site (admin)*. 
+In order to customize the view of your ZOOcart you can override the layout template. Don't change the standard ZOOcart .php files, so you can turn back to standard ones, if you want.
 
 To override ZOOcart standard layout template you should place a file with appropriate name to the following folders in your template:
 
-* **Site (frontend):** place your .php file with the customized HTML in the folder with the following path: *templates / "your template" / html / plg_system_zoocart / "view name"*.
-* **Administrator (backend):** place your .php file with the customized HTML in the folder with the following path: *Administrator / templates / "your template" / html / plg_system_zoocart / "view name"*.
+* **Site (frontend) views:** place your customized .php template file in the folder with the following path: *templates / <your template> / html / plg_system_zoocart / <view name>*.
+* **Administrator (backend) views:** place your customized .php template file in the folder with the following path: *administrator / templates / <your template> / html / plg_system_zoocart / <view name>*.
 * **Partials (cross-system layouts):** 
-  * **Site partials:** place your .php file with the customized HTML in the folder with the following path: *templates / "your template" / html / plg_system_zoocart / partials*.
-  * **Administrator partials:** place your .php file with the customized HTML in the folder with the following path: *Administrator / templates / "your template" / html / plg_system_zoocart / partials*.
+  * **Site partials:** place your customized .php template file in the folder with the following path: *templates / <your template> / html / plg_system_zoocart / partials*.
+  * **Administrator partials:** place your customized .php template file in the folder with the following path: *administrator / templates / <your template> / html / plg_system_zoocart / partials*.
 
-**E.g.:** We would like to change the view of the Print Order page in the Administration. For this we need to override the layout template *print.php*. Overriden layout will have the path: *Administrator / templates/ "your_template" / html / plg_system_zoocart / order / print.php*.
+**E.g.:** We would like to change the view of the Print Order layout in the Administration. To do this we need to override the layout template *print.php*. Overriden layout will have the path: *administrator / templates/ <your_template> / html / plg_system_zoocart / order / print.php*.
+
+**Important:** Name of your custom .php file should be the same as standard one. You can see names of standard layout templates here: *plugins / system / zoocart / zoocart / views / site (admin)*. 
