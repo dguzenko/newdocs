@@ -155,6 +155,8 @@ Each Element instance represents a Product variation, repeat the steps 3 to 6 to
 
 *E.g.:* Click on the layout(s) where you want to display the *Variations* of your product and assign *Variations element* to the required position. 
 
+**Note:** Variations element should be correctly synchronized with Price Pro, Quantity and ZOOcart elements, so when you choose a variation from the drop-down menu, price, quantity and cart information will be changed according to the choosen variation. To achive this each of the elements (Price Pro, ZOOcart, Quantity, Variations, etc) should be wrapped with container with .element class *(E.g. < div class="element... " >...< /div >)*.  Please ensure that Variations and other elements are assigned to positions, that are rendered with appropriate params *(E.g.: $this->renderPosition('content' , array( 'style'=>'block' ))*.  
+
 For more information about layouts setup, please review the [ZOO official docs](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
 ### Done! 
