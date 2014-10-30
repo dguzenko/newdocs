@@ -28,12 +28,13 @@
       view;
 
     var currentDoc = urlParts[1] ? urlParts[1].match(/^(\w)*/) : '';
-    if (urlParts.length > 1) {
+
+    if (urlParts.length > 1 && urlParts[1] !== '') {
       currentDoc = currentDoc[0];
       view = 'docs/' + currentDoc + '.md';
 
     } else {
-      currentDoc = 'GettingStarted';
+      currentDoc = '';
       view = "README.md";
     }
 
@@ -50,10 +51,11 @@
      * on select change
      */
      $(document).on('change', 'select', function(e){
-      var ext = $(this).val();
+      var ext = $(this).val(),
+          path = ext === '' ? 'README.md' : 'docs/'+ext+'.md';
 
       Flatdoc.run({
-        fetcher: Flatdoc.file('docs/'+ext+'.md')
+        fetcher: Flatdoc.file(path)
       });
 
       window.history.pushState({}, '', '?'+ext);
@@ -73,7 +75,11 @@
     <div class='right'>
       <li>
         <select>
-          <option value="zlcomponent">ZOOlanders Component</option>
+          <option value="">Select an Extension</option>
+          
+          <optgroup label="Core">
+            <option value="zlcomponent">ZOOlanders Component</option>
+          </optgroup>
 
           <optgroup label="Elements">
             <option value="datepro">Date Pro</option>
