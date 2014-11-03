@@ -689,6 +689,6 @@ If you are in the Positions Assignments you can set up evaluation in the element
 
 * Show/hide specific information after product purchase.
 * Show/hide content if subscription enabled.
-* Show coupon code if a user boughts several items. 
+* Show coupon code if a user boughts specific items. 
 * Hide "Subscribe" button if a user already has a subscription.
 * Give access to digital product when payment received.
