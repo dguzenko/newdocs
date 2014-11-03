@@ -180,3 +180,12 @@ IMAGE HERE
 * **Items** - allows to create the list of Items for the evaluation.
 * **Mode** - allows to choose if the User should have purchased all (AND) Items or any (OR) of them.
 * **User** - allows to choose who will be the evaluated user, the current viewer (User) or the Item's Author (Author).
+
+### ZOOcart Subscription rule
+
+This rule eveluates if the User has the specific valid Subscription.
+
+* **Include current** - allows to include the current Subscription to the selection. The Subscription where the Element is being rendered will be used as part of the selection.
+* **Items** - allows to create the list of Subscriptions for the evaluation.
+* **Mode** - allows to choose if the User should have purchased all (AND) Subscriptions or any (OR) of them.
+* **User** - allows to choose who will be the evaluated user, the current viewer (User) or the Subscription's Author (Author).

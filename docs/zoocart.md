@@ -53,7 +53,7 @@ First Steps
 
 ### Step 1.  Setup the Type
 
-1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* (on the right side of the tab bar). Click on the app for which you want to setup a specific type *(e.g. app "Product Catalog" and type "Product")*.
+1. Go to the *Joomla Administration / Components / ZOO / gearwheel tab* (on the right side of the tab bar). Click on the app for which you want to setup a specific type *(e.g. app "Product Catalog" and type "Product")*.
 2. Click *Edit Elements* near the type name. Add required elements *“PricePro”, “Quantity”* and *“ZOOcart”* from the ZOOcart block of the Element Library. Other elements are optional. 
 3. Configure each of the chosen elements. If you are not familiar with this process please review the [Elements section](#elements).
 For more information review the [official ZOO docs](http://yootheme.com/zoo/documentation/advanced/extend-pre-build-types).
@@ -90,7 +90,7 @@ Add and configure all necessary items.
 
 ### Step 4. Setup the Layout
 
-1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
+1. Go to the *Joomla Administration / Components / ZOO / gearwheel tab* and click on the chosen app *(e.g. app "Product Catalog")*.
 2. Setup *template* layouts *(e.g. Default: Full and Teaser)*. Click on the layout in the specific type line and assign the elements to positions. 
    * **Full** layout is used in the item view. Assign the elements to the full layout, to show them on the detail page of an item.
    * **Teaser** layout is used in the category view. Assign the elements to the teaser layout, to show them on the frontpage.
@@ -204,7 +204,7 @@ Add and configure all necessary items.
 
 ### Step 4. Setup the Layout
 
-1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app.
+1. Go to the *Joomla Administration / Components / ZOO / gearwheel tab* and click on the chosen app.
 2. Setup *template* layouts *(e.g. Default: Full and Teaser)*. Click on the layout in the specific type line and assign the elements to positions. 
    * **Full** layout is used in the item view. Assign the elements to the full layout, to show them on the detail page of an item.
    * **Teaser** layout is used in the category view. Assign the elements to the teaser layout, to show them on the frontpage.
@@ -233,7 +233,7 @@ The following guide will be provided with the example how to set up a subscripti
 
 ### Step 1. Setup the Type
 
-1. Go to the *Joomla Administration / Components / ZOO/ gearwheel* (on the right side of the tab bar). Click on the app for which you want to setup a specific type.
+1. Go to the *Joomla Administration / Components / ZOO / gearwheel tab* (on the right side of the tab bar). Click on the app for which you want to setup a specific type.
 2. Create a new type for your subscriptions. Click *Edit Elements* near the type name *(e.g. Subscriptions)*. Make sure all the required elements (PricePro, Quantity and ZOOcart) are present and configured. **Note:** Often you don't need quantity parameter for subscriptions, nevertheless, please add all required elements, as ZOOcart relies on them. For more information please review the [Elements section](#elements) and the [official ZOO docs](http://yootheme.com/zoo/documentation/advanced/extend-pre-build-types).
 3. Click the *Edit* button (pencil) on the *ZOOcart* element and choose the Item Type *“Subscription”* in the Specific settings panel.
 4. Add the element you want to integrate the ZOOaccess with. *(E.g. When a user subscribes and his request gets Payment received status, then the media file appears on the page, so the user can watch the video.  In our example we will use Media element.)*
@@ -244,7 +244,7 @@ The following guide will be provided with the example how to set up a subscripti
 
 ### Step 2.  Set up ZOOmapping
 
-Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app. Click on the *ZOOcart mapping: Subscription* in the Extension Layouts section in the specific type line and assign the corresponding element *(E.g. Text element)* to position *Duration*. 
+Go to the *Joomla Administration / Components / ZOO / gearwheel tab* and click on the chosen app. Click on the *ZOOcart mapping: Subscription* in the Extension Layouts section in the specific type line and assign the corresponding element *(E.g. Text element)* to position *Duration*. 
 
 ### Step 3. Disable shipping option (if required)
 
@@ -258,7 +258,7 @@ You can disable shipping option and ZOOcart will not require to specify a shippi
 
 ### Step 4. Setup the Items
 
-1. Go to the *Joomla Administration / Components / ZOO/ App tab*. 
+1. Go to the *Joomla Administration / Components / ZOO / App tab*. 
 2. Click the button “New” to create a new item and select the item type that you have configured in the Step 1. *(E.g. Subscription type)*
 3. Setup the *Details* of the item, including following settings:
     * Specify the essence (element that you have integrated with ZOOaccess) that will be accessible after evaluation. *(E.g. As we work with Media element, we will go to the Media panel and upload the file with our video)*
@@ -268,7 +268,7 @@ Add and configure all necessary items.
 
 ### Step 5. Setup the Layout
 
-1. Go to the *Joomla Administration / Components / ZOO/ gearwheel tab* and click on the chosen app.
+1. Go to the *Joomla Administration / Components / ZOO / gearwheel tab* and click on the chosen app.
 2. Setup *template* layouts *(e.g. Default: Full and Teaser)*. Click on the layout in the specific type line and assign the elements to positions. 
    * **Full** layout is used in the item view. Assign the elements to the full layout, to show them on the detail page of an item.
    * **Teaser** layout is used in the category view. Assign the elements to the teaser layout, to show them on the frontpage.
@@ -659,3 +659,36 @@ To override a ZOOcart standard layout template you should place a customized .ph
 **E.g.:** We would like to change the view of the Print Order layout in the Administration. To do this we need to override the layout template *print.php*. The overriden layout will have the path: *administrator / templates/ < your template > / html / plg_system_zoocart / order / print.php*.
 
 **Important:** Name of your custom .php file should be the same as standard one. You can see names of standard layouts templates here: *plugins / system / zoocart / zoocart / views*. 
+
+How to Restrict Product Access
+------------------------------
+
+Configure ZOOcart in combination with ZOOaccess, if you need to show or hide some elements based on certain rules.
+ZOOaccess will evaluate the order based on given rules and the element will be rendered/not rendered when the order has the status *Payment received* or *Completed*. 
+
+### Guide
+
+**Tip:** Make sure your ZOOaccess plugin is installed and enabled.
+
+1. Go to the *Joomla Administration / Components / ZOO / gearwheel tab / App*. Add the element you want to integrate ZOOaccess with. 
+5. Click the *Edit* button (pencil) on this element and configure the basic params.
+6. Click *Edit access evaluation params* in the *ZOOaccess* panel to set up integration of the element with the ZOOaccess plugin. Pick *Yes* in the *Evaluate* checkbox to open the access rules settings:
+  * **Evaluate** - allows to choose if the access will be evaluated for this element. Must be selected in order to view the rest of the options.
+  * **Apply on Edit View** - allows to choose if the selected rules should be applied also in the Edit view.
+  * **Matching method** - allows to choose if a match should be accepted when ALL or ANY (one or more) of the assignments are matched.
+  * **Action** - allows to choose the action that should be applied to the element if there is a match. The *Render* action would render the element if the evaluation was positive, the *Not render* action would render the element if the evaluation was negative.
+7. Set up the rules. By default the rules are ignored and the access will be no evaluated. In order to start the rule evaluation, it’s state must be changed. Each rule has 3 states:
+  * **Selection** - The rule will be considered a match only when the following selections ARE met.
+  * **Exclude Selection** - The rule will be considered a match only when the following selections ARE NOT met.
+  * **Ignore** - The rule will not be evaluated.
+Find detailed information about all rules [here](http://joolanders.github.io/newdocs/?zooaccess#rules-zoocart-items-rule).
+
+If you are in the Positions Assignments you can set up evaluation in the element config ZOOaccess section to override the layout. 
+
+### Examples of Use Cases
+
+* Show/hide specific information after product purchase.
+* Show/hide content if subscription enabled.
+* Show coupon code if a user boughts specific items. 
+* Hide "Subscribe" button if a user already has a subscription.
+* Give access to digital product when payment received.
