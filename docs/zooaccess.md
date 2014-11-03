@@ -183,7 +183,7 @@ IMAGE HERE
 
 ### ZOOcart Subscription rule
 
-This rule eveluates if the User has the specific active Subscription.
+This rule eveluates if the User has the specific valid Subscription.
 
 * **Include current** - allows to include the current Subscription to the selection. The Subscription where the Element is being rendered will be used as part of the selection.
 * **Items** - allows to create the list of Subscriptions for the evaluation.
