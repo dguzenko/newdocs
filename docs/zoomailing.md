@@ -68,7 +68,7 @@ Go to AcyMailing Extension and create or edit a newsletter. If you are not famil
 
 Your newsletter should now include the appropriate tag to include your ZOO content.
 
-**Note:** Please be aware that *Replace Tags* option doesn't work for ZOO mailing User related content. It is not possible to replace tags while editing as there is no user defined, user is available only when sending.
+**Note:** Please be aware that *Replace Tags* option doesn't work with ZOOmailing as its content is User related and while editing there is no user defined. The user is available only while sending.
 
 ### Done!
 
