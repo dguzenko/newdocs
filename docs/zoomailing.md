@@ -61,23 +61,14 @@ Go to AcyMailing Extension and create or edit a newsletter. If you are not famil
 
 1. In the newsletter content editor place the cursor where you want the ZOO Items to be rendered.
 2. Click the *Tags* button in the top bar.
-
-IMAGE HERE
-
-3.From the insert lightbox menu, select ZOO.
-
-IMAGE HERE
-
-4.Select the ZOO Application from which you would like to select the Items.
-
-IMAGE HERE
-
-5.Select the Item or Categories to include. Please review the [AcyMailing ZOO Tag](#layouts) doc for more information on the content including features.
-6.Click the *Insert the tag* button.
-
-IMAGE HERE
+3. From the insert lightbox menu, select ZOO.
+4. Select the ZOO Application from which you would like to select the Items.
+5. Select the Item or Categories to include. Please review the [AcyMailing ZOO Tag](#layouts) doc for more information on the content including features.
+6. Click the *Insert the tag* button.
 
 Your newsletter should now include the appropriate tag to include your ZOO content.
+
+**Note:** Please be aware that *Replace Tags* option doesn't work for ZOO mailing User related content. It is not possible to replace tags while editing as there is no user defined, user is available only when sending.
 
 ### Done!
 
