@@ -558,7 +558,7 @@ On the *"Orders"* page you can:
 Click on *Order Id* of a certain order or check the box near and click the *Edit* button on the top to review the order page.
 There you can see the detailed information about the order, ordered items with price, payment and shipping fees, taxes and total sum, payments information and order history. Also in the block *"Actions"* you can manually change the order state and send notification to the user. 
 
-ZOOcart don't have invoices, but you can use the print version of the order page for this purpose (if it is suitable for you). Please use the *"Print"* button on the top to review and print. 
+ZOOcart does not generate invoices, but you can use the print version of the order page for this purpose (if it is suitable for you). Please use the *"Print"* button on the top to review and print. 
 
 Elements
 ========
