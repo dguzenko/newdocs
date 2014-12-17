@@ -132,4 +132,4 @@ For more information about Open Graph visit it's [official page](http://ogp.me/)
 Known Issues
 ============
 
-* Some services (e.g. Facebook) could be unable to scrape the website, when GZIP compression enabled in Joomla. This is known Joomla issue, but ZOOseo does not provide any solutions for it.
+* Some services (e.g. Facebook) could be unable to reach the website when Joomla! GZIP compression is enabled.
