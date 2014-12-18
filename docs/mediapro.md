@@ -124,6 +124,10 @@ IMAGE HERE
 * **Main Layout** - Allows the user to set main layout.
 * **Sub Layout** - Allows the user to set additional sub layout.
 
+### Specific Parameters
+
+* **Player** Allows to choose the Player which will be displayed and used to play de Media. Each Player has it's own features, choose wisely.
+
 ### Files Parameters
 
 *Files Parameters* allow you to configure what types of files can be used and how they are used and accessed.
@@ -182,10 +186,6 @@ IMAGE HERE
   * **AWS AccessKey** - AWS access key. You can read more about it [here](http://docs.aws.amazon.com/fws/1.1/GettingStartedGuide/index.html?AWSCredentials.html).
   * **AWS SecretKey** - AWS secret key. You can read more about it [here](http://docs.aws.amazon.com/fws/1.1/GettingStartedGuide/index.html?AWSCredentials.html).
 
-### Specific Parameters
-
-* **Player** Allows to choose the Player which will be displayed and used to play de Media. Each Player has it's own features, choose wisely.
-
 Position Assignment
 -------------------
 
@@ -203,20 +203,25 @@ IMAGE HERE
 *Layout Parameters* shows the available layouts for the element.
 
 * **Main Layout** - Allows to specify main layout.
-* **Sub Layout** - If available, allows to specify additional sublayout.
 
-For more information about the Layouts please review the [Layouts section](#params-in-detail-layouts).
+**Playlist Layout** has the following settings:
 
-### Filter Parameters
+  * **Autoplay** - Enable in order the track to start playing as soon as it's loaded.
+  * **Loop** - Enable in order the track/list to start over again when ended.
+  * **Width** - Specify the Video width. Notice that the Player Skin will not adapt to this size automatically.
 
-*Filter Parameters* allow to limit element instances and to set offset for output.
+You can specify such parameters of the **screen**:
 
-IMAGE HERE
+  * **Display** - Set to "No" to avoid the screen from displaying in situations where only Audio is required without any poster.
+  * **Height** - Set the Video size. (Available when "Display" param is set to "Yes") Notice that the Player Skin will not adapt to this size automatically.
+  * **Skin** - Allow to specify the Player Skin. You can set your own in the 'mediapro/assets/plugins/[plugin]/skins' folder.
+  * **Preview image** - Set a general Image for all media. It will be overided by the image selected on Edit view on each media. You have three selections here: None, From Element (require to specify the element), From File (require URL). 
 
-* **Offset** - Allows move the start point of rendering *(e.g. 2, will make rendering start from instance 3)*.
-* **Limit** - Allows to limit the number of instance to output.
+**Playlist Mode** - Enable to display the track list in the Playlist Mode. Check the [demo](http://demo.zoolanders.com/index.php/en/elements/media-pro) to see the example of the playlist. 
 
 ### Separator Parameters
+
+For more information about the Layouts please review the [Layouts section](#params-in-detail-layouts).
 
 *Separator Parameters* allows to configure separation constructions, that will be used to separate the element instances on rendering.
 
@@ -236,8 +241,13 @@ IMAGE HERE
   * **List Item** - wraps the instances with a `<li>` tag, however, it does NOT include any `<ol>` or `<ul>` wrapper.
   * **Unordered List** - wraps each instance with `<li>` tag and wrap the result with `<ul>` tag.
   * **Ordered List** - wraps each instance with `<li>` tag and wrap the result with `<ol>` tag.
-  * **Custom** - allows to set your own separator
-* **Custom By** - only shown if By is set as Custom allows to specify a custom separator.
+  * **Wrap Item** - 
+  * **Blank** - 
+  * **UIkit Block** - 
+  * **UIkit Articlke** - 
+  * **UIkit List** - 
+  * **UIkit List Line** - 
+  * **Custom** - allows to set your own separator.
 * **Class** - allows to add custom class to the result if the separator wraps the content.
 * **Fix HTML** - if enabled after the separator was applied this feature will...
 
