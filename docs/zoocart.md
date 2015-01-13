@@ -240,7 +240,9 @@ The following guide will be provided with the example how to set up a subscripti
 5. Click the *Edit* button (pencil) on this element *(E.g. Media element)* and configure the basic params.
 6. Click *Edit access evaluation params* in the *ZOOaccess* panel to set up integration of the element with the ZOOaccess plugin. Pick *Yes* in the *Evaluate* checkbox to open the access rules settings. For more information please review the [ZOOaccess doc, Element Access section](http://joolanders.github.io/newdocs/?zooaccess#elements-access).
 7. Set up the [*ZOOcart Subscription* rule](http://joolanders.github.io/newdocs/?zooaccess#rules-zoocart-items-rule). **Note:** Configuring ZOOaccess rules you can follow one of scenarios: positive or negative evaluation. The *Render* action would render the element if the evaluation was positive, the *Not render* action would render the element if the evaluation was negative. The element will be rendered when the order has the status *Payment received* or *Completed*.
-8. Add the element that will specify the duration of your subscription. *(E.g. When a user subscribes and his request gets Payment received status, then the media file appears on the page for the period of 30 days, so the user can watch the video during this period.  In our example we will use Text element to specify the duration. It is also possible to use Select or Radio elements. If you subscription has various durations, you can use Variations element)* 
+8. Add the element that will specify the duration of your subscription. *(E.g. When a user subscribes and his request gets Payment received status, then the media file appears on the page for the period of 30 days, so the user can watch the video during this period.  In our example we will use Text element to specify the duration. It is also possible to use Select or Radio elements. If you subscription has various durations, you can use Variations element.)* 
+
+Read more about setting *various durations for subscriptions* in the ["How to..." section](#how-to-how-to-setup-various-duartions-for-subscriptions). 
 
 ### Step 2.  Set up ZOOmapping
 
@@ -692,3 +694,19 @@ If you are in the Positions Assignments you can set up evaluation in the element
 * Show coupon code if a user boughts specific items. 
 * Hide "Subscribe" button if a user already has a subscription.
 * Give access to digital product when payment received.
+
+How to Setup Various Durations for Subscriptions
+------------------------------------------------
+
+In order to setup multiple terms of duration for your Subscriptions you should add **Variation element** as additional duration element to your type. Please follow the next guide:
+
+1. Setup required elements:
+  * **Duration** - simple *Text* element without specific settings;
+  * **Duration Variation element** - *Variation* element with the following specific settings: select Duration [Text] element as a tied element to variations in the *Elements* param and specify all allowed terms of Subscription in the *Attributes*.
+  * Set type to *"Subscription"* in the ZOOcart(AddToCart) element settings.
+2. Setup Subscription mapping: Go to ZOOcart mapping / Subscription layout and assign Duration[Text] element to appropriate Duration position.
+3. Create an item based on your subscription type and setup all needed term variations with appropriate numeric values (in days) in the Duration Variation section, Elements tab.
+
+Now if user orders this item and completes checkout appropriate inactive subscription will be created in the Backend (ZOOcart / Subscriptions). 
+
+**Important note:** Subscription created right after checkout is inactive and contains no terms Valid From/To. This Subscription will be automatically activated when appropriate order status becames *Payment Received* or *Completed* and Valid From/To dates will be set according to chosen subscription Duration.
