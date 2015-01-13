@@ -241,12 +241,11 @@ IMAGE HERE
   * **List Item** - wraps the instances with a `<li>` tag, however, it does NOT include any `<ol>` or `<ul>` wrapper.
   * **Unordered List** - wraps each instance with `<li>` tag and wrap the result with `<ul>` tag.
   * **Ordered List** - wraps each instance with `<li>` tag and wrap the result with `<ol>` tag.
-  * **Wrap Item** - 
-  * **Blank** - 
-  * **UIkit Block** - 
-  * **UIkit Articlke** - 
-  * **UIkit List** - 
-  * **UIkit List Line** - 
+  * **Wrap Item** -  wraps the instances with `<article class="item">`Simple Text`</article>`.
+  * **UIkit Block** -  wraps the instances with `<div class="uk-margin">`Simple Text`</div>`.
+  * **UIkit Article** - wraps the instances with `<article class="uk-article">`Simple Text`</article>`.
+  * **UIkit List** - wraps the instances with `<ul class="uk-list"><li>`Simple Text`</li></ul>`.
+  * **UIkit List Line** - wraps the instances with `<ul class="uk-list uk-list-line"><li>`Simple Text`</li></ul>`.
   * **Custom** - allows to set your own separator.
 * **Class** - allows to add custom class to the result if the separator wraps the content.
 * **Fix HTML** - if enabled after the separator was applied this feature will...
