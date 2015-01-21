@@ -43,23 +43,6 @@ Once the installation process have finished the **ZOOtools** plugin should be in
 4. Use the "Install from Directory" option to set the directory of your uploaded package files.
 5. Click on the "Install" button and Joomla will install it from the given directory.
 
-Uninstallation
-==============
-
-Through Joomla Manager
-----------------------
-
-**Note:** Uninstallation through Joomla Manager would uninstall ALL elements at once as they share the same plugin. 
-
-1. Go to the *Joomla Administration / Extensions / Extension Manager / Manage*.
-2. Search the extension in list and tick the checkbox near its name.
-3. Click on the "Uninstall" button on the top.
-
-Manually
---------
-
-To uninstall the extension you should manually delete the relevant folder from *%Joomla root% / plugins / system*.
-
 Configuration
 =============
 
@@ -238,3 +221,20 @@ Displays a standard Iframe.
  Allows to set a custom URL for the Iframe.
 
   * **URL** - Allows to set the URL.
+
+Uninstallation
+==============
+
+Through ZL Manager
+------------------
+
+1. Go to *Joomla Administration / Components / ZOOlanders*.
+2. Find the extension in the list and click on the *Uninstall* button.
+3. Confirm the uninstallation procedure, status notification will arise.
+
+Through Joomla Manager
+----------------------
+
+1. Go to the *Joomla Administration / Extensions / Extension Manager / Manage*.
+2. Search the extension in list and tick the checkbox near its name.
+3. Click on the "Uninstall" button on the top.
