@@ -63,6 +63,7 @@ Manually
 --------
 
 To uninstall the element you should manually delete:
+
 1. The *relateditemspro* folder from *%Joomla root% / plugins / system / zoo_zlelements / zoo_zlelements / elements*.
 2. The DB table *_zoo_relateditemsproxref*. 
 
