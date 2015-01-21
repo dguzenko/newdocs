@@ -71,3 +71,13 @@ To manage your ZOOlanders extensions and elements go to the *Joomla Administrati
 ### Language Pack Manager
 
 Click on *"Language packs"* button to open the language pack manager. Here you can track the status of language translation, download language packs and contribute to translations of ZOOlanders through [Transifex](https://www.transifex.com/projects/p/zoolanders/).  
+
+Uninstallation
+==============
+
+Through Joomla Manager
+----------------------
+
+1. Go to the *Joomla Administration / Extensions / Extension Manager / Manage*.
+2. Search the extension in list and tick the checkbox near its name.
+3. Click on the "Uninstall" button on the top.
