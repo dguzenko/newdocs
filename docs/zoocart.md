@@ -45,23 +45,6 @@ Once the installation process have finished the **ZOOcart** plugin should be ins
 4. Use the "Install from Directory" option to set the directory of your uploaded package files.
 5. Click on the "Install" button and Joomla will install it from the given directory.
 
-Uninstallation
-==============
-
-Through ZL Manager
-------------------
-
-1. Go to *Joomla Administration / Components / ZOOlanders*.
-2. Find the extension in the list and click on the *Uninstall* button.
-3. Confirm the uninstallation procedure, status notification will arise.
-
-Through Joomla Manager
-----------------------
-
-1. Go to the *Joomla Administration / Extensions / Extension Manager / Manage*.
-2. Search the extension in list and tick the checkbox near its name.
-3. Click on the "Uninstall" button on the top.
-
 Configuration
 =============
 
@@ -727,3 +710,20 @@ In order to setup multiple terms of duration for your Subscriptions you should a
 Now if user orders this item and completes checkout appropriate inactive subscription will be created in the Backend (ZOOcart / Subscriptions). 
 
 **Important note:** Subscription created right after checkout is inactive and contains no terms Valid From/To. This Subscription will be automatically activated when appropriate order status becames *Payment Received* or *Completed* and Valid From/To dates will be set according to chosen subscription Duration.
+
+Uninstallation
+==============
+
+Through ZL Manager
+------------------
+
+1. Go to *Joomla Administration / Components / ZOOlanders*.
+2. Find the extension in the list and click on the *Uninstall* button.
+3. Confirm the uninstallation procedure, status notification will arise.
+
+Through Joomla Manager
+----------------------
+
+1. Go to the *Joomla Administration / Extensions / Extension Manager / Manage*.
+2. Search the extension in list and tick the checkbox near its name.
+3. Click on the "Uninstall" button on the top.
