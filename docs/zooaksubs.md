@@ -43,23 +43,6 @@ Once the installation process have finished the **ZOOaksubs** plugin should be i
 4. Use the "Install from Directory" option to set the directory of your uploaded package files.
 5. Click on the "Install" button and Joomla will install it from the given directory.
 
-Uninstallation
-==============
-
-Through ZL Manager
-------------------
-
-1. Go to *Joomla Administration / Components / ZOOlanders*.
-2. Find the extension in the list and click on the *Uninstall* button.
-3. Confirm the uninstallation procedure, status notification will arise.
-
-Through Joomla Manager
-----------------------
-
-1. Go to the *Joomla Administration / Extensions / Extension Manager / Manage*.
-2. Search the extension in list and tick the checkbox near its name.
-3. Click on the "Uninstall" button on the top.
-
 Configuration
 =============
 
@@ -263,3 +246,20 @@ Upgrading to v3
 ===============
 
 Due to the big changes made in ZOOcompare 3 the upgrade process is not possible, instead a clean installation must be performed uninstalling any previous version. The comparison settings will be lost during this process, be sure to back up your data before proceeding.
+
+Uninstallation
+==============
+
+Through ZL Manager
+------------------
+
+1. Go to *Joomla Administration / Components / ZOOlanders*.
+2. Find the extension in the list and click on the *Uninstall* button.
+3. Confirm the uninstallation procedure, status notification will arise.
+
+Through Joomla Manager
+----------------------
+
+1. Go to the *Joomla Administration / Extensions / Extension Manager / Manage*.
+2. Search the extension in list and tick the checkbox near its name.
+3. Click on the "Uninstall" button on the top.
