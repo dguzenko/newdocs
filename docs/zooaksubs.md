@@ -46,19 +46,20 @@ Once the installation process have finished the **ZOOaksubs** plugin should be i
 Uninstallation
 ==============
 
+Through ZL Manager
+------------------
+
+1. Go to *Joomla Administration / Components / ZOOlanders*.
+2. Set your *zoolanders.com* site login credentials trough the *Options* button.
+3. Find the extension in the list and click on the *Uninstall* button.
+4. Confirm the uninstallation procedure, status notification will arise.
+
 Through Joomla Manager
 ----------------------
-
-**Note:** Uninstallation through Joomla Manager would uninstall ALL elements at once as they share the same plugin. 
 
 1. Go to the *Joomla Administration / Extensions / Extension Manager / Manage*.
 2. Search the extension in list and tick the checkbox near its name.
 3. Click on the "Uninstall" button on the top.
-
-Manually
---------
-
-To uninstall the extension you should manually delete the relevant folder from *%Joomla root% / plugins / system*.
 
 Configuration
 =============
