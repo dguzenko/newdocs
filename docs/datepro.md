@@ -268,6 +268,8 @@ For more information about custom formats, parameters and examples, click [here]
 Uninstallation
 ==============
 
+*Important Note:* Uninstallation through Joomla would remove ALL elements at once as they share the same plugin. Removing of only one element must be done manually. 
+
 Through ZL Manager
 ------------------
 
