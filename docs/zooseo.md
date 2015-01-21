@@ -43,23 +43,6 @@ Once the installation process have finished the **ZOOseo** plugin should be inst
 4. Use the "Install from Directory" option to set the directory of your uploaded package files.
 5. Click on the "Install" button and Joomla will install it from the given directory.
 
-Uninstallation
-==============
-
-Through Joomla Manager
-----------------------
-
-**Note:** Uninstallation through Joomla Manager would uninstall ALL elements at once as they share the same plugin. 
-
-1. Go to the *Joomla Administration / Extensions / Extension Manager / Manage*.
-2. Search the extension in list and tick the checkbox near its name.
-3. Click on the "Uninstall" button on the top.
-
-Manually
---------
-
-To uninstall the extension you should manually delete the relevant folder from *%Joomla root% / plugins / system*.
-
 Configuration
 =============
 
@@ -150,3 +133,20 @@ Known Issues
 ============
 
 * Some services (e.g. Facebook) could be unable to scrape the website, when GZIP compression enabled in Joomla. This is known Joomla issue, but ZOOseo does not provide any solutions for it.
+
+Uninstallation
+==============
+
+Through ZL Manager
+------------------
+
+1. Go to *Joomla Administration / Components / ZOOlanders*.
+2. Find the extension in the list and click on the *Uninstall* button.
+3. Confirm the uninstallation procedure, status notification will arise.
+
+Through Joomla Manager
+----------------------
+
+1. Go to the *Joomla Administration / Extensions / Extension Manager / Manage*.
+2. Search the extension in list and tick the checkbox near its name.
+3. Click on the "Uninstall" button on the top.
