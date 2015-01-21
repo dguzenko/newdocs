@@ -42,23 +42,6 @@ Once the installation process have finished the **ZL Elements** plugin should be
 4. Use the "Install from Directory" option to set the directory of your uploaded package files.
 5. Click on the "Install" button and Joomla will install it from the given directory.
 
-Uninstallation
-==============
-
-Through ZL Manager
-------------------
-
-1. Go to *Joomla Administration / Components / ZOOlanders*.
-2. Find the extension in the list and click on the *Uninstall* button.
-3. Confirm the uninstallation procedure, status notification will arise.
-
-Through Joomla Manager
-----------------------
-
-1. Go to the *Joomla Administration / Extensions / Extension Manager / Manage*.
-2. Search the extension in list and tick the checkbox near its name.
-3. Click on the "Uninstall" button on the top.
-
 Configuration
 =============
 
@@ -206,3 +189,20 @@ This rule eveluates if the User has the specific valid Subscription.
 * **Items** - allows to create the list of Subscriptions for the evaluation.
 * **Mode** - allows to choose if the User should have purchased all (AND) Subscriptions or any (OR) of them.
 * **User** - allows to choose who will be the evaluated user, the current viewer (User) or the Subscription's Author (Author).
+
+Uninstallation
+==============
+
+Through ZL Manager
+------------------
+
+1. Go to *Joomla Administration / Components / ZOOlanders*.
+2. Find the extension in the list and click on the *Uninstall* button.
+3. Confirm the uninstallation procedure, status notification will arise.
+
+Through Joomla Manager
+----------------------
+
+1. Go to the *Joomla Administration / Extensions / Extension Manager / Manage*.
+2. Search the extension in list and tick the checkbox near its name.
+3. Click on the "Uninstall" button on the top.
