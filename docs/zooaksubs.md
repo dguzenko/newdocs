@@ -50,9 +50,8 @@ Through ZL Manager
 ------------------
 
 1. Go to *Joomla Administration / Components / ZOOlanders*.
-2. Set your *zoolanders.com* site login credentials trough the *Options* button.
-3. Find the extension in the list and click on the *Uninstall* button.
-4. Confirm the uninstallation procedure, status notification will arise.
+2. Find the extension in the list and click on the *Uninstall* button.
+3. Confirm the uninstallation procedure, status notification will arise.
 
 Through Joomla Manager
 ----------------------
