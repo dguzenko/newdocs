@@ -45,6 +45,13 @@ Once the installation process have finished the **ZL Elements** plugin should be
 Uninstallation
 ==============
 
+Through ZL Manager
+------------------
+
+1. Go to *Joomla Administration / Components / ZOOlanders*.
+2. Find the extension in the list and click on the *Uninstall* button.
+3. Confirm the uninstallation procedure, status notification will arise.
+
 Through Joomla Manager
 ----------------------
 
