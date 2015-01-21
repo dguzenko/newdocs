@@ -47,6 +47,26 @@ Once the installation process have finished the **ZL Elements** plugin should be
 
 **Related Items Pro** element is installed under the same plugin, *ZL Elements*, as any other ZL Element for performance reasons. If you want to check it's installation, visit the ZOO configuration and edit any Type from any App. If **Related Items Pro** shows up on the right section under *ZOOlanders* Group, then you're good to go!
 
+Uninstallation
+==============
+
+Through Joomla Manager
+----------------------
+
+**Note:** Uninstallation through Joomla Manager would uninstall ALL elements at once as they share the same plugin. 
+
+1. Go to the *Joomla Administration / Extensions / Extension Manager / Manage*.
+2. Search the element in list and tick the checkbox near its name.
+3. Click on the "Uninstall" button on the top.
+
+Manually
+--------
+
+To uninstall the element you should manually delete:
+1. The *relateditemspro* folder from *%Joomla root% / plugins / system / zoo_zlelements / zoo_zlelements / elements*.
+2. The DB table *_zoo_relateditemsproxref*. 
+
+
 Configuration
 =============
 
