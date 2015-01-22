@@ -132,4 +132,21 @@ For more information about Open Graph visit it's [official page](http://ogp.me/)
 Known Issues
 ============
 
-* Some services (e.g. Facebook) could be unable to reach the website when Joomla! GZIP compression is enabled.
+* Some services (e.g. Facebook) could be unable to scrape the website, when GZIP compression enabled in Joomla. This is known Joomla issue, but ZOOseo does not provide any solutions for it.
+
+Uninstallation
+==============
+
+Through ZL Manager
+------------------
+
+1. Go to *Joomla Administration / Components / ZOOlanders*.
+2. Find the extension in the list and click on the *Uninstall* button.
+3. Confirm the uninstallation procedure, status notification will arise.
+
+Through Joomla Manager
+----------------------
+
+1. Go to the *Joomla Administration / Extensions / Extension Manager / Manage*.
+2. Search the extension in list and tick the checkbox near its name.
+3. Click on the "Uninstall" button on the top.

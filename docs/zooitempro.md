@@ -166,3 +166,20 @@ In order to filter by custom elements data, those must have specified the ZL Fil
 4. Save the file and done!
 
 If you are using 3rd party element be sure to override it in the appropriate folder in order to preserve the change after future updates.
+
+Uninstallation
+==============
+
+Through ZL Manager
+------------------
+
+1. Go to *Joomla Administration / Components / ZOOlanders*.
+2. Find the extension in the list and click on the *Uninstall* button.
+3. Confirm the uninstallation procedure, status notification will arise.
+
+Through Joomla Manager
+----------------------
+
+1. Go to the *Joomla Administration / Extensions / Extension Manager / Manage*.
+2. Search the extension in list and tick the checkbox near its name.
+3. Click on the "Uninstall" button on the top.

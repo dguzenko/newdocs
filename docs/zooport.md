@@ -106,3 +106,20 @@ Import
 ***CSV  imports:*** Name, Alias, Author Alias, Created Date, Category, Tag. 
 
 *Element types:* Text, Textarea, Link, Email, Date, Country, Select, Radio, Checkbox, Gallery,  Image, Download, Google Maps, Google Maps Pro, Date Pro, Link Pro, Textarea Pro, Text Pro, Download Pro, Image Pro, Media Pro, Price Pro, Quantity.
+
+Uninstallation
+==============
+
+Through ZL Manager
+------------------
+
+1. Go to *Joomla Administration / Components / ZOOlanders*.
+2. Find the extension in the list and click on the *Uninstall* button.
+3. Confirm the uninstallation procedure, status notification will arise.
+
+Through Joomla Manager
+----------------------
+
+1. Go to the *Joomla Administration / Extensions / Extension Manager / Manage*.
+2. Search the extension in list and tick the checkbox near its name.
+3. Click on the "Uninstall" button on the top.

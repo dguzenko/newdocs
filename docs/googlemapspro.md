@@ -208,3 +208,27 @@ Widgetkit
 =========
 
 *Widgetkit Map Widget*  will not autorecognize the *Google Maps Pro* values, as a solution download and install the ZL Widget Plugin available in the Google Maps Pro product downloads. Once installed and enabled create new ZL Map widget and use it instead.
+
+Uninstallation
+==============
+
+*Important Note:* Uninstallation through Joomla would remove ALL elements at once as they share the same plugin. Removing of only one element must be done manually. 
+
+Through ZL Manager
+------------------
+
+1. Go to *Joomla Administration / Components / ZOOlanders*.
+2. Find the element in the list and click on the *Uninstall* button.
+3. Confirm the uninstallation procedure, status notification will arise.
+
+Through Joomla Manager
+----------------------
+
+1. Go to the *Joomla Administration / Extensions / Extension Manager / Manage*.
+2. Search the element in list and tick the checkbox near its name.
+3. Click on the *Uninstall* button on the top.
+
+Manually
+--------
+
+To uninstall the element you should manually delete the relevant folder from *%Joomla root% / plugins / system / zoo_zlelements / zoo_zlelements / elements*.
