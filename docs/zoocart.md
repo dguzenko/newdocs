@@ -642,6 +642,22 @@ Variations have such **specific** parameters:
 
 There is also only one specific parameter for *Variations* element - *Main Layout*. It allows to choose layout for quantity value output among available ones.
 
+Measures Pro  Element 
+---------------------
+
+**ZOOcart Measures Pro Element** is used to setup the product weight or dimensions. 
+
+Measures Pro element has such **specific** parameters: 
+
+* **Default** - if required, specify the default Text when the item is created.
+* **Unit** - specify the measuring units. 
+
+### Layout
+
+Except Basic params, you can set the following params:
+
+
+
 How to...
 =========
 
@@ -710,6 +726,17 @@ In order to setup multiple terms of duration for your Subscriptions you should a
 Now if user orders this item and completes checkout appropriate inactive subscription will be created in the Backend (ZOOcart / Subscriptions). 
 
 **Important note:** Subscription created right after checkout is inactive and contains no terms Valid From/To. This Subscription will be automatically activated when appropriate order status becames *Payment Received* or *Completed* and Valid From/To dates will be set according to chosen subscription Duration.
+
+How to Setup Product Weights
+----------------------------
+
+To setup weights for your products you can use **Measures Pro** element, that is included into ZOOcart package. 
+
+1. Add the **Measures Pro** element to the product type and set required weight-assumed measuring units for it (e.g.: lb, g, kg) in the *Unit* field in the Specific settings of the element.
+2. Specify weight values of product in the Item settings.
+3. If needed, assign the **Measures Pro** element to required position in the Layout to show the product weight on your page. 
+
+Now ZOOcart will automaticaly evaluate appropriate element's value as weight and calculate total order weight relying on that element's values. If your Shipping rates contains limitations by weight, they will be filtered automatically depending on total cart weight or item weight (defined by Item-based Shipping rate or Order-based option).
 
 Uninstallation
 ==============
