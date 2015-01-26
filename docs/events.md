@@ -29,9 +29,12 @@ Through Joomla Manager
 ----------------------
 
 1. Download **Events** package from [ZOOlanders site](https://www.zoolanders.com/extensions/events).
-2. Go to the *Joomla Administration / Extensions / Extension Manager / Install*.
-3. Use the "Upload Package File" option to choose the previously downloaded package from your pc.
-4. Click on the "Upload & Install" button.
+2. Unpack the package and find the ZOO Apps installers.
+3. Go to the *Joomla Administration / Components / ZOO / Gearwheel*.
+4. Install the previously unpacked App/s. If you are not familiar with this process please review the [official ZOO docs](http://yootheme.com/zoo/documentation/getting-started/install-a-new-app).
+5. Go to the *Joomla Administration / Extensions / Extension Manager / Install*.
+6. Use the "Upload Package File" option to choose the previously downloaded package from your pc.
+7. Click on the "Upload & Install" button.
 
 Once the installation process have finished the **ZL Elements** plugin should be installed and published. To be sure go to *Joomla Administration / Extensions / Plugin Manager* and check if it is present and enabled.
 
