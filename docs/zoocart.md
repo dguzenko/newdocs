@@ -647,7 +647,7 @@ Measures Pro  Element
 
 **ZOOcart Measures Pro Element** is used to setup the product weight or dimensions. 
 
-Measures Pro element has such **specific** parameters: 
+Measures Pro element has such **Specific** parameters: 
 
 * **Default** - if required, specify the default Text when the item is created.
 * **Unit** - specify the measuring units. 
@@ -656,6 +656,50 @@ Measures Pro element has such **specific** parameters:
 
 Except Basic params, you can set the following params:
 
+*Layout Parameters* shows the available layouts for the element.
+
+* **Main Layout** - allows to choose layout for element among available ones.
+* **Sub Layout** - allows to choose Sub Layout that will be used by the Main Layout.
+
+*Filter Parameters* allow to limit element instances and to set offset for output.
+
+* **Offset** - Allows move the start point of rendering (e.g. 2, will make rendering start from instance 3).
+* **Limit** - Allows to limit the number of instance to output.
+
+*Separator Parameters* allows to configure separation constructions, that will be used to separate the element instances on rendering.
+
+* *By* - allows to separate the element instances by the chosen separator.
+
+  * **None** - will provide no separator between the instances.
+  * **Space** - (default) just inserts a space between the instances.
+  * **Span** - wraps the instances with a `<span>` tag.
+  * **Paragraph** - wraps the instances with a `<p>` tag.
+  * **Div** - wraps the instances with a `<div>` tag.
+  * **Comma** - inserts a comma between the instances.
+  * **Hyphen** - inserts a hyphen `-` between the instances.
+  * **Pipe** - inserts a pipe `|` between the instances.
+  * **Break** - inserts a 'Break' `<br>` tag between the instances.
+  * **List Item** - wraps the instances with a `<li>` tag, however, it does NOT include any `<ol>` or `<ul>` wrapper.
+  * **Unordered List** - wraps each instance with `<li>` tag and wrap the result with `<ul>` tag.
+  * **Ordered List** - wraps each instance with `<li>` tag and wrap the result with `<ol>` tag.
+  * **Wrap Item** -  wraps the instances with `<article class="item">`Simple Text`</article>`.
+  * **UIkit Block** -  wraps the instances with `<div class="uk-margin">`Simple Text`</div>`.
+  * **UIkit Article** - wraps the instances with `<article class="uk-article">`Simple Text`</article>`.
+  * **UIkit List** - wraps the instances with `<ul class="uk-list"><li>`Simple Text`</li></ul>`.
+  * **UIkit List Line** - wraps the instances with `<ul class="uk-list uk-list-line"><li>`Simple Text`</li></ul>`.
+  * **Custom** - allows to set your own separator.
+* **Class** - allows to add custom class to the result if the separator wraps the content.
+* **Fix HTML** - if enabled after the separator was applied this feature will...
+
+  * Delete closed Tags without their opening Tag
+  * Fix open Tag without close, closing them automatically
+  * Check bad nesting and fix them
+  * Fix bad quotes in attributes
+  * Merge different styles attributes in the same Tag
+  * Remove HTML comments
+  * Remove empty Tags and more bad Tags
+
+...to the final value.
 
 
 How to...
@@ -727,16 +771,16 @@ Now if user orders this item and completes checkout appropriate inactive subscri
 
 **Important note:** Subscription created right after checkout is inactive and contains no terms Valid From/To. This Subscription will be automatically activated when appropriate order status becames *Payment Received* or *Completed* and Valid From/To dates will be set according to chosen subscription Duration.
 
-How to Setup Product Weights
+How to Setup Product Weights 
 ----------------------------
 
-To setup weights for your products you can use **Measures Pro** element, that is included into ZOOcart package. 
+If your Shipping rates contain limitations by weight, you should setup weights for your products using **Measures Pro** element, that is included into ZOOcart package. 
 
 1. Add the **Measures Pro** element to the product type and set required weight-assumed measuring units for it (e.g.: lb, g, kg) in the *Unit* field in the Specific settings of the element.
 2. Specify weight values of product in the Item settings.
 3. If needed, assign the **Measures Pro** element to required position in the Layout to show the product weight on your page. 
 
-Now ZOOcart will automaticaly evaluate appropriate element's value as weight and calculate total order weight relying on that element's values. If your Shipping rates contains limitations by weight, they will be filtered automatically depending on total cart weight or item weight (defined by Item-based Shipping rate or Order-based option).
+Now ZOOcart will automaticaly evaluate appropriate element's value as weight and calculate total order weight relying on that element's values. If your Shipping rates contain limitations by weight, they will be filtered automatically depending on total cart weight or item weight (defined by Item-based Shipping rate or Order-based option).
 
 Uninstallation
 ==============
