@@ -116,8 +116,6 @@ IMAGE HERE
 
 **Specific Parameters**
 
-IMAGE HERE
-
 * **Additional Options** - Allows to Show/Hide the additional options each Element instance could offer.
 * **Allowed Input** - Allows to choose the kind of characters the input allows.
 * **Default** - Allows to set the default field value when creating new Item.
@@ -129,16 +127,12 @@ IMAGE HERE
 
 *Basic Parameters* define common element settings.
 
-IMAGE HERE
-
 * **Show Label** - Allows to choose if the element label should be rendered or not.
 * **Alternative Label** - Allows to customize the default label (the element's name set in the Type) for this specific position.
 
 **Layout Parameters**
 
 *Layout Parameters* shows the available layouts for the element.
-
-IMAGE HERE
 
 * **Main Layout** - Allows to specify main layout.
 * **Sub Layout** - If available, allows to specify additional sublayout.
@@ -149,16 +143,12 @@ For more information about the Layouts please review the [Layouts section](#para
 
 *Filter Parameters* allow to limit element instances and to set offset for output.
 
-IMAGE HERE
-
 * **Offset** - Allows move the start point of rendering *(e.g. 2, will make rendering start from instance 3)*.
 * **Limit** - Allows to limit the number of instance to output.
 
 **Separator Parameters**
 
 *Separator Parameters* allows to configure separation constructions, that will be used to separate the element instances on rendering.
-
-IMAGE HERE
 
 * **By** - allows to separate the element instances by the chosen separator.
 
@@ -196,19 +186,19 @@ Listed are the inbuild layouts of Text Pro element but if those don't meet your 
 
 **Default**
 
-The Default layout has several Sublayouts
-
-*Default*
-
 Displays the text.
-
-*Item Link*
-
-Displays a link to the it's Item with the text as the link content.
 
 **Widgetkit**
 
 Displays a Slideset, Slideshow or Accordion widget with the text as content.
+
+**qTip**
+
+Dispays the text by Tooltip or Modal display method. Find more details [here](https://www.zoolanders.com/configuration-tips/qtip-options).
+
+**Widgetkit2**
+
+Displays a Grid, Grid Stack, Map, Slideshow or Switcher widget with the text as content.
 
 Customizations
 --------------
@@ -312,8 +302,6 @@ Params in detail
 
 *Basic Parameters* define common element settings.
 
-IMAGE HERE
-
 * **Name** - Allows to set element's name, that will be used in layouts and item properties.
 * **Description** - Allows to describe element shortly.
 * **Access Level** - Allows to setup element accessibility. In order to make it totally accessible, set this parameter to *"Public"*.
@@ -354,6 +342,7 @@ IMAGE HERE
 
 * **Main Layout** - Allows to specify main layout.
 * **Sub Layout** - If available, allows to specify additional sublayout.
+* 
 
 For more information about the Layouts please review the [Layouts section](#params-in-detail-layouts).
 
@@ -409,7 +398,15 @@ Displays the text.
 
 **Widgetkit**
 
-Displays an Accordion widget with the text as content.
+Displays a Slideset, Slideshow or Accordion widget with the text as content.
+
+**qTip**
+
+Dispays the text by Tooltip or Modal display method. Find more details [here](https://www.zoolanders.com/configuration-tips/qtip-options).
+
+**Widgetkit2**
+
+Displays a Grid, Grid Stack, Map, Slideshow or Switcher widget with the text as content.
 
 Customizations
 --------------
