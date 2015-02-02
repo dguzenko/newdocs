@@ -785,7 +785,7 @@ Now ZOOcart will automaticaly evaluate appropriate element's value as weight and
 How to Add ZOOcart Menu Item 
 ----------------------------
 
-It is possible to add the menu items that will allow buyers to view and manage thier Cart, Orders, Addresses and Subscriptions. Please follow this guide:
+It is possible to add the menu items that will allow buyers to view and manage thier Cart, Orders, Addresses and Subscriptions. To do this please follow this guide:
 
 1. Go to the Joomla Administaration / Menus / < your menu > / Add New Menu Item  and click the "New" button.
 2. Specify the Menu Titel.
