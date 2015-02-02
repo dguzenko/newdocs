@@ -782,6 +782,21 @@ If your Shipping rates contain limitations by weight, you should setup weights f
 
 Now ZOOcart will automaticaly evaluate appropriate element's value as weight and calculate total order weight relying on that element's values. If your Shipping rates contain limitations by weight, they will be filtered automatically depending on total cart weight or item weight (defined by Item-based Shipping rate or Order-based option).
 
+How to Add ZOOcart Menu Item 
+----------------------------
+
+It is possible to add the menu items that will allow buyers to view and manage thier Cart, Orders, Addresses and Subscriptions. To do this please follow this guide:
+
+1. Go to the Joomla Administaration / Menus / < your menu > / Add New Menu Item  and click the "New" button.
+2. Specify the Menu Titel.
+3. On Details tab select the Menu Item Type "zooladers" / "Extension View". New tab will apper.
+4. Go to the new tab "COM _ MENUS _ PARAMS _ FIELDSET _ LABEL" and choose the view:
+
+    * ZOOcart Cart - opens the Checkout page.
+    * ZOOcart Orders - opens Orders list with Order detail information. 
+    * ZOOcart Addresses - opens the Addresses page where buyers can manage thire Billing and Shipping addresses.
+    * ZOOcart Subscriptions - opens Subscriptions list with Subscription detail information. 
+
 Uninstallation
 ==============
 
