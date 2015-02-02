@@ -782,6 +782,8 @@ If your Shipping rates contain limitations by weight, you should setup weights f
 
 Now ZOOcart will automaticaly evaluate appropriate element's value as weight and calculate total order weight relying on that element's values. If your Shipping rates contain limitations by weight, they will be filtered automatically depending on total cart weight or item weight (defined by Item-based Shipping rate or Order-based option).
 
+How to Add ZOOcart Menu Item
+
 Uninstallation
 ==============
 
