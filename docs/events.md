@@ -124,6 +124,8 @@ The Events App comes preset with two Types, Event and Venue.
   * **Event picture** - (Image Pro) - allows to set an image.
   * **Event date** - (Date Pro) - allows to set the event date.
 
+**Note**: Please take into account that *Events* is only compatible with ZOOlanders *Date Pro* element. It is not recommended to use core "Date" element instead of "Date Pro".  
+
 * **Venue**
 
   The Venue type includes the following elements:
@@ -147,3 +149,10 @@ IMAGE HERE
 * **Application** - allows to choose the Events Application instance whose Events you want to display.
 * **Events App Menu Item** - allows to select the Events Menu Item you created for the Events Application you selected above.
 * **Module Class Suffix** - allows to set a module class suffix for specific module styling.
+
+Known Issues
+============
+
+### Search for Items with Repeatable Date 
+
+Please note that currently the search does not support the items with repeatable dates. If in the type config in the Date Pro elements settings *"Repeatable"* param is set to *"Yes"* and your items have multiple dates, these items could be not correctly displayed in the search results.  
