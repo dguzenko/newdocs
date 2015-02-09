@@ -587,7 +587,7 @@ Note that it is also possible to add the custom payment plugins.
 ZOOcart module
 ==============
 
-ZOOcart has module that is available in two views: *Default* and *Minicart*. It displays the information about the amount of items in the Cart and thier total Price. Please see the aditional settings below.
+ZOOcart has module that is available in two views: *Default* and *Minicart*. It displays the information about the amount of items in the Cart and thier total Price. Please see the module settings for Default and Minicart Layouts below.
 
 In the **Default ZOOcart Module** you can choose the options:
 
@@ -598,8 +598,8 @@ In the **Default ZOOcart Module** you can choose the options:
 
 In the **Minicart Module** you can choose the options:
 
-*Show Cart Link - If set to "Yes", the "Go to Crat" link is displayed.
-*Show Legal Notice - If set to "Yes", the notice about taxes and fees is displayes. 
+* Show Cart Link - If set to "Yes", the "Go to Crat" link is displayed.
+* Show Legal Notice - If set to "Yes", the notice about taxes and fees is displayes. 
 
 Elements
 ========
