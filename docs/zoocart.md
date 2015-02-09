@@ -527,6 +527,9 @@ Choose Email Type and Language and click *"Proceed"* button to configure the ema
 * **CC** – Carbon Copy. Send a copy of each email received to another address. 
 Separate multiple addresses with commas.
 * **BCC** – Blind Carbon Copy. It is used if you are sending them a Copy and you don't wish the other recipients to see that you sent it to this contact. 
+
+**Note**: Please take into account that CC and BCC work only with SMTP(Win32) mailing mode.
+
 * **Template** –  Write your email body template here.
 
 You can use the following placeholders to setup emails Subject and Body templates:
@@ -561,6 +564,42 @@ Click on *Order Id* of a certain order or check the box near and click the *Edit
 There you can see the detailed information about the order, ordered items with price, payment and shipping fees, taxes and total sum, payments information and order history. Also in the block *"Actions"* you can manually change the order state and send notification to the user. 
 
 ZOOcart does not generate invoices, but you can use the print version of the order page for this purpose (if it is suitable for you). Please use the *"Print"* button on the top to review and print. 
+
+Payment plugins
+===============
+
+There are the following **payment plugins** in the ZOOcart package:
+
+* PayPal
+* PayPal Pro 
+* Stripe
+* 2CheckOut
+* Pagonline (Unicredit)
+* Borgun (Iceland)
+* Offline
+
+Once the ZOOcart package installed you would need to enable the desired payment plugin and then set on the plugin options the keys (or another required credentials) from your payment plugin account.
+
+During the Checkout ZOOcart will allow to choose which payment method to use.
+
+Note that it is also possible to add the custom payment plugins.  
+
+ZOOcart module
+==============
+
+ZOOcart has module that is available in two views: *Default* and *Minicart*. It displays the information about the amount of items in the Cart and thier total Price. Please see the aditional settings below.
+
+In the **Default ZOOcart Module** you can choose the options:
+
+* Show Items - If set to "Yes", the products added into the cart are displayed.
+* Show Cart Link - If set to "Yes", the "Go to Crat" link is displayed.
+* Show Addresses Link - If set to "Yes", the "My Addresses" link is displayed (when logged in).
+* Show Orders Link - If set to "Yes",  the "My Orders" link is displayed (when logged in).
+
+In the **Minicart Module** you can choose the options:
+
+*Show Cart Link - If set to "Yes", the "Go to Crat" link is displayed.
+*Show Legal Notice - If set to "Yes", the notice about taxes and fees is displayes. 
 
 Elements
 ========
