@@ -111,6 +111,15 @@ Download the files from Transifex and place them into **administrator/language/Y
 
 Go to the *Joomla Administration / Components / ZOOlanders* and click on the *"Language packs"* button to manage the available translations for all Extensions. Or use the *Language Flag* button on each Extension row to manage them individually.
 
+Known Issues
+============
+
+### Languague Switcher in the Item View
+
+ZOOlingual uses the standard Joomla Language Switcher. That is why when you switch the language in the item view you will be redirected to the translated category view. From the category you are able to go to the translated item pages. It is a missing feature in Joomla.
+
+As a solution along with ZOOlingual we recommended to use some Joomla language manager (e.g. Falang), that offer the option of lang switcher between items, if you want to improve the standard behaviour.
+
 Uninstallation
 ==============
 
