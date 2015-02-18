@@ -134,12 +134,11 @@ In order to apply the correct field layout to each Element ZOOfilter groups them
 
 ### Category
 
-For the Elements considered part of the Category group, 4 layouts are available:
+For the Elements considered part of the Category group, the following layouts are available:
 
 * **Default** - Will render a Dropdown form field.
 * **Checkbox** - Will render a Checkbox form field.
 * **Radio** - Will render a Radio form field.
-* **Ajax** - Will render a one level Dropdown form field which will load consequent Dropdown subcategories when the parent is selected.
 
 ### Date
 
