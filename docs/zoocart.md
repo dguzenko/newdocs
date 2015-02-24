@@ -122,7 +122,7 @@ Variations
     **Note:** You can add only one element *"Variations"*, otherwise the system conflict can appear. But you can add as many attributes and options as you need in the specific settings of the element. 
 3. Set **Name** and **Description** (if you need it) for the element and *save* these settings.
 4. Open the element again (Press Edit element). **Specific** settings will be available. 
-  * **Elements** setting allows you to specify element(s) of different variations of products *(e.g. for different  colors of product we can have different images)*.
+  * **Elements** setting allows you to specify element(s) for different variations of products *(e.g. for different  variations of the product we can have different description)*. Please note, that this function doesn't support the elements with JS handler, such as Image and Media. 
   * **Attributes** settings allows to specify parameters of product that could vary *(e.g. wear differs usually by colors and sizes)*. Set **Name**, **Value** and **Options** for the attribute. Please, note that all values for attributes and options should be set to avoid problems with synchronization.
 
 *E.g.:* Type "T-shirt" has the first attribute "Color" with options "blue", "red" and "green" and the second attribute "Size" with options "S", "M" and "L".  
@@ -136,10 +136,9 @@ Now that the Variations Element is set, we can edit our Products and the necessa
 3. Choose the Attributes of the first Variation.
 4. Set the price, in the Price Tab, for the Variation.
 5. Set the quantity, in the Quantity Tab, for the Variation.
-6. Optionally, override the Elements value for this Variation in the Elements Tab. *This option allows to have different Images for each Variation, e.g. different T-Shirt colors*.
- 
-Each Element instance represents a Product variation, repeat the steps 3 to 6 to set them all or just the ones you need.
+6. Optionally, override the Elements value for this Variation in the Elements Tab. 
 
+Each Element instance represents a Product variation, repeat the steps 3 to 6 to set them all or just the ones you need.
 
 ### Step 3. Setup the Layouts 
 
@@ -544,6 +543,8 @@ You can use the following placeholders to setup emails Subject and Body template
 * `{order_summary}` - To be replaced with ordered items list and order summary. 
 
 **Status** – publication status.
+
+**Notification emails** are sent to users from Super Users group if thier *"Receive System Emails"* option is set to *"Yes"*. You can check it in the User account details in the User Manager. 
 
 Orders
 ======
