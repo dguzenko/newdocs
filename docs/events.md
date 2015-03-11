@@ -107,7 +107,7 @@ IMAGE HERE
 IMAGE HERE
 
 * **Day Template** - allows to choose the Item Layout to display when only one event exists for the chosen day in the Events module.
-* **Date Format** - allows to choose the date format in the Day view from the Events module.
+* **Date Format** - allows to choose the date format to display in the Day view from the Events module.
 * **Custom Date Format** - allows to set and override the Date Format with a custom format.
 * **Day Show Title** - allows to Show/Hide the search title when only one event exists for the chosen day in the Events module.
 
