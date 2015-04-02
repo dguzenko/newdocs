@@ -766,15 +766,15 @@ To override a ZOOcart standard layout template you should place a customized .ph
 
 In order to override the ZOOcart elements layouts please follow the next guide:
 
-### Step 1. Locate the layouts path
+**Step 1. Locate the layouts path**
 
-The ZOOcart elements layouts are located in **plugins / system /zoocart/zoocart/elements/**. If the layout supports sublayouts is those that you should work on, instead go to the **... / render / < MAIN LAYOUT > / _sublayouts** folder.
+The ZOOcart elements layouts are located in **plugins / system /zoocart/zoocart/elements/**. If the layout supports sublayouts is those that you should work on, instead go to the **... / render / < main layout > / _sublayouts** folder.
 
-### Step 2. Create your layout
+**Step 2. Create your layout**
 
 Copy one of the existing layouts in the path from the Step 1 and change it name to a custom one. Be sure to keep the underscore `_` at the beginning of the file if it's a sublayout.
 
-### Step 3. Place your layout
+**Step 3. Place your layout**
 
 Your layout is ready but should be stored in a safe place, as we mentioned in the beginning. You can place your custom layout in:
 
@@ -786,7 +786,7 @@ Your layout is ready but should be stored in a safe place, as we mentioned in th
 
   This path will make the layout available only for the App being placed in.
 
-When dealing with sublayout, remember it should be placed into **... / render / [MAIN LAYOUT] / _sublayouts** instead.
+When dealing with sublayout, remember it should be placed into **... / render / < main layout > / _sublayouts** instead.
 
 **Note**: if the **custom_elements** folder does not exist, just create it.
 
@@ -877,7 +877,7 @@ Subscriptions
 
 * Can user renew subscriptions before it is expired? - Technically it is possible, but really - ZOOcart subs interface doesn't allow user to renew subscription before expiration date, as "Renew" button appears only after subs is expired.
 
-* Can userd be triggered to renew thier subscription by e-mail? - No, but technically - if to place a direct renewal link to email - it is possible.
+* Can user be triggered to renew thier subscription by e-mail? - No, but technically - if to place a direct renewal link to email - it is possible.
 
 * Can user cancel subscriptions? - No. Only admin can do that. User just can ask admin to interrupt the subscription.
 
