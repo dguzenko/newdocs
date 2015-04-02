@@ -764,6 +764,36 @@ To override a ZOOcart standard layout template you should place a customized .ph
 
 **Important:** Name of your custom .php file should be the same as standard one. You can see names of standard layouts templates here: *plugins / system / zoocart / zoocart / views*. 
 
+In order to override the ZOOcart elements layouts please follow the next guide:
+
+### Step 1. Locate the layouts path
+
+The ZOOcart elements layouts are located in **plugins / system /zoocart/zoocart/elements/**. If the layout supports sublayouts is those that you should work on, instead go to the **... / render / < MAIN LAYOUT > / _sublayouts** folder.
+
+### Step 2. Create your layout
+
+Copy one of the existing layouts in the path from the Step 1 and change it name to a custom one. Be sure to keep the underscore `_` at the beginning of the file if it's a sublayout.
+
+### Step 3. Place your layout
+
+Your layout is ready but should be stored in a safe place, as we mentioned in the beginning. You can place your custom layout in:
+
+* **media / zoo / custom_elements / < element name > / tmpl / render**
+
+  This path will make the layout available for all the Apps.
+
+* **media / zoo / applications / < app name > / elements / imagepro / tmpl / render**
+
+  This path will make the layout available only for the App being placed in.
+
+When dealing with sublayout, remember it should be placed into **... / render / [MAIN LAYOUT] / _sublayouts** instead.
+
+**Note**: if the **custom_elements** folder does not exist, just create it.
+
+### Done!
+
+Now that your layout is placed it can be selected when setting the Element view on the Positions assignment. Do so and start editing it until it suits your project needs.
+
 How to Restrict Product Access
 ------------------------------
 
