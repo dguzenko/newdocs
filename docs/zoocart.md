@@ -243,6 +243,8 @@ The following guide will be provided with the example how to set up a subscripti
 
 Read more about setting *various durations for subscriptions* in the ["How to..." section](#how-to-how-to-setup-various-duartions-for-subscriptions). 
 
+As well, check out the Subscription FAQ [here](#faq-subscription). 
+
 ### Step 2.  Set up ZOOmapping
 
 Go to the *Joomla Administration / Components / ZOO / gearwheel tab* and click on the chosen app. Click on the *ZOOcart mapping: Subscription* in the Extension Layouts section in the specific type line and assign the corresponding element *(E.g. Text element)* to position *Duration*. 
@@ -836,6 +838,18 @@ It is possible to add the menu items that will allow buyers to view and manage t
     * ZOOcart Orders - opens Orders list with Order detail information. 
     * ZOOcart Addresses - opens the Addresses page where buyers can manage thire Billing and Shipping addresses.
     * ZOOcart Subscriptions - opens Subscriptions list with Subscription detail information. 
+
+FAQ
+===
+
+Subscriptions
+-------------
+
+* Can user renew subscriptions before it is expired? - Technically it is possible, but really - ZOOcart subs interface doesn't allow user to renew subscription before expiration date, as "Renew" button appears only after subs is expired.
+
+* Can userd be triggered to renew thier subscription by e-mail? - No, but technically - if to place a direct renewal link to email - it is possible.
+
+* Can user cancel subscriptions? - No. Only admin can do that. User just can ask admin to interrupt the subscription.
 
 Uninstallation
 ==============
