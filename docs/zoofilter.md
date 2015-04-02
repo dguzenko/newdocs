@@ -139,6 +139,7 @@ For the Elements considered part of the Category group, the following layouts ar
 * **Default** - Will render a Dropdown form field.
 * **Checkbox** - Will render a Checkbox form field.
 * **Radio** - Will render a Radio form field.
+* **Ajax** - Is used for search in categories hierarchy. Will render a Dropdown form with parent categories list. When the category is selected, the second Dropdown form with sub-categories will be displayed.
 
 ### Date
 
