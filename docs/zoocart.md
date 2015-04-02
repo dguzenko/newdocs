@@ -764,7 +764,7 @@ To override a ZOOcart standard layout template you should place a customized .ph
 
 **Important:** Name of your custom .php file should be the same as standard one. You can see names of standard layouts templates here: *plugins / system / zoocart / zoocart / views*. 
 
-In order to override the ZOOcart elements layouts please follow the next guide:
+In order to override the **ZOOcart elements layouts** please follow the next guide:
 
 **Step 1. Locate the layouts path**
 
@@ -790,7 +790,7 @@ When dealing with sublayout, remember it should be placed into **... / render / 
 
 **Note**: if the **custom_elements** folder does not exist, just create it.
 
-### Done!
+**Done!**
 
 Now that your layout is placed it can be selected when setting the Element view on the Positions assignment. Do so and start editing it until it suits your project needs.
 
