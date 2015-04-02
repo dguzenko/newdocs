@@ -243,8 +243,6 @@ The following guide will be provided with the example how to set up a subscripti
 
 Read more about setting *various durations for subscriptions* in the ["How to..." section](#how-to-how-to-setup-various-duartions-for-subscriptions). 
 
-As well, check out the Subscription FAQ [here](#faq-subscription). 
-
 ### Step 2.  Set up ZOOmapping
 
 Go to the *Joomla Administration / Components / ZOO / gearwheel tab* and click on the chosen app. Click on the *ZOOcart mapping: Subscription* in the Extension Layouts section in the specific type line and assign the corresponding element *(E.g. Text element)* to position *Duration*. 
@@ -300,6 +298,8 @@ For more information about layouts setup, please review the [ZOO official docs](
 ### Done! 
 
 Your ZOOcart subscribtion setup is ready! 
+
+Check out the Subscription FAQ [here](#faq-subscription). 
 
 Translation
 -----------
