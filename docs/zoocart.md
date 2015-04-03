@@ -782,7 +782,7 @@ Your layout is ready but should be stored in a safe place, as we mentioned in th
 
   This path will make the layout available for all the Apps.
 
-* **media / zoo / applications / < app name > / elements / imagepro / tmpl / render**
+* **media / zoo / applications / < app name > / elements / < element name > / tmpl / render**
 
   This path will make the layout available only for the App being placed in.
 
