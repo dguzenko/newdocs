@@ -4,7 +4,7 @@ Common
 Common issues
 =============
 
-**Issue:** Elements are not saved on the page, when their amount exceed a limit. It's not accepting so many input variables (inputs, selects, radios, and other form fields).
+**Issue:** Elements are not saved on the page, when their amount exceed a limit. It's not accepting many input variables (inputs, selects, radios, and other form fields).
 
 **Solution:** You must increase the PHP max_input_vars limit in your server to a higher number. For example, max_input_vars = 5000.
 
