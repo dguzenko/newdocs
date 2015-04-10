@@ -266,7 +266,7 @@ IMAGE HERE
 Layouts
 -------
 
-Listed are the inbuild layouts of Download Pro element but if those don't meet your project requirements you can [create your own](#customizations-layouts) ones.
+Listed are the inbuild layouts of Image Pro element but if those don't meet your project requirements you can [create your own](#customizations-layouts) ones.
 
 ### Default
 
