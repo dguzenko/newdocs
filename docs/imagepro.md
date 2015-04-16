@@ -288,15 +288,15 @@ Renders the image raw url. Useful for further integrations.
 
 Displays a Gallery or Lightbox widget with the selected images.
 
-**Note:** In order to use this layout Widgetkit 1 should be installed.
+**Note:** In order to use this layout, Widgetkit 1 should be installed.
 
 #### Widgetkit 2
 
 Allows to displays various widgets, such as Slideshow, Gallery, Grid and others, with the selected images.
 
-You can find demos of different widgets [here](http://yootheme.com/demo/widgetkit/joomla/#widgets). 
+You can find demo of different widgets [here](http://yootheme.com/demo/widgetkit/joomla/#widgets). 
 
-**Note:** In order to use this layout Widgetkit 2 should be installed. All widgets' configuration are made via WK2 dialog window.
+**Note:** In order to use this layout, Widgetkit 2 should be installed. All widgets' configuration are made via WK2 dialog window.
 
 Customizations
 ==============
