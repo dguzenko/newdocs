@@ -294,7 +294,7 @@ Displays a Gallery or Lightbox widget with the selected images.
 
 Allows to displays Widgetkit widgets, such as Slideshow, Gallery, Grid and others, using the element data as source.
 
-You can find demo of different widgets [here](http://yootheme.com/demo/widgetkit/joomla/#widgets). 
+You can find the widgets demo [here](http://yootheme.com/demo/widgetkit/joomla/#widgets). 
 
 **Note:** In order to use this layout, Widgetkit 2 should be installed. All widgets' configurations are made via WK2 dialog window.
 
