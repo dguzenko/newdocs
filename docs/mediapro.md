@@ -215,6 +215,9 @@ You can specify such parameters of the **screen**:
   * **Display** - Set to "No" to avoid the screen from displaying in situations where only Audio is required without any poster.
   * **Height** - Set the Video size. (Available when "Display" param is set to "Yes") Notice that the Player Skin will not adapt to this size automatically.
   * **Skin** - Allow to specify the Player Skin. You can set your own in the 'mediapro/assets/plugins/[plugin]/skins' folder.
+
+**Note:** Using JPlayer, there are two main skins that are integrated with the Default layout. But in case you want to use any other skin, a complete new custom layout is required.
+
   * **Preview image** - Set a general Image for all media. It will be overided by the image selected on Edit view on each media. You have three selections here: None, From Element (require to specify the element), From File (require URL). 
 
 **Playlist Mode** - Enable to display the track list in the Playlist Mode. Check the [demo](http://demo.zoolanders.com/index.php/en/elements/media-pro) to see the example of the playlist. 
