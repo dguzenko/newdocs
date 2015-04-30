@@ -351,8 +351,6 @@ Currencies
 
 To create/edit currency you need to set the following fields:
 
-IMAGE HERE
-
 * **Name** - Currency name.
 * **Code** - International currency 3-letter code (e.g. EUR, USD, e.t.c).
 * **Symbol** - Allows to specify the symbol, that will be displayed with the price.
@@ -376,11 +374,7 @@ Recommended to use in combination with Show prices with tax option.
 
 If the option *“Enable Shipping Rates”* (on the Shipping tab) is set to “Yes”, you should provide some shipping rates. You can manage them on the *“Rates”* page.
 
-IMAGE HERE
-
 To describe the new shipping rate or update an existing you should specify the following params for it:
-
-IMAGE HERE
 
 * **Name** - To setup Shipping rate name, that will be displayed.
 * **Price** - To setup shipping price.
@@ -444,11 +438,7 @@ Orders
 
 On the *“Order States”* page you can manage Order statuses. After install you can see some preinstalled recommended ones, like (Pending, Payment Received, e.t.c.). You also can create your own states.
 
-IMAGE HERE
-
 To describe order state, you should setup the following fields:
-
-IMAGE HERE
 
 * **Name** - New state name.
 * **Description** - State description.
@@ -464,14 +454,12 @@ Addresses
 
 On the *“Address Types”* page you can configure addresses components (Such as Country, Street, e.t.c.), that will be used for billing and shipping. And configure appropriate Billing and Shipping addresses layouts.
 
-IMAGE HERE
-
 To setup address parameters click the Address name and set all necessary address constituents. 
 Important! Set corresponding "Billing information" parameter for each element.
 
-IMAGE HERE
-
 To configure Address layout *(e.g. Billing Form, Billing, Shipping Form, Shipping)* click appropriate layout’s name in the Layouts column on the *“Address Types”* page. Address layout can be configured like any other ZOO layout. Setup appropriate layout positions and save changes.
+
+**Note:** ZOOcart addresses officially support only the basic address elements: Country, Select, Input, Textarea, Checkbox. 
 
 Taxes
 -----
@@ -486,21 +474,13 @@ Taxes
 
 Different Tax Classes could be applied to different products or groups of products. You can manage them on the *“Tax Classes”* page.
 
-IMAGE HERE
-
 To create or edit the new Tax Class you just need to specify it’s Name on the appropriate form.
-
-IMAGE HERE
 
 ### Tax Rules Page
 
 You can manage Taxes on the *“Tax Rules”* page.
 
-IMAGE HERE
-
 To create new Tax Rule, you need to specify the following fields for it:
-
-IMAGE HERE
 
 * **Country** - Use to specify the country for which this Tax Rule should be applied.
 * **State** - Use to set state, inside the chosen country (Usually it’s set like two letter code e.g. AA, BB e.t.c).
@@ -516,7 +496,6 @@ Emails
 ### Email Template Page
 
 You can manage email notifications on the Email Template page.
-
 
 * **Type** – type of the email (new order, order state changed, etc.).
 * **Language** – allows to specify language for which this email template will be applied.
@@ -612,8 +591,6 @@ Price Pro Element
 
 For Price Pro element except Basic params *( e.g. Name, Description, Access Level, e.t.c )*, you can set the following Specific params:
 
-IMAGE HERE
-
 * **Default** - Set default (minimal) price value in chosen currency.
 * **Default Tax Class** - You can chose default tax class from the list of Tax Classes, that were provided on "Tax Classes" page.
 * **Currency** - Choose currency from the list of provided currencies (You can manage your currencies on the "Currencies" page).
@@ -622,35 +599,25 @@ IMAGE HERE
 
 There is only one specific parameter for *Price Pro* element - *Main Layout*. It allows to choose layout for price output among available ones.
 
-IMAGE HERE
-
 Quantity Element
 ----------------
 
 *Quantity* element is quite easy to configure. You just need to specify the **Default** quantity value.
 
-IMAGE HERE
-
 ### Layout
 
 There is also only one specific parameter for *Quantity* element - *Main Layout*. It allows to choose layout for quantity value output among available ones.
-
-IMAGE HERE
 
 ZOOcart Element
 ---------------
 
 For **ZOOcart** element you can set only one specific param:
 
-IMAGE HERE
-
 **Enable By Default** - If this option is set, "Add to cart" button will be available by default.
 
 ### Layout
 
 To setup **ZOOcart** element's layout except the basic options you can specify the following ones:
-
-IMAGE HERE
 
 * **Main Layout** - Option allows to choose layout for price output among available ones.
 * **Default Label** - To set the label for "Add To Cart" button if it's needed.
