@@ -459,7 +459,7 @@ Important! Set corresponding "Billing information" parameter for each element.
 
 To configure Address layout *(e.g. Billing Form, Billing, Shipping Form, Shipping)* click appropriate layout’s name in the Layouts column on the *“Address Types”* page. Address layout can be configured like any other ZOO layout. Setup appropriate layout positions and save changes.
 
-**Note:** ZOOcart addresses officially support only the basic address elements: Country, Select, Input, Textarea, Checkbox. 
+**Note:** ZOOcart addresses officially support only the basic address elements: Country, Select, Input, Textarea, Checkbox. For other elements customization is required. 
 
 Taxes
 -----
