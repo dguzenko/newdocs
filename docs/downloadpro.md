@@ -375,9 +375,6 @@ replacing *yourdomain.com* with the site domain
 
 You can also add more <Corsrule> input for more domains if you have more than 1 domain linked to the site.
 
-7. Press save.
-
-
 Uninstallation
 ==============
 
