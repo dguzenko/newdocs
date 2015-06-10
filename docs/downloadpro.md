@@ -354,6 +354,7 @@ In order to allow upload files to Amazon Simple Storage Service you need to add 
 5. Click on “add bucket policy"
 6. Paste this into the text area and save:
 
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
   <CORSRule>
@@ -368,6 +369,7 @@ In order to allow upload files to Amazon Simple Storage Service you need to add 
     <AllowedMethod>GET</AllowedMethod>
   </CORSRule>
 </CORSConfiguration>
+```
 
 replacing *yourdomain.com* with the site domain
 
