@@ -249,6 +249,19 @@ To fix it you can do the following:
 
 Open JoomSEF / Manage Extensions / ZOO / Common tab and set the "Custom non-SEF variables" option to "search_id" (without the quotes). Then use the JoomSEF's URLs Manager to delete the already created SEF URLs for ZOOfilter and clear JoomSEF's cache.
 
+How To...
+=========
+
+### How To Override Layouts
+
+The ZOOfilter layouts are in */plugins/system/zoofilter/zoofilter/layouts*:
+
+1. Search main layout: search.php
+2. Items layout: _items.zoofilter.php
+3. Item layout: _item.zoofilter.php
+
+They can be overridden in */media/zoo/applications/{APPLICATION}/templates/{THEME}/{LAYOUT}*.
+
 Uninstallation
 ==============
 
